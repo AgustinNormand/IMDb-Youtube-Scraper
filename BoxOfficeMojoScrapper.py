@@ -17,7 +17,6 @@ LOG_FILENAME = './app.log'
 logging.basicConfig(level=LOGGING_LEVEL)
 
 def do_request(url):
-def do_request(url):
   r = requests.get(headers=Headers().generate(), url=url)
   return r
 
@@ -61,10 +60,36 @@ for offset in [0, 200, 400, 600, 800]:
 
 logging.debug("Scraped {} movies from initial 5-pages".format(len(movies)))
 
+def parse_movie_detail_page(html_response, movies, movie_id):
+  soup = BeautifulSoup(html_response, "html.parser")
+  #release_group = soup.find("div", {"id": "release-group-refiner"}).find("span", {"class": "a-dropdown-prompt"}) ##No está el boton de "Original Release" eso es JS.
+  gross_summary_table = soup.find("div", {"class": "mojo-performance-summary-table"})
+  gross_titles = gross_summary_table.find_all("span", {"class": "a-size-small"})
+  gross_values = gross_summary_table.find_all("span", {"class": "a-size-medium"})
+  for gross_value, gross_title in zip(gross_values, gross_titles):
+    processed_gross_title = gross_title.text.strip().split(" ")[0].lower()
+    processed_gross_value = gross_value.text.strip().replace("$", "").replace(",", "")
+    final_gross_atribute_name = None
+    if processed_gross_title == "domestic":
+      final_gross_atribute_name = "gross_dom"
+    elif processed_gross_title == "international":
+      final_gross_atribute_name = "gross_int"
+    elif processed_gross_title == "worldwide":
+      final_gross_atribute_name = "gross_worldwide"
+
+    if final_gross_atribute_name == None:
+      logging.error("Final Gross Atribute Name not assigned, summary table missing?")
+
+    movies[movie_id][final_gross_atribute_name] = processed_gross_value
+
+  #print(titles)
+  #print(gross_summary_table)
+
 for movie_id in movies:
+  print(movies[movie_id])
   r = do_request(movies[movie_id]["link"])
   if r.status_code != 200:
     logging.warning("Status code != 200 in {}, Movie name {}".format(movies[movie_id]["link"], movies[movie_id]["movie_name"]))
-  print(r.text)
+  parse_movie_detail_page(r.text, movies, movie_id)
   break
 
