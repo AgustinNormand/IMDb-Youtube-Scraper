@@ -31,26 +31,6 @@ def parse_response_page_mojo(html_response):
     movies[release_field.text] = {}
     movies[release_field.text]["link"] = BOX_OFFICE_MOJO_BASE_URL+release_field.a["href"]
   print(len(movies.keys()))
-  #trs_of_table = table.find_all("tr")
-  #table_headers = trs_of_table[0]
-  #trs_of_table = trs_of_table[1:]
-  #print(trs_of_table.find_all("mojo-field-type-release"))
-
-  #table_keys = []
-  #for th in trs_of_table[0]:
-  #  table_keys.append(th.span.text)
-  #logging.debug("Table Keys {}".format(table_keys))
-
-  #incremental_id = 1
-  #for tr in trs_of_table[1:]:
-  #  rank = tr.find("td")
-  #  print()
-    #for td in tr.find_all("td"):
-      #print(td)
-  #  break
-    #if incremental_id == 5:
-#      break
-#    incremental_id += 1
 
 for offset in [0, 200, 400, 600, 800]:
   status_code, text_response = request_mojo(offset)
