@@ -38,5 +38,20 @@ The first <tr>, the one that has style="display none" wich means is hidden, cont
 
 The one that corresponds to the first movie, is instead, the second one <tr> in the <tbody>
 ![image](https://user-images.githubusercontent.com/48933518/203127371-6bdeb37d-94e5-4f90-8a60-1d4da7787596.png)
+  
+### Duplicated names in movies
+If we use the movie name from the "Release" column as it appears there, there are 8 duplicates, so the scraped amount is 992, specifically the duplicates are:
+![image](https://user-images.githubusercontent.com/48933518/203147869-75815b32-9e52-4e4a-bfd7-ffa9ed277486.png)
 
+One is Godzilla 2014
+![image](https://user-images.githubusercontent.com/48933518/203148207-55ec41a0-ddc1-476d-8547-7b5ee47f0e3f.png)
+
+The other one is Godzilla 1998
+![image](https://user-images.githubusercontent.com/48933518/203148259-18f22c9a-eb8f-4fd6-8d32-ca8e71bd5c50.png)
+  
+Perhaps it would be convenient to add the year to the name of the movie, for example, because we are going to search for the trailers on YouTube using that name. Or when looking for the trailer, take this into consideration
+  
+
+  
+  
 ### Time wait between requests
