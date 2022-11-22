@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 import time
 import logging
 import pandas as pd
-import numpy as np
+#import numpy as np
 
 start = time.time()
 
@@ -18,18 +18,18 @@ LOGGING_LEVEL = logging.DEBUG
 LOG_FILENAME = './app.log'
 
 months = {
-        'jan': 1,
-        'feb': 2,
-        'mar': 3,
-        'apr': 4,
-        'may': 5,
-        'jun': 6,
-        'jul': 7,
-        'aug': 8,
-        'sep': 9,
-        'oct': 10,
-        'nov': 11,
-        'dec': 12
+    'jan': 1,
+    'feb': 2,
+    'mar': 3,
+    'apr': 4,
+    'may': 5,
+    'jun': 6,
+    'jul': 7,
+    'aug': 8,
+    'sep': 9,
+    'oct': 10,
+    'nov': 11,
+    'dec': 12
 }
 
 # logging.basicConfig(level=LOGGING_LEVEL, filename=LOG_FILENAME, filemode='w', format='%(name)s - %(levelname)s - %(message)s')
@@ -58,6 +58,7 @@ def parse_response_page_mojo(html_response, movies, incremental_id):
         movies[incremental_id]["movie_name"] = movie_name
         movies[incremental_id]["link"] = BOX_OFFICE_MOJO_BASE_URL + release_field.a["href"]
         incremental_id += 1
+    return incremental_id
 
 
 incremental_id = 0
@@ -68,21 +69,13 @@ for offset in [0, 200, 400, 600, 800]:
     logging.debug("Status Code {}".format(status_code))
     logging.debug("Requested with offset {} ".format(offset))
     logging.debug("Response len {}".format(len(text_response)))
-    parse_response_page_mojo(text_response, movies, incremental_id)
-
-    if SAVE_HTMLS:
-        filename = "./initial_html_responses/offset_{}.html".format(offset)
-        logging.debug("Saving as {}".format(filename))
-        with open(filename, 'w') as f:
-            f.write(text_response)
+    incremental_id = parse_response_page_mojo(text_response, movies, incremental_id)
 
     if SECONDS_TO_SLEEP_BETWEEN_REQUESTS > 0:
         logging.debug("Sleeping {} second to avoid bans".format(SECONDS_TO_SLEEP_BETWEEN_REQUESTS))
         time.sleep(SECONDS_TO_SLEEP_BETWEEN_REQUESTS)
-    #break  # Delete this to query all pages #TODO
 
 logging.debug("Scraped {} movies from initial 5-pages".format(len(movies)))
-
 
 def gross_table_process(soup, movies, movie_id):
     gross_summary_table = soup.find("div", {"class": "mojo-performance-summary-table"})
@@ -164,12 +157,7 @@ def parse_movie_detail_page(html_response, movies, movie_id):
     other_table_process(soup, movies, movie_id)
     summary_process(soup, movies, movie_id)
 
-print(movies)
 for movie_id in movies:
-    ## DLETE #TODO
-    #if movies[movie_id]["movie_name"] != "The Social Network":
-    #  continue
-    ##
     logging.debug("Processing movie_id {}, movie_name {}".format(movie_id, movies[movie_id]))
     r = do_request(movies[movie_id]["link"])
     if r.status_code != 200:
@@ -177,7 +165,6 @@ for movie_id in movies:
             "Status code != 200 in {}, Movie name {}".format(movies[movie_id]["link"], movies[movie_id]["movie_name"]))
     parse_movie_detail_page(r.text, movies, movie_id)
     logging.debug("Movie Processed {}".format(movies[movie_id]))
-    break
 
 
 end = time.time()
