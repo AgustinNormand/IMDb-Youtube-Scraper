@@ -117,7 +117,7 @@ def other_table_process(soup, movies, movie_id):
             movies[movie_id]["budget"] = span.text.replace("$", "").replace(",", "")
         if previous_span == "release date":
             a_tags = span.find_all("a")
-            if a_tags == 2: #Has Release Start and Release End
+            if len(a_tags) == 2: #Has Release Start and Release End
               release_start, release_end = a_tags
               release_start = release_start.text.lower().replace(",", "").split()
               release_end = release_end.text.lower().replace(",", "").split()
