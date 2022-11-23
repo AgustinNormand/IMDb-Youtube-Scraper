@@ -19,3 +19,4 @@ logging.getLogger().addHandler(console)
 if __name__ == "__main__":
     first_source_scraper = FirstSourceScraper()
     first_source_scraper.start()
+    first_source_scraper.log_measurements()

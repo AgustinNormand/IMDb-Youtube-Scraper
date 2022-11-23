@@ -3,20 +3,23 @@ import constants
 from fake_headers import Headers
 import requests
 from bs4 import BeautifulSoup
+import time
+import time
 
 
-def request_movie_page(url):
-    r = requests.get(headers=Headers().generate(), url=url)
-    return [r.status_code, r.text]
 
 class BOMMoviePageScraper:
     def __init__(self):
         self.logger = logging.getLogger("__main__")
-        self.time_elapsed_parsing = 0  # TODO
-        self.time_elapsed_waiting_http_response = 0  # TODO
-        self.total_time_elapsed = 0  # TODO
-        # Maybe this is different from time_elapsed_parsing+time_elapsed_waiting_http_response
-        # I can know "other times" elapsed
+        self.time_elapsed_parsing = 0
+        self.time_elapsed_waiting_http_response = 0
+        self.total_movie_pages_scraped = 0
+
+    def request_movie_page(self, url):
+        start_time_waiting_response = time.time()
+        r = requests.get(headers=Headers().generate(), url=url)
+        self.time_elapsed_waiting_http_response += (time.time() - start_time_waiting_response)
+        return [r.status_code, r.text]
 
     def gross_table_process(self, soup, movie):
         gross_summary_table = soup.find("div", {"class": "mojo-performance-summary-table"})
@@ -92,12 +95,24 @@ class BOMMoviePageScraper:
         movie["summary"] = summary
 
     def scrape_movie_details(self, movie):
-        status_code, text_response = request_movie_page(movie["url_bom"])
+        status_code, text_response = self.request_movie_page(movie["url_bom"])
         if status_code != 200:
             self.logger.error("Status code {} in {}".format(status_code, movie))
             return None
+
+        start_time_parsing = time.time()
         soup = BeautifulSoup(text_response, "html.parser")
         self.gross_table_process(soup, movie)
         self.other_table_process(soup, movie)
         self.summary_process(soup, movie)
+        self.time_elapsed_parsing += (time.time() - start_time_parsing)
+
+        self.total_movie_pages_scraped += 1
+
         return movie
+
+    def get_times(self):
+        return [self.time_elapsed_waiting_http_response, self.time_elapsed_parsing]
+
+    def get_total_movie_pages_scraped(self):
+        return self.total_movie_pages_scraped

@@ -5,22 +5,19 @@ from bs4 import BeautifulSoup
 import time
 import logging
 
-
-def request_mojo_page(offset):
-    url_with_offset = "{}?offset={}".format(constants.BOX_OFFICE_MOJO_OPENINGS_URL, offset)
-    r = requests.get(headers=Headers().generate(), url=url_with_offset)
-    return [r.status_code, r.text]
-
-
 class BOMOpeningWeekendsScraper:
     def __init__(self):
         self.logger = logging.getLogger("__main__")
         self.incremental_id = 0
-        self.time_elapsed_parsing = 0  # TODO
-        self.time_elapsed_waiting_http_response = 0  # TODO
-        self.total_time_elapsed = 0  # TODO
-        # Maybe this is different from time_elapsed_parsing+time_elapsed_waiting_http_response
-        # I can know "other times" elapsed
+        self.time_elapsed_parsing = 0
+        self.time_elapsed_waiting_http_response = 0
+
+    def request_mojo_page(self, offset):
+        url_with_offset = "{}?offset={}".format(constants.BOX_OFFICE_MOJO_OPENINGS_URL, offset)
+        start_time_waiting_response = time.time()
+        r = requests.get(headers=Headers().generate(), url=url_with_offset)
+        self.time_elapsed_waiting_http_response += (time.time() - start_time_waiting_response)
+        return [r.status_code, r.text]
 
     def parse_response_page_mojo(self, html_response, movies):
         soup = BeautifulSoup(html_response, "html.parser")
@@ -37,7 +34,7 @@ class BOMOpeningWeekendsScraper:
     def scrape_opening_weekends_pages(self):
         movies = {}
         for offset in [0, 200, 400, 600, 800]:
-            status_code, text_response = request_mojo_page(offset)
+            status_code, text_response = self.request_mojo_page(offset)
             if status_code != 200:
                 self.logger.error("Status code {} in offset {}".format(status_code, offset))
                 break
@@ -45,7 +42,10 @@ class BOMOpeningWeekendsScraper:
             self.logger.debug("Status Code {}".format(status_code))
             self.logger.debug("Requested with offset {} ".format(offset))
             self.logger.debug("Response len {}".format(len(text_response)))
+
+            start_time_parsing = time.time()
             self.parse_response_page_mojo(text_response, movies)
+            self.time_elapsed_parsing += (time.time() - start_time_parsing)
 
             if constants.SECONDS_TO_SLEEP_BETWEEN_REQUESTS > 0:
                 self.logger.debug("Sleeping {} second to avoid bans"
@@ -55,3 +55,6 @@ class BOMOpeningWeekendsScraper:
         self.logger.info("Scraped {} movies from initial 5-pages".format(len(movies)))
 
         return movies
+
+    def get_times(self):
+        return [self.time_elapsed_waiting_http_response, self.time_elapsed_parsing]
