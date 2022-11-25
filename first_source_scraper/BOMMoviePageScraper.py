@@ -1,12 +1,10 @@
 import logging
-import constants
+from first_source_scraper import constants
+from first_source_scraper import constants
 from fake_headers import Headers
 import requests
 from bs4 import BeautifulSoup
 import time
-import time
-
-
 
 class BOMMoviePageScraper:
     def __init__(self):

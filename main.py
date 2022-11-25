@@ -1,6 +1,6 @@
-from FirstSourceScraper import FirstSourceScraper
-import constants
 import logging
+
+from first_source_scraper.FirstSourceScraper import FirstSourceScraper
 
 for handler in logging.root.handlers[:]:
     logging.root.removeHandler(handler)
@@ -8,7 +8,7 @@ for handler in logging.root.handlers[:]:
 logging.basicConfig(level=logging.DEBUG,
                     format='%(asctime)s %(message)s',
                     datefmt='%a, %d %b %Y %H:%M:%S',
-                    filename= 'debug.log',
+                    filename='debug.log',
                     filemode='w')
 
 console = logging.StreamHandler()

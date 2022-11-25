@@ -1,9 +1,10 @@
 import requests
 from fake_headers import Headers
-import constants
 from bs4 import BeautifulSoup
 import time
 import logging
+from first_source_scraper import constants
+
 
 class BOMOpeningWeekendsScraper:
     def __init__(self):
@@ -52,9 +53,12 @@ class BOMOpeningWeekendsScraper:
                                   .format(constants.SECONDS_TO_SLEEP_BETWEEN_REQUESTS))
                 time.sleep(constants.SECONDS_TO_SLEEP_BETWEEN_REQUESTS)
 
-        self.logger.info("Scraped {} movies from initial 5-pages".format(len(movies)))
+        self.total_pages_scraped = len(movies)
 
         return movies
 
     def get_times(self):
         return [self.time_elapsed_waiting_http_response, self.time_elapsed_parsing]
+
+    def get_total_pages_scraped(self):
+        return self.total_pages_scraped

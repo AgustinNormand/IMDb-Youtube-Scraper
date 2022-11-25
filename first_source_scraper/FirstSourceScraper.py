@@ -1,7 +1,8 @@
-from BOMMoviePageScraper import BOMMoviePageScraper
-from BOMOpeningWeekendsScraper import BOMOpeningWeekendsScraper
 import logging
 import time
+
+from first_source_scraper.BOMMoviePageScraper import BOMMoviePageScraper
+from first_source_scraper.BOMOpeningWeekendsScraper import BOMOpeningWeekendsScraper
 
 
 class FirstSourceScraper:
@@ -19,7 +20,10 @@ class FirstSourceScraper:
         self.total_time_elapsed = time.time() - start_time
 
     def log_measurements(self):
-        self.logger.info("Scraped {} movie pages".format(
+        self.logger.info("Scraped {} movies from initial 5-pages".format(
+            self.bom_opening_weekends_scraper.get_total_pages_scraped()))
+
+        self.logger.info("Scraped {} movie detail pages".format(
             self.bom_movie_page_scrapper.get_total_movie_pages_scraped()))
 
         bom_ows_time_elapsed_waiting_http_response, bom_ows_time_elapsed_parsing = \
@@ -44,4 +48,4 @@ class FirstSourceScraper:
                                                    bom_mps_time_elapsed_parsing,
                                                    "parsing"))
 
-        self.logger.info("Total time of FirstSourceScraper {:.3g} seconds".format(self.total_time_elapsed))
+        self.logger.info("Total time of first_source_scraper {:.3g} seconds".format(self.total_time_elapsed))
