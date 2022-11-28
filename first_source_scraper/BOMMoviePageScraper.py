@@ -1,6 +1,5 @@
 import logging
 from first_source_scraper import constants
-from first_source_scraper import constants
 from fake_headers import Headers
 import requests
 from bs4 import BeautifulSoup
@@ -16,7 +15,12 @@ class BOMMoviePageScraper:
     def request_movie_page(self, url):
         start_time_waiting_response = time.time()
         r = requests.get(headers=Headers().generate(), url=url)
-        self.time_elapsed_waiting_http_response += (time.time() - start_time_waiting_response)
+        time_elapsed = time.time() - start_time_waiting_response
+        self.time_elapsed_waiting_http_response += time_elapsed
+        self.logger.debug("New request of movie page effectuated, "
+                          "Status Code {}, "
+                          "Response len {}, "
+                          "Time elapsed waiting response {}".format(r.status_code, len(r.text), time_elapsed))
         return [r.status_code, r.text]
 
     def gross_table_process(self, soup, movie):

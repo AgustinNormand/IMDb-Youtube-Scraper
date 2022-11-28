@@ -1,6 +1,8 @@
 import logging
 
 from first_source_scraper.FirstSourceScraper import FirstSourceScraper
+from second_source_scraper.SecondSourceScraper import SecondSourceScraper
+from third_source_scraper.ThirdSourceScraper import ThirdSourceScraper
 
 for handler in logging.root.handlers[:]:
     logging.root.removeHandler(handler)
@@ -18,5 +20,8 @@ logging.getLogger().addHandler(console)
 
 if __name__ == "__main__":
     first_source_scraper = FirstSourceScraper()
-    first_source_scraper.start()
+    movies = first_source_scraper.start()
     first_source_scraper.log_measurements()
+
+    third_source_scraper = ThirdSourceScraper()
+    third_source_scraper.start(movies)

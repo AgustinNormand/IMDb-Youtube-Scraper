@@ -17,7 +17,14 @@ class BOMOpeningWeekendsScraper:
         url_with_offset = "{}?offset={}".format(constants.BOX_OFFICE_MOJO_OPENINGS_URL, offset)
         start_time_waiting_response = time.time()
         r = requests.get(headers=Headers().generate(), url=url_with_offset)
-        self.time_elapsed_waiting_http_response += (time.time() - start_time_waiting_response)
+        time_elapsed = time.time() - start_time_waiting_response
+        self.time_elapsed_waiting_http_response += time_elapsed
+
+        self.logger.debug("New request of page effectuated, "
+                          "Status Code {}, "
+                          "Requested with offset {}, "
+                          "Response len {}, "
+                          "Time elapsed waiting response {}".format(r.status_code, offset, len(r.text), time_elapsed))
         return [r.status_code, r.text]
 
     def parse_response_page_mojo(self, html_response, movies):
@@ -31,6 +38,7 @@ class BOMOpeningWeekendsScraper:
             movies[self.incremental_id]["movie_name"] = movie_name
             movies[self.incremental_id]["url_bom"] = constants.BOX_OFFICE_MOJO_BASE_URL + release_field.a["href"]
             self.incremental_id += 1
+            break # TODO #Delte this. Is to scrape only one from each page
 
     def scrape_opening_weekends_pages(self):
         movies = {}
@@ -39,10 +47,6 @@ class BOMOpeningWeekendsScraper:
             if status_code != 200:
                 self.logger.error("Status code {} in offset {}".format(status_code, offset))
                 break
-            self.logger.debug("New request of page effectuated")
-            self.logger.debug("Status Code {}".format(status_code))
-            self.logger.debug("Requested with offset {} ".format(offset))
-            self.logger.debug("Response len {}".format(len(text_response)))
 
             start_time_parsing = time.time()
             self.parse_response_page_mojo(text_response, movies)
@@ -52,6 +56,8 @@ class BOMOpeningWeekendsScraper:
                 self.logger.debug("Sleeping {} second to avoid bans"
                                   .format(constants.SECONDS_TO_SLEEP_BETWEEN_REQUESTS))
                 time.sleep(constants.SECONDS_TO_SLEEP_BETWEEN_REQUESTS)
+
+            break # TODO #Delte this.
 
         self.total_pages_scraped = len(movies)
 

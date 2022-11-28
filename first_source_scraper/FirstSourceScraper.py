@@ -3,6 +3,8 @@ import time
 
 from first_source_scraper.BOMMoviePageScraper import BOMMoviePageScraper
 from first_source_scraper.BOMOpeningWeekendsScraper import BOMOpeningWeekendsScraper
+from first_source_scraper.GenresProcessor import GenresProcessor
+import pandas as pd
 
 
 class FirstSourceScraper:
@@ -10,6 +12,12 @@ class FirstSourceScraper:
         self.logger = logging.getLogger("__main__")
         self.bom_opening_weekends_scraper = BOMOpeningWeekendsScraper()
         self.bom_movie_page_scrapper = BOMMoviePageScraper()
+        self.gp = GenresProcessor()
+
+    def export_results(self, movies):
+        data = pd.DataFrame.from_dict(movies, orient='index')
+        data.insert(0, "uniqueID", list(movies.keys()))
+        data.to_csv("results.csv", index=False)
 
     def start(self):
         start_time = time.time()
@@ -17,7 +25,14 @@ class FirstSourceScraper:
 
         for unique_id in movies:
             movies[unique_id] = self.bom_movie_page_scrapper.scrape_movie_details(movies[unique_id])
+            break
+        movies = self.gp.process_genres(movies)
+
+        #self.export_results(movies)
         self.total_time_elapsed = time.time() - start_time
+
+        return movies
+
 
     def log_measurements(self):
         self.logger.info("Scraped {} movies from initial 5-pages".format(
