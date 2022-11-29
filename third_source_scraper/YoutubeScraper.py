@@ -9,7 +9,7 @@ class YoutubeScraper():
     def __init__(self):
         self.logger = logging.getLogger("__main__")
         config = dotenv_values(".env")
-        self.youtube = build('youtube', 'v3', developerKey=config.get("API_KEY"))
+        self.youtube = build('youtube', 'v3', developerKey=config.get("API_KEY"), cache_discovery=False)
 
     def get_trailer_video(self, movie):
         trailer_name = "{} Official Trailer".format(movie["movie_name"])
@@ -24,13 +24,13 @@ class YoutubeScraper():
 
         response = request.execute()
 
-        print("Youtube Request for max_results {}".format(trailer_name, max_results))
-        print("kind {}".format(response["kind"]))
-        print("etag {}".format(response["etag"]))
-        print("nextPageToken {}".format(response["nextPageToken"]))
-        print("regionCode {}".format(response["regionCode"]))
-        print("pageInfo {}".format(response["pageInfo"]))
-        print("Items Len {}".format(len(response["items"])))
+        logging.debug("Youtube Request for max_results {}".format(trailer_name, max_results))
+        logging.debug("kind {}".format(response["kind"]))
+        logging.debug("etag {}".format(response["etag"]))
+        logging.debug("nextPageToken {}".format(response["nextPageToken"]))
+        logging.debug("regionCode {}".format(response["regionCode"]))
+        logging.debug("pageInfo {}".format(response["pageInfo"]))
+        logging.debug("Items Len {}".format(len(response["items"])))
 
         return response["items"][0]
 

@@ -27,21 +27,24 @@ class BOMOpeningWeekendsScraper:
                           "Time elapsed waiting response {}".format(r.status_code, offset, len(r.text), time_elapsed))
         return [r.status_code, r.text]
 
-    def parse_response_page_mojo(self, html_response, movies):
+    def parse_response_page_mojo(self, html_response):
         soup = BeautifulSoup(html_response, "html.parser")
         table = soup.find("div", {"id": "table"})
         release_fields = table.find_all("td", {"class": "mojo-field-type-release"})
 
+        movies = []
         for release_field in release_fields:
             movie_name = release_field.text
-            movies[self.incremental_id] = {}
-            movies[self.incremental_id]["movie_name"] = movie_name
-            movies[self.incremental_id]["url_bom"] = constants.BOX_OFFICE_MOJO_BASE_URL + release_field.a["href"]
+            movie = {}
+            movie["uniqueID"] = self.incremental_id
+            movie["movie_name"] = movie_name
+            movie["url_bom"] = constants.BOX_OFFICE_MOJO_BASE_URL + release_field.a["href"]
             self.incremental_id += 1
-            #break # TODO #Delte this. Is to scrape only one from each page
+            movies.append(movie)
+        return movies
 
     def scrape_opening_weekends_pages(self):
-        movies = {}
+        movies = []
         for offset in [0, 200, 400, 600, 800]:
             status_code, text_response = self.request_mojo_page(offset)
             if status_code != 200:
@@ -49,15 +52,13 @@ class BOMOpeningWeekendsScraper:
                 break
 
             start_time_parsing = time.time()
-            self.parse_response_page_mojo(text_response, movies)
+            movies.extend(self.parse_response_page_mojo(text_response))
             self.time_elapsed_parsing += (time.time() - start_time_parsing)
 
             if constants.SECONDS_TO_SLEEP_BETWEEN_REQUESTS > 0:
                 self.logger.debug("Sleeping {} second to avoid bans"
                                   .format(constants.SECONDS_TO_SLEEP_BETWEEN_REQUESTS))
                 time.sleep(constants.SECONDS_TO_SLEEP_BETWEEN_REQUESTS)
-
-            #break # TODO #Delte this.
 
         self.total_pages_scraped = len(movies)
 
