@@ -38,7 +38,7 @@ class BOMOpeningWeekendsScraper:
             movies[self.incremental_id]["movie_name"] = movie_name
             movies[self.incremental_id]["url_bom"] = constants.BOX_OFFICE_MOJO_BASE_URL + release_field.a["href"]
             self.incremental_id += 1
-            break # TODO #Delte this. Is to scrape only one from each page
+            #break # TODO #Delte this. Is to scrape only one from each page
 
     def scrape_opening_weekends_pages(self):
         movies = {}
@@ -57,7 +57,7 @@ class BOMOpeningWeekendsScraper:
                                   .format(constants.SECONDS_TO_SLEEP_BETWEEN_REQUESTS))
                 time.sleep(constants.SECONDS_TO_SLEEP_BETWEEN_REQUESTS)
 
-            break # TODO #Delte this.
+            #break # TODO #Delte this.
 
         self.total_pages_scraped = len(movies)
 

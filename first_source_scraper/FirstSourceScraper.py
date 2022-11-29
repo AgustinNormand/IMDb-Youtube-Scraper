@@ -14,18 +14,13 @@ class FirstSourceScraper:
         self.bom_movie_page_scrapper = BOMMoviePageScraper()
         self.gp = GenresProcessor()
 
-    def export_results(self, movies):
-        data = pd.DataFrame.from_dict(movies, orient='index')
-        data.insert(0, "uniqueID", list(movies.keys()))
-        data.to_csv("results.csv", index=False)
-
     def start(self):
         start_time = time.time()
         movies = self.bom_opening_weekends_scraper.scrape_opening_weekends_pages()
 
         for unique_id in movies:
             movies[unique_id] = self.bom_movie_page_scrapper.scrape_movie_details(movies[unique_id])
-            break
+            #break
         movies = self.gp.process_genres(movies)
 
         #self.export_results(movies)
