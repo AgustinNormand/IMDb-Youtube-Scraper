@@ -1,5 +1,4 @@
 import logging
-import requests
 from fake_headers import Headers
 import requests
 import time
@@ -11,7 +10,7 @@ IMDb_URL = "https://www.imdb.com"
 
 class IMDbScraper():
     def __init__(self):
-        self.logger = logging.getLogger("__main__")
+        self.logger = logging.getLogger("SecondSourceScraper")
         self.time_elapsed_waiting_http_response = 0
         self.total_movie_pages_scraped = 0
 
@@ -21,9 +20,10 @@ class IMDbScraper():
         time_elapsed = time.time() - start_time_waiting_response
         self.time_elapsed_waiting_http_response += time_elapsed
         self.logger.debug("New request to IMDb effectuated, "
+                          "URL {}, "
                           "Status Code {}, "
                           "Response len {}, "
-                          "Time elapsed waiting response {}".format(r.status_code, len(r.text), time_elapsed))
+                          "Time elapsed waiting response {}".format(url, r.status_code, len(r.text), time_elapsed))
         return [r.status_code, r.text]
 
     def generate_imdb_query_url(self, movie):
@@ -85,7 +85,7 @@ class IMDbScraper():
         status_code, text_response = self.request(movie["url_imdb"])
 
         if status_code != 200:
-            self.logger.error("Status code {} in {}".format(status_code, movie))
+            self.logger.error("Status code {}, URL {}, Movie {}".format(status_code, movie["url_imdb"], movie))
             return None
 
         soup = BeautifulSoup(text_response, "html.parser")

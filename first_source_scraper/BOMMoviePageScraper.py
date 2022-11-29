@@ -7,7 +7,7 @@ import time
 
 class BOMMoviePageScraper:
     def __init__(self):
-        self.logger = logging.getLogger("__main__")
+        self.logger = logging.getLogger("FirstSourceScraper")
         self.time_elapsed_parsing = 0
         self.time_elapsed_waiting_http_response = 0
         self.total_movie_pages_scraped = 0
@@ -18,9 +18,10 @@ class BOMMoviePageScraper:
         time_elapsed = time.time() - start_time_waiting_response
         self.time_elapsed_waiting_http_response += time_elapsed
         self.logger.debug("New request of movie page effectuated, "
+                          "URL {}, "
                           "Status Code {}, "
                           "Response len {}, "
-                          "Time elapsed waiting response {}".format(r.status_code, len(r.text), time_elapsed))
+                          "Time elapsed waiting response {}".format(url, r.status_code, len(r.text), time_elapsed))
         return [r.status_code, r.text]
 
     def gross_table_process(self, soup, movie):

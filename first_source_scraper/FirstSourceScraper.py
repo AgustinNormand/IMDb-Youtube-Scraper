@@ -3,20 +3,28 @@ import time
 from first_source_scraper.BOMMoviePageScraper import BOMMoviePageScraper
 from first_source_scraper.BOMOpeningWeekendsScraper import BOMOpeningWeekendsScraper
 
-
 class FirstSourceScraper:
     def __init__(self, queue):
-        self.logger = logging.getLogger("__main__")
+        self.logger = None
+        self.configure_logger()
         self.bom_opening_weekends_scraper = BOMOpeningWeekendsScraper()
         self.bom_movie_page_scrapper = BOMMoviePageScraper()
-
         self.queue = queue
+
+    def configure_logger(self):
+        self.logger = logging.getLogger("FirstSourceScraper")
+        formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+        fileHandler = logging.FileHandler('./first_source_scraper/FirstSourceScraper.log', mode='w')
+        fileHandler.setFormatter(formatter)
+        self.logger.setLevel(logging.DEBUG)
+        self.logger.addHandler(fileHandler)
 
     def begin_scrape(self):
         start_time = time.time()
 
         for movie in self.bom_opening_weekends_scraper.scrape_opening_weekends_pages():
             self.queue.put(self.bom_movie_page_scrapper.scrape_movie_details(movie))
+            #break
 
         self.queue.put("NO_MORE_MOVIES")
 

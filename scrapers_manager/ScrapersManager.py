@@ -2,7 +2,6 @@ from first_source_scraper.FirstSourceScraper import FirstSourceScraper
 from scrapers_manager.ResultsProcessor import ResultsProcessor
 from second_source_scraper.SecondSourceScraper import SecondSourceScraper
 from third_source_scraper.ThirdSourceScraper import ThirdSourceScraper
-import pandas as pd
 import threading
 import queue
 import time
@@ -11,8 +10,6 @@ import logging
 class ScrapersManager():
 
     def __init__(self):
-        self.logger = logging.getLogger("__main__")
-
         self.firstScraperQueue = queue.Queue()
         self.first_source_scraper = FirstSourceScraper(self.firstScraperQueue)
 
@@ -23,6 +20,17 @@ class ScrapersManager():
         self.third_source_scraper = ThirdSourceScraper(self.secondScraperQueue, self.thirdScraperQueue)
 
         self.results_processor = ResultsProcessor(self.thirdScraperQueue)
+
+        self.logger = None
+        self.configure_logger()
+
+    def configure_logger(self):
+        self.logger = logging.getLogger("ScrapersManager")
+        formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+        file_handler = logging.FileHandler('./scrapers_manager/ScrapersManager.log', mode='w')
+        file_handler.setFormatter(formatter)
+        self.logger.setLevel(logging.DEBUG)
+        self.logger.addHandler(file_handler)
 
 
     def begin_scrape(self):
@@ -52,4 +60,4 @@ class ScrapersManager():
 
         total_time_elapsed = time.time() - start_time
 
-        self.logger.info("Total time whole scraping {:.3g} seconds".format(total_time_elapsed))
+        #self.logger.info("Total time whole scraping {:.3g} seconds".format(total_time_elapsed))

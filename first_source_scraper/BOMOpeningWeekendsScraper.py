@@ -8,7 +8,7 @@ from first_source_scraper import constants
 
 class BOMOpeningWeekendsScraper:
     def __init__(self):
-        self.logger = logging.getLogger("__main__")
+        self.logger = logging.getLogger("FirstSourceScraper")
         self.incremental_id = 0
         self.time_elapsed_parsing = 0
         self.time_elapsed_waiting_http_response = 0
@@ -21,10 +21,11 @@ class BOMOpeningWeekendsScraper:
         self.time_elapsed_waiting_http_response += time_elapsed
 
         self.logger.debug("New request of page effectuated, "
+                          "URL {}, "
                           "Status Code {}, "
                           "Requested with offset {}, "
                           "Response len {}, "
-                          "Time elapsed waiting response {}".format(r.status_code, offset, len(r.text), time_elapsed))
+                          "Time elapsed waiting response {}".format(url_with_offset, r.status_code, offset, len(r.text), time_elapsed))
         return [r.status_code, r.text]
 
     def parse_response_page_mojo(self, html_response):
