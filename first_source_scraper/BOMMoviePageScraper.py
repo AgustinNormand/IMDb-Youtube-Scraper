@@ -90,6 +90,9 @@ class BOMMoviePageScraper:
                 movie["genres"] = span.text.replace(" ", "").split("\n\n")
             if previous_span == "in release":
                 movie["release_length"] = span.text.split("days")[0]
+
+            if previous_span.replace("\n", "").strip() == "imdbpro":
+                movie["url_imdb"] = span.find("a")["href"].replace("pro.imdb.com", "imdb.com")
             previous_span = span.text.lower()
 
     def summary_process(self, soup, movie):

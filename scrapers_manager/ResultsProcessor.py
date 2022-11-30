@@ -22,7 +22,7 @@ class ResultsProcessor():
                 break
             self.logger.debug("New movie completed the pipeline (Pending process genres) {}".format(thirdScraperMovie))
             self.result_count += 1
-            print("\r{} of {} processed".format(self.result_count, 2000), end='')
+            #print("\r{} of {} processed".format(self.result_count, 2000), end='')
 
         movies = self.gp.process_genres(movies)
         movies.append(thirdScraperMovie)

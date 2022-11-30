@@ -24,7 +24,6 @@ class FirstSourceScraper:
 
         for movie in self.bom_opening_weekends_scraper.scrape_opening_weekends_pages():
             self.queue.put(self.bom_movie_page_scrapper.scrape_movie_details(movie))
-            #break
 
         self.queue.put("NO_MORE_MOVIES")
 
