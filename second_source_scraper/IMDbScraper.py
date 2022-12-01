@@ -5,8 +5,6 @@ import time
 from bs4 import BeautifulSoup
 import constants
 
-IMDb_URL = "https://www.imdb.com"
-
 class IMDbScraper():
     def __init__(self):
         self.logger = logging.getLogger("SecondSourceScraper")
@@ -51,7 +49,7 @@ class IMDbScraper():
         text_response_user_reviews = None
         try:
             href = li.find("a")["href"]
-            users_review_url = IMDb_URL + href
+            users_review_url = constants.IMDb_URL + href
             status_code_user_reviews, text_response_user_reviews = self.request(users_review_url)
             soup = BeautifulSoup(text_response_user_reviews, "html.parser")
             header = soup.find("div", {"class":"header"})

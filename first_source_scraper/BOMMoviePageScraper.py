@@ -142,8 +142,8 @@ class BOMMoviePageScraper:
             movie = self.other_table_process(soup, movie)
             movie = self.summary_process(soup, movie)
             #movie = self.complete_none(movie)
+            movie["success"] = 1
             self.time_elapsed_parsing += (time.time() - start_time_parsing)
-
             self.total_movie_pages_scraped += 1
 
             self.log_scrape()
