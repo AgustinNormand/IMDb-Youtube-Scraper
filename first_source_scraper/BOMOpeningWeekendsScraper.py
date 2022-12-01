@@ -3,13 +3,13 @@ from fake_headers import Headers
 from bs4 import BeautifulSoup
 import time
 import logging
-
 import constants
 
 
 class BOMOpeningWeekendsScraper:
     def __init__(self):
         self.logger = logging.getLogger("FirstSourceScraper")
+        self.total_pages_scraped = 0
         self.incremental_id = 0
         self.time_elapsed_parsing = 0
         self.time_elapsed_waiting_http_response = 0
@@ -21,7 +21,7 @@ class BOMOpeningWeekendsScraper:
             time.sleep(remaining_to_second_between_requests)
 
     def request_mojo_page(self, offset):
-        url_with_offset = "{}?offset={}".format(constants.BOX_OFFICE_MOJO_OPENINGS_URL, offset)
+        url_with_offset = "{}?offset={}".format(self.url, offset)
         start_time_waiting_response = time.time()
 
         self.sleep_if_needed()
@@ -56,7 +56,8 @@ class BOMOpeningWeekendsScraper:
             movies.append(movie)
         return movies
 
-    def scrape_opening_weekends_pages(self):
+    def scrape_opening_weekends_pages(self, url):
+        self.url = url
         movies = []
         for offset in [0, 200, 400, 600, 800]:
             status_code, text_response = self.request_mojo_page(offset)
@@ -68,7 +69,7 @@ class BOMOpeningWeekendsScraper:
             movies.extend(self.parse_response_page_mojo(text_response))
             self.time_elapsed_parsing += (time.time() - start_time_parsing)
 
-        self.total_pages_scraped = len(movies)
+        self.total_pages_scraped += len(movies)
 
         return movies
 
