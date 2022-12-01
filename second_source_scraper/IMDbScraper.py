@@ -70,15 +70,18 @@ class IMDbScraper():
 
     def process_content_review(self, soup, movie):
         ul = soup.find("ul", {"data-testid":"reviewContent-all-reviews"})
-        for li in ul.find_all("li"):
-            label = li.find("span", {"class":"label"}).get_text().lower()
-            if label == "metascore":
-                movie["critic_rating"] = int(li.find("span", {"class": "score-meta"}).get_text())
-            if label == "critic reviews":
-                movie["critic_reviews"] = int(li.find("span", {"class": "score"}).get_text())
-            if label == "user reviews":
-                movie["user_reviews"] = self.process_user_reviews(li)
+        if ul != None:
+            for li in ul.find_all("li"):
+                label = li.find("span", {"class":"label"}).get_text().lower()
+                if label == "metascore":
+                    movie["critic_rating"] = int(li.find("span", {"class": "score-meta"}).get_text())
+                if label == "critic reviews":
+                    movie["critic_reviews"] = int(li.find("span", {"class": "score"}).get_text())
+                if label == "user reviews":
+                    movie["user_reviews"] = self.process_user_reviews(li)
 
+                movie = self.complete_none_content_review(movie)
+        else:
             movie = self.complete_none_content_review(movie)
         return movie
 
