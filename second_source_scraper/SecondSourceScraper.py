@@ -25,7 +25,8 @@ class SecondSourceScraper:
                 self.firstScraperQueue.put("NO_MORE_MOVIES")
                 self.secondScraperQueue.put("NO_MORE_MOVIES")
                 break
-            self.secondScraperQueue.put(self.imdb_scraper.scrape_movie(firstScraperMovie))
+            else:
+                self.secondScraperQueue.put(self.imdb_scraper.scrape_movie(firstScraperMovie))
 
     def log_measurements(self):
         pass #TODO

@@ -25,9 +25,10 @@ class ThirdSourceScraper:
                 self.secondScraperQueue.put("NO_MORE_MOVIES")
                 self.thirdScraperQueue.put("NO_MORE_MOVIES")
                 break
-            #self.thirdScraperQueue.put(self.youtube_scraper.scrape_movie(secondScraperMovie))
-            # TODO Uncomment this to not avoid youtubescraper
-            self.thirdScraperQueue.put(secondScraperMovie)
+            else:
+                #self.thirdScraperQueue.put(self.youtube_scraper.scrape_movie(secondScraperMovie))
+                # TODO Uncomment this to not avoid youtubescraper
+                self.thirdScraperQueue.put(secondScraperMovie)
 
 
     def log_measurements(self):
