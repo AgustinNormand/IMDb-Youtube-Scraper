@@ -20,11 +20,12 @@ class ResultsProcessor():
             if thirdScraperMovie == "NO_MORE_MOVIES":
                 self.thirdScraperQueue.put("NO_MORE_MOVIES")
                 break
-            self.logger.debug("New movie completed the pipeline (Pending process genres), Columns len {}, Movie {}".format(len(thirdScraperMovie.keys()),thirdScraperMovie))
-            self.result_count += 1
+            else:
+                movies.append(thirdScraperMovie)
+                self.logger.debug("New movie completed the pipeline (Pending process genres), Columns len {}, Movie {}".format(len(thirdScraperMovie.keys()),thirdScraperMovie))
+                self.result_count += 1
 
         movies = self.gp.process_genres(movies)
-        movies.append(thirdScraperMovie)
         self.export_results(movies)
 
     def log_measurements(self):

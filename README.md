@@ -50,3 +50,10 @@ For each request that is made, it is necessary to add a small waiting time. Othe
 Cuando la pelicula no tiene fecha de finalización, aparece de esta forma.
 ![image](https://user-images.githubusercontent.com/48933518/203186070-fb8bf37d-b056-4c2f-85de-4bfe0f79a01d.png)
 En estos casos, puse en release end "None"
+
+### Build Docker
+docker login
+docker build -t agustinnormand/imdb-youtube-scraper:1 .
+docker push agustinnormand/imdb-youtube-scraper:1
+
+docker run -d agustinnormand/imdb-youtube-scraper:1
