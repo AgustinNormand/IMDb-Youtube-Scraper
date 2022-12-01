@@ -42,6 +42,10 @@ class BOMMoviePageScraper:
             if final_gross_atribute_name == None:
                 logging.error("Final Gross Atribute Name not assigned, summary table missing?")
 
+            if processed_gross_value == "-":
+                #self.logger.debug("processed_gross_value == - in {}".format())
+                processed_gross_value = None
+
             movie[final_gross_atribute_name] = int(processed_gross_value)
 
     def other_table_process(self, soup, movie):
