@@ -12,7 +12,7 @@ class IMDbScraper():
         self.logger = logging.getLogger("SecondSourceScraper")
         self.time_elapsed_waiting_http_response = 0
         self.total_movie_pages_scraped = 0
-        self.last_request_timestamp = 0
+        self.last_request_timestamp = time.time()
 
     def sleep_if_needed(self):
         remaining_to_second_between_requests = constants.SECONDS_TO_SLEEP_BETWEEN_REQUESTS - (
@@ -24,6 +24,7 @@ class IMDbScraper():
         start_time_waiting_response = time.time()
 
         self.sleep_if_needed()
+        time_between_requests = time.time() - self.last_request_timestamp
         r = requests.get(headers=Headers().generate(), url=url)
         self.last_request_timestamp = time.time()
 
@@ -33,7 +34,8 @@ class IMDbScraper():
                           "URL {}, "
                           "Status Code {}, "
                           "Response len {}, "
-                          "Time elapsed waiting response {}".format(url, r.status_code, len(r.text), time_elapsed))
+                          "Time elapsed waiting response {}, "
+                          "Time between requests {}".format(url, r.status_code, len(r.text), time_elapsed, time_between_requests))
         return [r.status_code, r.text]
 
     def get_raiting(self, soup, movie):

@@ -13,7 +13,7 @@ class BOMOpeningWeekendsScraper:
         self.incremental_id = 0
         self.time_elapsed_parsing = 0
         self.time_elapsed_waiting_http_response = 0
-        self.last_request_timestamp = 0
+        self.last_request_timestamp = time.time()
 
     def sleep_if_needed(self):
         remaining_to_second_between_requests = constants.SECONDS_TO_SLEEP_BETWEEN_REQUESTS - (time.time() - self.last_request_timestamp)
@@ -25,6 +25,7 @@ class BOMOpeningWeekendsScraper:
         start_time_waiting_response = time.time()
 
         self.sleep_if_needed()
+        time_between_requests = time.time() - self.last_request_timestamp
         r = requests.get(headers=Headers().generate(), url=url_with_offset)
         self.last_request_timestamp = time.time()
         time_elapsed = time.time() - start_time_waiting_response
@@ -35,7 +36,8 @@ class BOMOpeningWeekendsScraper:
                           "Status Code {}, "
                           "Requested with offset {}, "
                           "Response len {}, "
-                          "Time elapsed waiting response {}".format(url_with_offset, r.status_code, offset, len(r.text), time_elapsed))
+                          "Time elapsed waiting response {}, "
+                          "Time between requests {}".format(url_with_offset, r.status_code, offset, len(r.text), time_elapsed, time_between_requests))
         return [r.status_code, r.text]
 
     def parse_response_page_mojo(self, html_response):

@@ -13,7 +13,7 @@ class BOMMoviePageScraper:
         self.time_elapsed_parsing = 0
         self.time_elapsed_waiting_http_response = 0
         self.total_movie_pages_scraped = 0
-        self.last_request_timestamp = 0
+        self.last_request_timestamp = time.time()
 
     def sleep_if_needed(self):
         remaining_to_second_between_requests = constants.SECONDS_TO_SLEEP_BETWEEN_REQUESTS - (time.time() - self.last_request_timestamp)
@@ -24,6 +24,7 @@ class BOMMoviePageScraper:
         start_time_waiting_response = time.time()
 
         self.sleep_if_needed()
+        time_between_requests = time.time() - self.last_request_timestamp
         r = requests.get(headers=Headers().generate(), url=url)
         self.last_request_timestamp = time.time()
         time_elapsed = time.time() - start_time_waiting_response
@@ -32,8 +33,17 @@ class BOMMoviePageScraper:
                           "URL {}, "
                           "Status Code {}, "
                           "Response len {}, "
-                          "Time elapsed waiting response {}".format(url, r.status_code, len(r.text), time_elapsed))
+                          "Time elapsed waiting response {}, "
+                          "Time between requests {}".format(url, r.status_code, len(r.text), time_elapsed, time_between_requests))
         return [r.status_code, r.text]
+
+    #def complete_none(self, movie):
+    #    keys = ["gross_dom", "gross_int", "gross_worldwide", "distributor", "opening_box", "opening_theater", "budget",
+    #            "release_start", "release_end", "mpaa", "run_time", "release_length", "summary"]
+    #    for key in keys:
+    #        if key not in movie.keys():
+    #            movie[key] = None
+    #    return movie
 
     def gross_table_process(self, soup, movie):
         gross_summary_table = soup.find("div", {"class": "mojo-performance-summary-table"})
@@ -53,11 +63,12 @@ class BOMMoviePageScraper:
             if final_gross_atribute_name == None:
                 logging.error("Final Gross Atribute Name not assigned, summary table missing?")
 
-            if processed_gross_value == "-":
-                #self.logger.debug("processed_gross_value == - in {}".format())
-                processed_gross_value = None
+            if processed_gross_value == "–":
+                movie[final_gross_atribute_name] = None
+            else:
+                movie[final_gross_atribute_name] = int(processed_gross_value)
 
-            movie[final_gross_atribute_name] = int(processed_gross_value)
+        return movie
 
     def other_table_process(self, soup, movie):
         other_table = soup.find("div", {"class": "mojo-summary-values"})
@@ -104,16 +115,18 @@ class BOMMoviePageScraper:
             if previous_span == "genres":
                 movie["genres"] = span.text.replace(" ", "").split("\n\n")
             if previous_span == "in release":
-                movie["release_length"] = int(span.text.split("days")[0])
-
+                movie["release_length"] = int(span.text.split("days")[0].replace(",", ""))
             if previous_span.replace("\n", "").strip() == "imdbpro":
                 movie["url_imdb"] = span.find("a")["href"].replace("pro.imdb.com", "imdb.com")
             previous_span = span.text.lower()
+
+        return movie
 
     def summary_process(self, soup, movie):
         heading_summary = soup.find("div", {"class": "mojo-heading-summary"})
         summary = heading_summary.find("p", {"class": "a-size-medium"}).text
         movie["summary"] = summary
+        return movie
 
     def scrape_movie_details(self, movie):
         text_response = None
@@ -125,9 +138,10 @@ class BOMMoviePageScraper:
 
             start_time_parsing = time.time()
             soup = BeautifulSoup(text_response, "html.parser")
-            self.gross_table_process(soup, movie)
-            self.other_table_process(soup, movie)
-            self.summary_process(soup, movie)
+            movie = self.gross_table_process(soup, movie)
+            movie = self.other_table_process(soup, movie)
+            movie = self.summary_process(soup, movie)
+            #movie = self.complete_none(movie)
             self.time_elapsed_parsing += (time.time() - start_time_parsing)
 
             self.total_movie_pages_scraped += 1
