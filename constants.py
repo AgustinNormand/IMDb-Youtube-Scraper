@@ -1,8 +1,6 @@
-import logging
-
+SECONDS_TO_SLEEP_BETWEEN_REQUESTS = 1
 BOX_OFFICE_MOJO_BASE_URL = "https://www.boxofficemojo.com"
 BOX_OFFICE_MOJO_OPENINGS_URL = BOX_OFFICE_MOJO_BASE_URL + "/chart/top_opening_weekend/"
-SECONDS_TO_SLEEP_BETWEEN_REQUESTS = 0
 SAVE_HTMLS = False
 #LOGGING_LEVEL = logging.DEBUG
 #DEBUG_LOG_FILENAME = './debug.log'

@@ -3,7 +3,8 @@ from fake_headers import Headers
 from bs4 import BeautifulSoup
 import time
 import logging
-from first_source_scraper import constants
+
+import constants
 
 
 class BOMOpeningWeekendsScraper:
@@ -15,7 +16,7 @@ class BOMOpeningWeekendsScraper:
         self.last_request_timestamp = 0
 
     def sleep_if_needed(self):
-        remaining_to_second_between_requests = 1 - (time.time() - self.last_request_timestamp)
+        remaining_to_second_between_requests = constants.SECONDS_TO_SLEEP_BETWEEN_REQUESTS - (time.time() - self.last_request_timestamp)
         if remaining_to_second_between_requests > 0:
             time.sleep(remaining_to_second_between_requests)
 
@@ -24,8 +25,8 @@ class BOMOpeningWeekendsScraper:
         start_time_waiting_response = time.time()
 
         self.sleep_if_needed()
-        self.last_request_timestamp = time.time()
         r = requests.get(headers=Headers().generate(), url=url_with_offset)
+        self.last_request_timestamp = time.time()
         time_elapsed = time.time() - start_time_waiting_response
         self.time_elapsed_waiting_http_response += time_elapsed
 
@@ -64,11 +65,6 @@ class BOMOpeningWeekendsScraper:
             start_time_parsing = time.time()
             movies.extend(self.parse_response_page_mojo(text_response))
             self.time_elapsed_parsing += (time.time() - start_time_parsing)
-
-            if constants.SECONDS_TO_SLEEP_BETWEEN_REQUESTS > 0:
-                self.logger.debug("Sleeping {} second to avoid bans"
-                                  .format(constants.SECONDS_TO_SLEEP_BETWEEN_REQUESTS))
-                time.sleep(constants.SECONDS_TO_SLEEP_BETWEEN_REQUESTS)
 
         self.total_pages_scraped = len(movies)
 

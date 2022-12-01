@@ -1,9 +1,11 @@
 import logging
-from first_source_scraper import constants
 from fake_headers import Headers
 import requests
 from bs4 import BeautifulSoup
 import time
+
+import constants
+
 
 class BOMMoviePageScraper:
     def __init__(self):
@@ -14,7 +16,7 @@ class BOMMoviePageScraper:
         self.last_request_timestamp = 0
 
     def sleep_if_needed(self):
-        remaining_to_second_between_requests = 1 - (time.time() - self.last_request_timestamp)
+        remaining_to_second_between_requests = constants.SECONDS_TO_SLEEP_BETWEEN_REQUESTS - (time.time() - self.last_request_timestamp)
         if remaining_to_second_between_requests > 0:
             time.sleep(remaining_to_second_between_requests)
 
@@ -22,8 +24,8 @@ class BOMMoviePageScraper:
         start_time_waiting_response = time.time()
 
         self.sleep_if_needed()
-        self.last_request_timestamp = time.time()
         r = requests.get(headers=Headers().generate(), url=url)
+        self.last_request_timestamp = time.time()
         time_elapsed = time.time() - start_time_waiting_response
         self.time_elapsed_waiting_http_response += time_elapsed
         self.logger.debug("New request of movie page effectuated, "
