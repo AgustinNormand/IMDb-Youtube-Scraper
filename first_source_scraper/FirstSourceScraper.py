@@ -1,5 +1,7 @@
 import logging
 import time
+
+import constants
 from first_source_scraper.BOMMoviePageScraper import BOMMoviePageScraper
 from first_source_scraper.BOMOpeningWeekendsScraper import BOMOpeningWeekendsScraper
 
@@ -22,8 +24,15 @@ class FirstSourceScraper:
     def begin_scrape(self):
         start_time = time.time()
 
-        for movie in self.bom_opening_weekends_scraper.scrape_opening_weekends_pages():
-            self.queue.put(self.bom_movie_page_scrapper.scrape_movie_details(movie))
+        for movie in self.bom_opening_weekends_scraper.scrape_opening_weekends_pages(constants.BOX_OFFICE_MOJO_OPENINGS_URL):
+            movie = self.bom_movie_page_scrapper.scrape_movie_details(movie)
+            movie["success"] = 1
+            self.queue.put(movie)
+
+        for movie in self.bom_opening_weekends_scraper.scrape_opening_weekends_pages(constants.BOX_OFFICE_MOJO_WORST_OPENINGS_URL):
+            movie = self.bom_movie_page_scrapper.scrape_movie_details(movie)
+            movie["success"] = 0
+            self.queue.put(movie)
 
         self.queue.put("NO_MORE_MOVIES")
 
