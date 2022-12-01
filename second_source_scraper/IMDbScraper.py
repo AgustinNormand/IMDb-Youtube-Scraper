@@ -26,7 +26,7 @@ class IMDbScraper():
 
     def get_raiting(self, soup, movie):
         div = soup.find("div", {"data-testid": "hero-rating-bar__aggregate-rating__score"})
-        return div.find("span").get_text()
+        return float(div.find("span").get_text())
 
     def process_user_reviews(self, li):
         try:

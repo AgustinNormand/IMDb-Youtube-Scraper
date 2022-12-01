@@ -42,7 +42,7 @@ class BOMMoviePageScraper:
             if final_gross_atribute_name == None:
                 logging.error("Final Gross Atribute Name not assigned, summary table missing?")
 
-            movie[final_gross_atribute_name] = processed_gross_value
+            movie[final_gross_atribute_name] = int(processed_gross_value)
 
     def other_table_process(self, soup, movie):
         other_table = soup.find("div", {"class": "mojo-summary-values"})
@@ -53,14 +53,14 @@ class BOMMoviePageScraper:
             if previous_span == "distributor":
                 movie[previous_span] = span.next
             if previous_span == "opening":
-                movie["opening_box"] = span.next.text.replace("$", "").replace(",", "")
-                movie["opening_theater"] = span.next.nextSibling.nextSibling.text.strip() \
+                movie["opening_box"] = int(span.next.text.replace("$", "").replace(",", ""))
+                movie["opening_theater"] = int(span.next.nextSibling.nextSibling.text.strip() \
                     .replace("theaters", "") \
                     .replace(",", "") \
                     .replace("\n", "") \
-                    .replace(" ", "")
+                    .replace(" ", ""))
             if previous_span == "budget":
-                movie["budget"] = span.text.replace("$", "").replace(",", "")
+                movie["budget"] = int(span.text.replace("$", "").replace(",", ""))
             if previous_span == "release date":
                 a_tags = span.find_all("a")
                 if len(a_tags) == 2:  # Has Release Start and Release End
@@ -89,7 +89,7 @@ class BOMMoviePageScraper:
             if previous_span == "genres":
                 movie["genres"] = span.text.replace(" ", "").split("\n\n")
             if previous_span == "in release":
-                movie["release_length"] = span.text.split("days")[0]
+                movie["release_length"] = int(span.text.split("days")[0])
 
             if previous_span.replace("\n", "").strip() == "imdbpro":
                 movie["url_imdb"] = span.find("a")["href"].replace("pro.imdb.com", "imdb.com")
@@ -101,19 +101,27 @@ class BOMMoviePageScraper:
         movie["summary"] = summary
 
     def scrape_movie_details(self, movie):
-        status_code, text_response = self.request_movie_page(movie["url_bom"])
-        if status_code != 200:
-            self.logger.error("Status code {} in {}".format(status_code, movie))
+        text_response = None
+        try:
+            status_code, text_response = self.request_movie_page(movie["url_bom"])
+            if status_code != 200:
+                self.logger.error("Status code {} in {}".format(status_code, movie))
+                return None
+
+            start_time_parsing = time.time()
+            soup = BeautifulSoup(text_response, "html.parser")
+            self.gross_table_process(soup, movie)
+            self.other_table_process(soup, movie)
+            self.summary_process(soup, movie)
+            self.time_elapsed_parsing += (time.time() - start_time_parsing)
+
+            self.total_movie_pages_scraped += 1
+        except Exception as e:
+            self.logger.error("Exception {} scraping movie details, Writing text_response.html if is defined".format(e))
+            if text_response != None:
+                with open("./first_source_scraper/text_response.html", "w") as f:
+                    f.write(text_response)
             return None
-
-        start_time_parsing = time.time()
-        soup = BeautifulSoup(text_response, "html.parser")
-        self.gross_table_process(soup, movie)
-        self.other_table_process(soup, movie)
-        self.summary_process(soup, movie)
-        self.time_elapsed_parsing += (time.time() - start_time_parsing)
-
-        self.total_movie_pages_scraped += 1
 
         return movie
 
