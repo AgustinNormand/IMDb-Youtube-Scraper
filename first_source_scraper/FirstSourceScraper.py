@@ -23,6 +23,12 @@ class FirstSourceScraper:
         start_time = time.time()
 
         for movie in self.bom_opening_weekends_scraper.scrape_opening_weekends_pages():
+            #if movie["url_bom"] == "https://www.boxofficemojo.com/release/rl930383361/?ref_=bo_csw_table_123":
+            #    self.queue.put(self.bom_movie_page_scrapper.scrape_movie_details(movie))
+
+            #if movie["url_bom"] == "https://www.boxofficemojo.com/release/rl3059975681/?ref_=bo_csw_table_1":
+            #    self.queue.put(self.bom_movie_page_scrapper.scrape_movie_details(movie))
+
             self.queue.put(self.bom_movie_page_scrapper.scrape_movie_details(movie))
 
         self.queue.put("NO_MORE_MOVIES")
