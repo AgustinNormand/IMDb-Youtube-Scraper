@@ -123,9 +123,12 @@ class BOMMoviePageScraper:
         return movie
 
     def summary_process(self, soup, movie):
-        heading_summary = soup.find("div", {"class": "mojo-heading-summary"})
-        summary = heading_summary.find("p", {"class": "a-size-medium"}).text
-        movie["summary"] = summary
+        try:
+            heading_summary = soup.find("div", {"class": "mojo-heading-summary"})
+            summary = heading_summary.find("p", {"class": "a-size-medium"}).text
+            movie["summary"] = summary
+        except Exception as e:
+            movie["summary"] = None
         return movie
 
     def scrape_movie_details(self, movie):
@@ -142,7 +145,6 @@ class BOMMoviePageScraper:
             movie = self.other_table_process(soup, movie)
             movie = self.summary_process(soup, movie)
             #movie = self.complete_none(movie)
-            movie["success"] = 1
             self.time_elapsed_parsing += (time.time() - start_time_parsing)
             self.total_movie_pages_scraped += 1
 
