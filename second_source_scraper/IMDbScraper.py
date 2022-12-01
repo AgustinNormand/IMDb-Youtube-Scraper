@@ -3,6 +3,7 @@ from fake_headers import Headers
 import requests
 import time
 from bs4 import BeautifulSoup
+import constants
 
 IMDb_URL = "https://www.imdb.com"
 
@@ -11,10 +12,21 @@ class IMDbScraper():
         self.logger = logging.getLogger("SecondSourceScraper")
         self.time_elapsed_waiting_http_response = 0
         self.total_movie_pages_scraped = 0
+        self.last_request_timestamp = 0
+
+    def sleep_if_needed(self):
+        remaining_to_second_between_requests = constants.SECONDS_TO_SLEEP_BETWEEN_REQUESTS - (
+                    time.time() - self.last_request_timestamp)
+        if remaining_to_second_between_requests > 0:
+            time.sleep(remaining_to_second_between_requests)
 
     def request(self, url):
         start_time_waiting_response = time.time()
+
+        self.sleep_if_needed()
         r = requests.get(headers=Headers().generate(), url=url)
+        self.last_request_timestamp = time.time()
+
         time_elapsed = time.time() - start_time_waiting_response
         self.time_elapsed_waiting_http_response += time_elapsed
         self.logger.debug("New request to IMDb effectuated, "
