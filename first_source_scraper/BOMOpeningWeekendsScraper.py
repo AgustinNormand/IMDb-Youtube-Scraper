@@ -51,7 +51,7 @@ class BOMOpeningWeekendsScraper:
             movie = {}
             movie["uniqueID"] = self.incremental_id
             movie["movie_name"] = movie_name
-            movie["url_bom"] = constants.BOX_OFFICE_MOJO_BASE_URL + release_field.a["href"]
+            movie["url_bom"] = constants.BOX_OFFICE_MOJO_BASE_URL + release_field.a["href"].split("?")[0]
             self.incremental_id += 1
             movies.append(movie)
         return movies
