@@ -3,6 +3,7 @@ from fake_headers import Headers
 import requests
 from bs4 import BeautifulSoup
 import time
+from requests.adapters import HTTPAdapter, Retry
 
 import constants
 
@@ -15,6 +16,14 @@ class BOMMoviePageScraper:
         self.total_movie_pages_scraped = 0
         self.last_request_timestamp = time.time()
 
+        self.session = requests.Session()
+        retry = Retry(connect=5, backoff_factor=0.5)
+        adapter = HTTPAdapter(max_retries=retry)
+        self.session.mount('http://', adapter)
+        self.session.mount('https://', adapter)
+        self.session.headers.update(Headers().generate())
+        #print(self.session.get('https://httpbin.org/headers').text)
+
     def sleep_if_needed(self):
         remaining_to_second_between_requests = constants.SECONDS_TO_SLEEP_BETWEEN_REQUESTS - (time.time() - self.last_request_timestamp)
         if remaining_to_second_between_requests > 0:
@@ -25,7 +34,7 @@ class BOMMoviePageScraper:
 
         self.sleep_if_needed()
         time_between_requests = time.time() - self.last_request_timestamp
-        r = requests.get(headers=Headers().generate(), url=url)
+        r = self.session.get(url=url)
         self.last_request_timestamp = time.time()
         time_elapsed = time.time() - start_time_waiting_response
         self.time_elapsed_waiting_http_response += time_elapsed
