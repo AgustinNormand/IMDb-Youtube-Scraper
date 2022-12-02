@@ -37,14 +37,6 @@ class BOMMoviePageScraper:
                           "Time between requests {}".format(url, r.status_code, len(r.text), time_elapsed, time_between_requests))
         return [r.status_code, r.text]
 
-    #def complete_none(self, movie):
-    #    keys = ["gross_dom", "gross_int", "gross_worldwide", "distributor", "opening_box", "opening_theater", "budget",
-    #            "release_start", "release_end", "mpaa", "run_time", "release_length", "summary"]
-    #    for key in keys:
-    #        if key not in movie.keys():
-    #            movie[key] = None
-    #    return movie
-
     def gross_table_process(self, soup, movie):
         gross_summary_table = soup.find("div", {"class": "mojo-performance-summary-table"})
         gross_titles = gross_summary_table.find_all("span", {"class": "a-size-small"})
@@ -131,20 +123,66 @@ class BOMMoviePageScraper:
             movie["summary"] = None
         return movie
 
+    def get_page_with_right_release(self, url):
+        status_code, text_response = self.request_movie_page(url)
+        if status_code != 200:
+            self.logger.error("Status code {} in {}".format(status_code, url))
+            return None
+        soup = BeautifulSoup(text_response, "html.parser")
+
+        all_releases_selected = False
+        original_release_path = None
+        original_release_selected = False
+        release_group_select = soup.find("select", {"name":"releasegroup-picker-navSelector"})
+        for option in release_group_select.find_all("option"):
+            label = option.get_text()
+            selected = option.has_attr("selected")
+            if label == "All Releases" and selected:
+                all_releases_selected = True
+            if label == "Original Release":
+                if selected:
+                    original_release_selected = True
+                else:
+                    original_release_path = constants.BOX_OFFICE_MOJO_BASE_URL + option["value"]
+
+        if not original_release_selected:
+            self.logger.debug("Original release is not selected, should request {}".format(original_release_path))
+            return self.get_page_with_right_release(original_release_path)
+        else:
+            self.logger.debug("Original release is selected, need to see the other one")
+
+        if not all_releases_selected:
+            self.logger.warning("All Releases was always selected but not in this movie {}".format(url))
+
+        domestic_release_path = None
+        domestic_release_selected = False
+        release_select = soup.find("select", {"name": "release-picker-navSelector"})
+        for option in release_select.find_all("option"):
+            label = option.get_text()
+            selected = option.has_attr("selected")
+            if label == "Domestic":
+                if selected:
+                    domestic_release_selected = True
+                else:
+                    domestic_release_path = constants.BOX_OFFICE_MOJO_BASE_URL + option["value"]
+
+        if not domestic_release_selected:
+            self.logger.debug("Domestic release is not selected, should request {}".format(domestic_release_path))
+            return self.get_page_with_right_release(domestic_release_path)
+        else:
+            self.logger.debug("Domestic release is selected, this is the right page")
+        return text_response
+
     def scrape_movie_details(self, movie):
         text_response = None
         try:
-            status_code, text_response = self.request_movie_page(movie["url_bom"])
-            if status_code != 200:
-                self.logger.error("Status code {} in {}".format(status_code, movie))
-                return None
+            text_response = self.get_page_with_right_release(movie["url_bom"])
 
             start_time_parsing = time.time()
             soup = BeautifulSoup(text_response, "html.parser")
             movie = self.gross_table_process(soup, movie)
             movie = self.other_table_process(soup, movie)
             movie = self.summary_process(soup, movie)
-            #movie = self.complete_none(movie)
             self.time_elapsed_parsing += (time.time() - start_time_parsing)
             self.total_movie_pages_scraped += 1
 
