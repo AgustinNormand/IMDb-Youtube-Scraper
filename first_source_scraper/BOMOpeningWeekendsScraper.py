@@ -47,7 +47,7 @@ class BOMOpeningWeekendsScraper:
 
         movies = []
         for release_field in release_fields:
-            movie_name = release_field.text
+            movie_name = release_field.find("a").text
             movie = {}
             movie["uniqueID"] = self.incremental_id
             movie["movie_name"] = movie_name
