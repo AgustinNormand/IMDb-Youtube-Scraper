@@ -1,3 +1,8 @@
 debug.log
 results.csv
 .env
+third_source_scraper/ThirdSourceScraper.log
+second_source_scraper/SecondSourceScraper.log
+first_source_scraper/FirstSourceScraper.log
+scrapers_manager/ScrapersManager.log
+third_source_scraper/*.json
