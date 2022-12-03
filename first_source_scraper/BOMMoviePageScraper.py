@@ -139,29 +139,38 @@ class BOMMoviePageScraper:
             return None
         soup = BeautifulSoup(text_response, "html.parser")
 
-        all_releases_selected = False
+       # all_releases_selected = False
         original_release_path = None
         original_release_selected = False
         release_group_select = soup.find("select", {"name":"releasegroup-picker-navSelector"})
-        for option in release_group_select.find_all("option"):
-            label = option.get_text()
-            selected = option.has_attr("selected")
-            if label == "All Releases" and selected:
-                all_releases_selected = True
-            if label == "Original Release":
-                if selected:
-                    original_release_selected = True
-                else:
-                    original_release_path = constants.BOX_OFFICE_MOJO_BASE_URL + option["value"]
+        if release_group_select != None:
+            for option in release_group_select.find_all("option"):
+                label = option.get_text()
+                selected = option.has_attr("selected")
+                #if label == "All Releases" and selected:
+                    #all_releases_selected = True
+                if label == "Original Release":
+                    if selected:
+                        original_release_selected = True
+                    else:
+                        original_release_path = constants.BOX_OFFICE_MOJO_BASE_URL + option["value"]
 
-        if not original_release_selected:
-            self.logger.debug("Original release is not selected, should request {}".format(original_release_path))
-            return self.get_page_with_right_release(original_release_path)
+            if not original_release_selected:
+                self.logger.debug("Original release is not selected, should request {}".format(original_release_path))
+                return self.get_page_with_right_release(original_release_path)
+            else:
+                self.logger.debug("Original release is selected, need to see the other one")
         else:
-            self.logger.debug("Original release is selected, need to see the other one")
+            only_option = soup.find("div", {"id":"release-group-refiner"}).get_text()
+            if only_option != "Original Release":
+                self.logger.error("Original Release is not selected, but there isn't another option")
+            else:
+                self.logger.debug("Original release is selected, is the only option, need to see the other one")
 
-        if not all_releases_selected:
-            self.logger.warning("All Releases was always selected but not in this movie {}".format(url))
+
+
+        #if not all_releases_selected:
+        #    self.logger.warning("All Releases was always selected but not in this movie {}".format(url))
 
         domestic_release_path = None
         domestic_release_selected = False
@@ -176,8 +185,12 @@ class BOMMoviePageScraper:
                     domestic_release_path = constants.BOX_OFFICE_MOJO_BASE_URL + option["value"]
 
         if not domestic_release_selected:
-            self.logger.debug("Domestic release is not selected, should request {}".format(domestic_release_path))
-            return self.get_page_with_right_release(domestic_release_path)
+            if domestic_release_path != None:
+                self.logger.debug("Domestic release is not selected, should request {}".format(domestic_release_path))
+                return self.get_page_with_right_release(domestic_release_path)
+            else:
+                self.logger.error("Movie does not have Domestic release. URL: {}".format(url))
+                return None
         else:
             self.logger.debug("Domestic release is selected, this is the right page")
         return text_response
@@ -186,6 +199,8 @@ class BOMMoviePageScraper:
         text_response = None
         try:
             text_response = self.get_page_with_right_release(movie["url_bom"])
+            if text_response == None:
+                return None
 
             start_time_parsing = time.time()
             soup = BeautifulSoup(text_response, "html.parser")

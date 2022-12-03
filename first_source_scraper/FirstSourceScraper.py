@@ -7,32 +7,30 @@ from first_source_scraper.BOMOpeningWeekendsScraper import BOMOpeningWeekendsScr
 
 class FirstSourceScraper:
     def __init__(self, queue):
-        self.logger = None
-        self.configure_logger()
+        self.logger = logging.getLogger("FirstSourceScraper")
         self.bom_opening_weekends_scraper = BOMOpeningWeekendsScraper()
         self.bom_movie_page_scrapper = BOMMoviePageScraper()
         self.queue = queue
 
-    def configure_logger(self):
-        self.logger = logging.getLogger("FirstSourceScraper")
-        formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
-        fileHandler = logging.FileHandler('./first_source_scraper/FirstSourceScraper.log', mode='w')
-        fileHandler.setFormatter(formatter)
-        self.logger.setLevel(logging.DEBUG)
-        self.logger.addHandler(fileHandler)
 
     def begin_scrape(self):
         start_time = time.time()
 
         for movie in self.bom_opening_weekends_scraper.scrape_opening_weekends_pages(constants.BOX_OFFICE_MOJO_OPENINGS_URL):
-            movie = self.bom_movie_page_scrapper.scrape_movie_details(movie)
-            movie["success"] = 1
-            self.queue.put(movie)
+            processed_movie = self.bom_movie_page_scrapper.scrape_movie_details(movie)
+            if processed_movie != None:
+                movie["success"] = 1
+                self.queue.put(movie)
+            else:
+                logging.error("Movie not processed {}".format(movie))
 
         for movie in self.bom_opening_weekends_scraper.scrape_opening_weekends_pages(constants.BOX_OFFICE_MOJO_WORST_OPENINGS_URL):
-            movie = self.bom_movie_page_scrapper.scrape_movie_details(movie)
-            movie["success"] = 0
-            self.queue.put(movie)
+            processed_movie = self.bom_movie_page_scrapper.scrape_movie_details(movie)
+            if processed_movie != None:
+                processed_movie["success"] = 0
+                self.queue.put(processed_movie)
+            else:
+                logging.error("Movie not processed {}".format(movie))
 
         self.queue.put("NO_MORE_MOVIES")
 
