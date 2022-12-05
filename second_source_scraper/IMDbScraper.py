@@ -85,10 +85,14 @@ class IMDbScraper():
             movie = self.complete_none_content_review(movie)
         return movie
 
+    def process_trailers(self, soup, movie):
+        return movie
 
     def process_movie_page(self, soup, movie):
         movie["user_raiting"] = self.get_raiting(soup, movie)
         movie = self.process_content_review(soup, movie)
+        movie = self.process_trailers(soup, movie)
+        #movie = self.ss.scrape_stars(soup, movie)
         return movie
 
     def scrape_movie(self, movie):
