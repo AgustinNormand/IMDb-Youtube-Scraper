@@ -132,7 +132,7 @@ class BOMMoviePageScraper:
             movie["summary"] = None
         return movie
 
-    def get_page_with_right_release(self, url):
+    def get_page_with_right_release(self, url, movie):
         status_code, text_response = self.request_movie_page(url)
         if status_code != 200:
             self.logger.error("Status code {} in {}".format(status_code, url))
@@ -157,17 +157,17 @@ class BOMMoviePageScraper:
 
             if not original_release_selected:
                 self.logger.debug("Original release is not selected, should request {}".format(original_release_path))
-                return self.get_page_with_right_release(original_release_path)
+                return self.get_page_with_right_release(original_release_path, movie)
             else:
                 self.logger.debug("Original release is selected, need to see the other one")
         else:
             only_option = soup.find("div", {"id":"release-group-refiner"}).get_text()
             if only_option != "Original Release":
-                self.logger.error("Original Release is not selected, but there isn't another option")
+                self.logger.debug("Original Release is not selected, but there isn't another option, excluding for consistency")
+                return None
             else:
-                self.logger.debug("Original release is selected, is the only option, need to see the other one")
-
-
+                self.logger.debug("Original release is selected, is the only option, excluding for multiple bill")
+                return None
 
         #if not all_releases_selected:
         #    self.logger.warning("All Releases was always selected but not in this movie {}".format(url))
@@ -187,18 +187,19 @@ class BOMMoviePageScraper:
         if not domestic_release_selected:
             if domestic_release_path != None:
                 self.logger.debug("Domestic release is not selected, should request {}".format(domestic_release_path))
-                return self.get_page_with_right_release(domestic_release_path)
+                return self.get_page_with_right_release(domestic_release_path, movie)
             else:
                 self.logger.error("Movie does not have Domestic release. URL: {}".format(url))
                 return None
         else:
             self.logger.debug("Domestic release is selected, this is the right page")
+            movie["url_bom"] = url
         return text_response
 
     def scrape_movie_details(self, movie):
         text_response = None
         try:
-            text_response = self.get_page_with_right_release(movie["url_bom"])
+            text_response = self.get_page_with_right_release(movie["url_bom"], movie)
             if text_response == None:
                 return None
 
