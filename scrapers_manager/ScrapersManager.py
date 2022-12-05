@@ -21,17 +21,7 @@ class ScrapersManager():
 
         self.results_processor = ResultsProcessor(self.thirdScraperQueue)
 
-        self.logger = None
-        self.configure_logger()
-
-    def configure_logger(self):
         self.logger = logging.getLogger("ScrapersManager")
-        formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
-        file_handler = logging.FileHandler('./scrapers_manager/ScrapersManager.log', mode='w')
-        file_handler.setFormatter(formatter)
-        self.logger.setLevel(logging.DEBUG)
-        self.logger.addHandler(file_handler)
-
 
     def begin_scrape(self):
         start_time = time.time()

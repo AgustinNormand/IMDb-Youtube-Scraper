@@ -4,19 +4,10 @@ from second_source_scraper.IMDbScraper import IMDbScraper
 
 class SecondSourceScraper:
     def __init__(self, firstScraperQueue, secondScraperQueue):
-        self.logger = None
-        self.configure_logger()
+        self.logger = logging.getLogger("SecondSourceScraper")
         self.imdb_scraper = IMDbScraper()
         self.firstScraperQueue = firstScraperQueue
         self.secondScraperQueue = secondScraperQueue
-
-    def configure_logger(self):
-        self.logger = logging.getLogger("SecondSourceScraper")
-        formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
-        file_handler = logging.FileHandler('./second_source_scraper/SecondSourceScraper.log', mode='w')
-        file_handler.setFormatter(formatter)
-        self.logger.setLevel(logging.DEBUG)
-        self.logger.addHandler(file_handler)
 
     def begin_scrape(self):
         while True:
