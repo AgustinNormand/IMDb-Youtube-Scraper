@@ -8,10 +8,21 @@ class ResultsProcessor():
         self.gp = GenresProcessor()
         self.logger = logging.getLogger("ScrapersManager")
         self.result_count = 0
+        self.duplicated_count = 0
 
     def export_results(self, movies):
         df = pd.DataFrame.from_records(movies)
         df.to_csv("results.csv", index=False)
+
+    def delete_duplicates(self, movies):
+        unique_movies = []
+        for movie in movies:
+            if movie not in unique_movies:
+                unique_movies.append(movie)
+            else:
+                self.duplicated_count += 1
+                self.logger.debug("Movie duplicated detected {}".format(movie))
+        return movies
 
     def process_results(self):
         movies = []
@@ -25,8 +36,10 @@ class ResultsProcessor():
                 self.logger.debug("New movie completed the pipeline (Pending process genres), Columns len {}, Movie {}".format(len(thirdScraperMovie.keys()),thirdScraperMovie))
                 self.result_count += 1
 
+        movies = self.delete_duplicates(movies)
         movies = self.gp.process_genres(movies)
         self.export_results(movies)
 
     def log_measurements(self):
+        self.logger.info("Duplicated movies count {}".format(self.duplicated_count))
         pass
