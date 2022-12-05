@@ -118,7 +118,7 @@ class BOMMoviePageScraper:
             if previous_span == "in release":
                 movie["release_length"] = int(span.text.split("days")[0].replace(",", ""))
             if previous_span.replace("\n", "").strip() == "imdbpro":
-                movie["url_imdb"] = span.find("a")["href"].replace("pro.imdb.com", "imdb.com")
+                movie["url_imdb"] = span.find("a")["href"].replace("pro.imdb.com", "imdb.com").split("?")[0]
             previous_span = span.text.lower()
 
         return movie
