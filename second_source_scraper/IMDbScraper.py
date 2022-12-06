@@ -4,6 +4,8 @@ import requests
 import time
 from bs4 import BeautifulSoup
 import constants
+from second_source_scraper.StarsScraper import StarsScraper
+
 
 class IMDbScraper():
     def __init__(self):
@@ -11,6 +13,7 @@ class IMDbScraper():
         self.time_elapsed_waiting_http_response = 0
         self.total_movie_pages_scraped = 0
         self.last_request_timestamp = time.time()
+        self.ss = StarsScraper()
 
     def sleep_if_needed(self):
         remaining_to_second_between_requests = constants.SECONDS_TO_SLEEP_BETWEEN_REQUESTS - (
@@ -85,21 +88,29 @@ class IMDbScraper():
             movie = self.complete_none_content_review(movie)
         return movie
 
-    def process_trailers(self, soup, movie):
+    def process_trailers(self, movie):
+        trailers_url = movie["url_imdb"] + "/videogallery/content_type-trailer/"
+        status_code_movie, text_response_movie = self.request(trailers_url)
+        if status_code_movie != 200:
+            self.logger.error("Status code {}, URL {}, Movie {}".format(status_code_movie, trailers_url, movie))
+            return None
+
+        soup = BeautifulSoup(text_response_movie, "html.parser")
+        print(soup.find("div", {"class":"search-results"}))
+
         return movie
 
     def process_movie_page(self, soup, movie):
         movie["user_raiting"] = self.get_raiting(soup, movie)
         movie = self.process_content_review(soup, movie)
-        movie = self.process_trailers(soup, movie)
-        #movie = self.ss.scrape_stars(soup, movie)
+        #movie = self.process_trailers(movie)
+        movie = self.ss.scrape_stars(soup, movie)
         return movie
 
     def scrape_movie(self, movie):
         text_response_movie = None
         try:
             status_code_movie, text_response_movie = self.request(movie["url_imdb"])
-
             if status_code_movie != 200:
                 self.logger.error("Status code {}, URL {}, Movie {}".format(status_code_movie, movie["url_imdb"], movie))
                 return None
