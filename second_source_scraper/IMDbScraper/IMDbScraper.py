@@ -4,8 +4,8 @@ import requests
 import time
 from bs4 import BeautifulSoup
 import constants
-from second_source_scraper.StarsScraper import StarsScraper
-
+from second_source_scraper.StarsScraper.StarsScraper import StarsScraper
+from requests.adapters import HTTPAdapter, Retry
 
 class IMDbScraper():
     def __init__(self):
@@ -14,6 +14,13 @@ class IMDbScraper():
         self.total_movie_pages_scraped = 0
         self.last_request_timestamp = time.time()
         self.ss = StarsScraper()
+
+        self.session = requests.Session()
+        retry = Retry(connect=5, backoff_factor=0.5)
+        adapter = HTTPAdapter(max_retries=retry)
+        self.session.mount('http://', adapter)
+        self.session.mount('https://', adapter)
+        self.session.headers.update(Headers().generate())
 
     def sleep_if_needed(self):
         remaining_to_second_between_requests = constants.SECONDS_TO_SLEEP_BETWEEN_REQUESTS - (
@@ -26,7 +33,7 @@ class IMDbScraper():
 
         self.sleep_if_needed()
         time_between_requests = time.time() - self.last_request_timestamp
-        r = requests.get(headers=Headers().generate(), url=url)
+        r = self.session.get(url=url)
         self.last_request_timestamp = time.time()
 
         time_elapsed = time.time() - start_time_waiting_response
