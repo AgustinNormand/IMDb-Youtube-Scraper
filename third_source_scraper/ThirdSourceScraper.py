@@ -4,19 +4,10 @@ from third_source_scraper.YoutubeScraper import YoutubeScraper
 
 class ThirdSourceScraper:
     def __init__(self, secondScraperQueue, thirdScraperQueue):
-        self.logger = None
-        self.configure_logger()
+        self.logger = logging.getLogger("ThirdSourceScraper")
         self.youtube_scraper = YoutubeScraper()
         self.secondScraperQueue = secondScraperQueue
         self.thirdScraperQueue = thirdScraperQueue
-
-    def configure_logger(self):
-        self.logger = logging.getLogger("ThirdSourceScraper")
-        formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
-        file_handler = logging.FileHandler('./third_source_scraper/ThirdSourceScraper.log', mode='w')
-        file_handler.setFormatter(formatter)
-        self.logger.setLevel(logging.DEBUG)
-        self.logger.addHandler(file_handler)
 
     def begin_scrape(self):
         while True:
