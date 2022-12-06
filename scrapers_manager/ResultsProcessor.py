@@ -43,9 +43,12 @@ class ResultsProcessor():
                 self.thirdScraperQueue.put("NO_MORE_MOVIES")
                 break
             else:
-                movies.append(thirdScraperMovie)
-                self.logger.debug("New movie completed the pipeline (Pending process genres), Columns len {}, Movie {}".format(len(thirdScraperMovie.keys()),thirdScraperMovie))
-                self.result_count += 1
+                if thirdScraperMovie != None:
+                    movies.append(thirdScraperMovie)
+                    self.logger.debug("New movie completed the pipeline (Pending process genres), Columns len {}, Movie {}".format(len(thirdScraperMovie.keys()),thirdScraperMovie))
+                    self.result_count += 1
+                else:
+                    self.logger.error("None movie receibed")
 
         movies = self.delete_duplicates(movies)
         movies = self.gp.process_genres(movies)
