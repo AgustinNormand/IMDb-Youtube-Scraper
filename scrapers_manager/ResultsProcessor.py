@@ -14,10 +14,21 @@ class ResultsProcessor():
         df = pd.DataFrame.from_records(movies)
         df.to_csv("results.csv", index=False)
 
+    def equals(self, movie1, movie2):
+        keys = movie1.keys()
+        keys.remove("uniqueID")
+        return movie1[keys] == movie2[keys]
+
+    def is_in(self, searched_movie, movies):
+        for movie in movies:
+            if self.equals(movie, searched_movie):
+                return True
+        return False
+
     def delete_duplicates(self, movies):
         unique_movies = []
         for movie in movies:
-            if movie not in unique_movies:
+            if not self.is_in(movie, unique_movies):
                 unique_movies.append(movie)
             else:
                 self.duplicated_count += 1
