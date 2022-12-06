@@ -17,9 +17,15 @@ class ThirdSourceScraper:
                 self.thirdScraperQueue.put("NO_MORE_MOVIES")
                 break
             else:
-                #self.thirdScraperQueue.put(self.youtube_scraper.scrape_movie(secondScraperMovie))
+                #processed_movie = self.youtube_scraper.scrape_movie(secondScraperMovie)
                 # TODO Uncomment this to not avoid youtubescraper
-                self.thirdScraperQueue.put(secondScraperMovie)
+                processed_movie = secondScraperMovie
+                if processed_movie != None:
+                    self.thirdScraperQueue.put(processed_movie)
+                else:
+                    logging.error("Movie not processed {}".format(secondScraperMovie))
+
+
 
 
     def log_measurements(self):
