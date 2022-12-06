@@ -3,6 +3,7 @@ results.csv
 .env
 third_source_scraper/ThirdSourceScraper.log
 second_source_scraper/SecondSourceScraper.log
+second_source_scraper/SecondSourceScraperStarsScraper.log
 first_source_scraper/FirstSourceScraper.log
 scrapers_manager/ScrapersManager.log
 *.json

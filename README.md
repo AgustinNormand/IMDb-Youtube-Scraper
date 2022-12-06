@@ -57,3 +57,13 @@ docker build -t agustinnormand/imdb-youtube-scraper:1 .
 docker push agustinnormand/imdb-youtube-scraper:1
 
 docker run -d agustinnormand/imdb-youtube-scraper:1
+
+
+
+
+
+
+### Proxy
+gcloud compute instances create instance-2 --project=cryptic-opus-335323 --zone=us-central1-a --machine-type=f1-micro --network-interface=network-tier=PREMIUM,subnet=default --maintenance-policy=MIGRATE --provisioning-model=STANDARD --service-account=695171267230-compute@developer.gserviceaccount.com --scopes=https://www.googleapis.com/auth/devstorage.read_only,https://www.googleapis.com/auth/logging.write,https://www.googleapis.com/auth/monitoring.write,https://www.googleapis.com/auth/servicecontrol,https://www.googleapis.com/auth/service.management.readonly,https://www.googleapis.com/auth/trace.append --tags=http-server,https-server --create-disk=auto-delete=yes,boot=yes,device-name=instance-2,image=projects/ubuntu-os-cloud/global/images/ubuntu-2204-jammy-v20221206,mode=rw,size=10,type=projects/cryptic-opus-335323/zones/us-central1-a/diskTypes/pd-balanced --no-shielded-secure-boot --shielded-vtpm --shielded-integrity-monitoring --reservation-affinity=any
+sudo apt update -y & sudo apt upgrade -y
+sudo apt install docker.io
