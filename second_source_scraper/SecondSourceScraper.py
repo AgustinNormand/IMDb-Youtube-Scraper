@@ -1,5 +1,6 @@
 import logging
-from second_source_scraper.IMDbScraper import IMDbScraper
+
+from second_source_scraper.IMDbScraper.IMDbScraper import IMDbScraper
 
 
 class SecondSourceScraper:
@@ -17,7 +18,11 @@ class SecondSourceScraper:
                 self.secondScraperQueue.put("NO_MORE_MOVIES")
                 break
             else:
-                self.secondScraperQueue.put(self.imdb_scraper.scrape_movie(firstScraperMovie))
+                processed_movie = self.imdb_scraper.scrape_movie(firstScraperMovie)
+                if processed_movie != None:
+                    self.secondScraperQueue.put(processed_movie)
+                else:
+                    logging.error("Movie not processed {}".format(firstScraperMovie))
 
     def log_measurements(self):
         pass #TODO
