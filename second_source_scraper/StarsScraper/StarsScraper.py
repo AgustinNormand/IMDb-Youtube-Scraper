@@ -12,7 +12,7 @@ class StarsScraper:
     def __init__(self):
         self.scraped_actors = {}
         self.last_request_timestamp = time.time()
-        self.logger = logging.getLogger("SecondSourceScraperStarsScraper")
+        self.logger = logging.getLogger("StarsScraper")
         self.time_elapsed_waiting_http_response = 0
         self.scraped_movies = {}
 
@@ -34,7 +34,6 @@ class StarsScraper:
 
         self.sleep_if_needed()
         time_between_requests = time.time() - self.last_request_timestamp
-        #r = requests.get(headers=Headers().generate(), url=url)
         r = self.session.get(url=url)
         self.last_request_timestamp = time.time()
 
@@ -56,7 +55,6 @@ class StarsScraper:
             actor_name = ancor.get_text()
             href = ancor["href"].split("?")[0]
             actor_url = constants.ACTORS_IMDb_URL + href + "filmotype/actor"
-                #actor_url = constants.ACTORS_IMDb_URL + href + "filmotype/actress"
             actors.append((actor_name, actor_url))
         return actors
 
@@ -110,7 +108,6 @@ class StarsScraper:
                 self.scrape_actor(actor_name, actor_url)
             else:
                 self.logger.debug("Actor {} was already scraped, not need to see in what movies acted".format(actor_name))
-            #break  # Delte this
 
     def get_movies_previous_to(self, movie_url, actor_movies):
         movie_url_title = movie_url.split("imdb.com")[1]
