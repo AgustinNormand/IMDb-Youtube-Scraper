@@ -4,8 +4,10 @@ import requests
 import time
 from bs4 import BeautifulSoup
 import constants
-from second_source_scraper.StarsScraper.StarsScraper import StarsScraper
 from requests.adapters import HTTPAdapter, Retry
+
+from second_source_scraper.StarsScraper.StarsScraperParalell import StarsScraperParalell
+
 
 class IMDbScraper():
     def __init__(self):
@@ -13,7 +15,7 @@ class IMDbScraper():
         self.time_elapsed_waiting_http_response = 0
         self.total_movie_pages_scraped = 0
         self.last_request_timestamp = time.time()
-        self.ss = StarsScraper()
+        #self.ss = StarsScraperParalell()
 
         self.session = requests.Session()
         retry = Retry(connect=5, backoff_factor=0.5)
@@ -107,11 +109,24 @@ class IMDbScraper():
 
         return movie
 
+    def scrape_actors(self, soup, movie):
+        actors = []
+        divs_actors = soup.find_all("div", {"data-testid": "title-cast-item"})
+        for div_actor in divs_actors:
+            ancor = div_actor.find("a", {"data-testid": "title-cast-item__actor"})
+            actor_name = ancor.get_text()
+            href = ancor["href"].split("?")[0]
+            actor_url = constants.ACTORS_IMDb_URL + href
+            actors.append((actor_name, actor_url))
+        movie["actors"] = actors
+        return movie
+
     def process_movie_page(self, soup, movie):
         movie["user_raiting"] = self.get_raiting(soup, movie)
         movie = self.process_content_review(soup, movie)
         #movie = self.process_trailers(movie)
-        movie = self.ss.scrape_stars(soup, movie)
+        #movie = self.ss.scrape_stars(soup, movie)
+        movie = self.scrape_actors(soup, movie)
         return movie
 
     def scrape_movie(self, movie):

@@ -21,16 +21,17 @@ class FirstSourceScraper:
             if processed_movie != None:
                 movie["success"] = 1
                 self.queue.put(movie)
+                break
             else:
                 logging.error("Movie not processed {}".format(movie))
 
-        for movie in self.bom_opening_weekends_scraper.scrape_opening_weekends_pages(constants.BOX_OFFICE_MOJO_WORST_OPENINGS_URL):
-            processed_movie = self.bom_movie_page_scrapper.scrape_movie_details(movie)
-            if processed_movie != None:
-                processed_movie["success"] = 0
-                self.queue.put(processed_movie)
-            else:
-                logging.error("Movie not processed {}".format(movie))
+        #for movie in self.bom_opening_weekends_scraper.scrape_opening_weekends_pages(constants.BOX_OFFICE_MOJO_WORST_OPENINGS_URL):
+        #    processed_movie = self.bom_movie_page_scrapper.scrape_movie_details(movie)
+        #    if processed_movie != None:
+        #        processed_movie["success"] = 0
+        #        self.queue.put(processed_movie)
+        #    else:
+        #        logging.error("Movie not processed {}".format(movie))
 
         self.queue.put("NO_MORE_MOVIES")
 

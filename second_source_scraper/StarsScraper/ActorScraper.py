@@ -10,10 +10,9 @@ import time
 
 class ActorScraper:
 
-    def perform_requests(self, names, urls, no_workers):
+    def perform_requests(self, names, urls, no_workers, movie_url, scraped_movies):
         class Worker(Thread):
             def __init__(self, request_queue):
-                #print("Worker started")
                 Thread.__init__(self)
                 self.queue = request_queue
                 self.results = []
@@ -54,6 +53,46 @@ class ActorScraper:
                         movies.append(url)
                     return movies
 
+            def get_movies_previous_to(self, movie_url, actor_movies):
+                movie_url_title = movie_url.split("imdb.com")[1]
+                found_movie = False
+                previous_movies = []
+                for actor_movie_url in actor_movies:
+                    actor_movie_url_title = actor_movie_url.split("imdb.com")[1]
+                    if found_movie:
+                        previous_movies.append(actor_movie_url)
+                    else:
+                        if movie_url_title == actor_movie_url_title:
+                            found_movie = True
+                        else:
+                            continue
+                return previous_movies
+
+            def scrape_previous_movies_raiting_until_75(self, previous_movies, scraped_movies):
+                for previous_movie in previous_movies:
+                    status_code, text = self.request(previous_movie)
+                    soup = BeautifulSoup(text, "html.parser")
+                    div = soup.find("div", {"data-testid": "hero-rating-bar__aggregate-rating__score"})
+                    if div != None:
+                        raiting = float(div.find("span").get_text())
+                        scraped_movies[movie_url] = raiting
+                        if raiting >= 7.5:
+                            return True
+                    else:
+                        scraped_movies[movie_url] = None
+
+                return False
+
+            def any_previous_is_in_scraped_with_more_than_75(self, previous_movies, scraped_movies):
+                print('Previous Movies {}'.format(previous_movies))
+                print("Scraped Movies {}".format(scraped_movies))
+                for previous_movie in previous_movies:
+                    if previous_movie in scraped_movies.keys():
+                        if scraped_movies[previous_movie] >= 7.5:
+                            print("previous_is_in_scraped_with_more_than_75")
+                            return True
+                return False
+
             def run(self):
                 proxy = FreeProxy(country_id=['AR'], rand=True, timeout=0.5).get()
                 self.proxies = {
@@ -65,8 +104,14 @@ class ActorScraper:
                         break
                     name, url = content
                     status_code, text = self.request(url)
-                    #print("Requested {}".format(url))
-                    self.results.append([name, self.parse_actor_page(text, url)])
+                    actor_movies = self.parse_actor_page(text, url)
+                    previous_movies = self.get_movies_previous_to(movie_url, actor_movies)
+                    if self.any_previous_is_in_scraped_with_more_than_75(previous_movies, scraped_movies):
+                        is_star = True
+                    else:
+                        is_star = self.scrape_previous_movies_raiting_until_75(previous_movies, scraped_movies)
+
+                    self.results.append([name, actor_movies, is_star, scraped_movies])
                     self.queue.task_done()
 
         q = queue.Queue()
@@ -90,13 +135,17 @@ class ActorScraper:
             r.extend(worker.results)
         return r
 
-    def scrape_actors(self, names, urls, scraped_actors):
-        #print("In Scrape_Actors function")
-        workers_responses = self.perform_requests(names, urls, 10)
+    def scrape_actors(self, names, urls, scraped_actors, movie_url, scraped_movies):
+        workers_responses = self.perform_requests(names, urls, 18, movie_url, scraped_movies)
+        star_count = 0
         for worker_response in workers_responses:
-            name, movies = worker_response
-            #print("Response for {}, movies {}".format(name, movies))
-            scraped_actors[name] = movies
-        return scraped_actors
+            name, actor_movies, is_star, new_scraped_movies = worker_response
+            if is_star:
+                star_count += 1
+            scraped_actors[name] = actor_movies
+            #for movie_url in new_scraped_movies:
+            #    scraped_movies[movie_url] = new_scraped_movies[movie_url]
+            scraped_movies = new_scraped_movies
+        return scraped_actors, scraped_movies, star_count
 
 
