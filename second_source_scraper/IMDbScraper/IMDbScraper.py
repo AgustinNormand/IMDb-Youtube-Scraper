@@ -9,7 +9,7 @@ from requests.adapters import HTTPAdapter, Retry
 
 class IMDbScraper():
     def __init__(self):
-        self.logger = logging.getLogger("SecondSourceScraper")
+        self.logger = logging.getLogger("IMDbScraper")
         self.time_elapsed_waiting_http_response = 0
         self.total_movie_pages_scraped = 0
         self.last_request_timestamp = time.time()
