@@ -50,4 +50,4 @@ class ScrapersManager():
 
         total_time_elapsed = time.time() - start_time
 
-        #self.logger.info("Total time whole scraping {:.3g} seconds".format(total_time_elapsed))
+        self.logger.info("Total time whole scraping {:.3g} minutes".format(total_time_elapsed/60))
