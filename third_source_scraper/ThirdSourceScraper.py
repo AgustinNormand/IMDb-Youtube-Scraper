@@ -12,6 +12,7 @@ class ThirdSourceScraper:
     def begin_scrape(self):
         while True:
             secondScraperMovie = self.secondScraperQueue.get()
+            #print("Moive in third")
             if secondScraperMovie == "NO_MORE_MOVIES":
                 self.secondScraperQueue.put("NO_MORE_MOVIES")
                 self.thirdScraperQueue.put("NO_MORE_MOVIES")
@@ -22,8 +23,9 @@ class ThirdSourceScraper:
                 processed_movie = secondScraperMovie
                 if processed_movie != None:
                     self.thirdScraperQueue.put(processed_movie)
+                    self.logger.debug("Ignoring process of {}".format(processed_movie))
                 else:
-                    logging.error("Movie not processed {}".format(secondScraperMovie))
+                    self.logger.error("Movie not processed {}".format(secondScraperMovie))
 
 
 
