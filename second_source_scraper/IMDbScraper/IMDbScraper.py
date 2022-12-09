@@ -6,16 +6,12 @@ from bs4 import BeautifulSoup
 import constants
 from requests.adapters import HTTPAdapter, Retry
 
-from second_source_scraper.StarsScraper.StarsScraperParalell import StarsScraperParalell
-
-
 class IMDbScraper():
     def __init__(self):
         self.logger = logging.getLogger("IMDbScraper")
         self.time_elapsed_waiting_http_response = 0
         self.total_movie_pages_scraped = 0
         self.last_request_timestamp = time.time()
-        #self.ss = StarsScraperParalell()
 
         self.session = requests.Session()
         retry = Retry(connect=5, backoff_factor=0.5)
