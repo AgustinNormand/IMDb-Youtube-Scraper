@@ -1,7 +1,10 @@
 import logging
 from logging import config
-logging.config.fileConfig(fname='logging.conf', disable_existing_loggers=False)
 
+import constants
+from second_source_scraper.StarsScraper.StarsScraper import StarsScraper
+
+logging.config.fileConfig(fname='logging.conf', disable_existing_loggers=False)
 
 
 from scrapers_manager.ScrapersManager import ScrapersManager
@@ -9,4 +12,8 @@ from scrapers_manager.ScrapersManager import ScrapersManager
 
 if __name__ == "__main__":
     sm = ScrapersManager()
-    sm.begin_scrape()
+    if not constants.START_FROM_CHECKPOINT_IMDb_SCRAPER:
+        sm.begin_scrape()
+    else:
+        sm.begin_scrape_from_third_scraper()
+
