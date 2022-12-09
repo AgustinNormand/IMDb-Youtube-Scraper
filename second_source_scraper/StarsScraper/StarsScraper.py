@@ -9,6 +9,7 @@ from bs4 import BeautifulSoup
 import pandas as pd
 import logging
 import constants
+from second_source_scraper.StarsScraper.StarsScraperWorker import StarsScraperWorker
 
 
 class StarsScraper:
@@ -44,10 +45,16 @@ class StarsScraper:
     def manage_scrape_actors(self):
         lock = Lock()
         threads = []
-        for worker_number in range(100): #Change to 100 #TODO
-            thread = Thread(target=self.scrape_actors, daemon=True, args=(lock,worker_number,self.tasks_queue))
-            threads.append(thread)
-            thread.start()
+        #for worker_number in range(100): #Change to 100 #TODO
+        #    thread = Thread(target=self.scrape_actors, daemon=True, args=(lock,worker_number,self.tasks_queue))
+        #    threads.append(thread)
+        #    thread.start()
+
+        workers = []
+        for worker_number in range(2):
+            worker = StarsScraperWorker(worker_number, self.tasks_queue, self.scraped_actors)
+            worker.start()
+            workers.append(worker)
 
         self.tasks_queue.join()
 
