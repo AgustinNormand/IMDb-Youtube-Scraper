@@ -9,7 +9,7 @@ import constants
 import time
 
 class ActorScraper:
-
+    """
     def perform_requests(self, names, urls, no_workers, movie_url, scraped_movies):
         class Worker(Thread):
             def __init__(self, request_queue):
@@ -147,5 +147,6 @@ class ActorScraper:
             #    scraped_movies[movie_url] = new_scraped_movies[movie_url]
             scraped_movies = new_scraped_movies
         return scraped_actors, scraped_movies, star_count
+    """
 
 
