@@ -189,7 +189,7 @@ class BOMMoviePageScraper:
                 self.logger.debug("Domestic release is not selected, should request {}".format(domestic_release_path))
                 return self.get_page_with_right_release(domestic_release_path, movie)
             else:
-                self.logger.error("Movie does not have Domestic release. URL: {}".format(url))
+                self.logger.warning("Movie does not have Domestic release. URL: {}".format(url))
                 return None
         else:
             self.logger.debug("Domestic release is selected, this is the right page")
