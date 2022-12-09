@@ -1,6 +1,11 @@
 import pandas as pd
+
+import constants
 from scrapers_manager.GenresProcessor import GenresProcessor
 import logging
+
+from second_source_scraper.StarsScraper.StarsScraper import StarsScraper
+
 
 class ResultsProcessor():
     def __init__(self, thirdScraperQueue):
@@ -9,15 +14,20 @@ class ResultsProcessor():
         self.logger = logging.getLogger("ScrapersManager")
         self.result_count = 0
         self.duplicated_count = 0
+        self.ss = StarsScraper()
 
     def export_results(self, movies):
         df = pd.DataFrame.from_records(movies)
         df.to_csv("results.csv", index=False)
 
     def equals(self, movie1, movie2):
-        keys = movie1.keys()
+        keys = list(movie1.keys())
         keys.remove("uniqueID")
-        return movie1[keys] == movie2[keys]
+
+        for key in keys:
+            if movie1[key] != movie2[key]:
+                return False
+        return True
 
     def is_in(self, searched_movie, movies):
         for movie in movies:
@@ -33,7 +43,7 @@ class ResultsProcessor():
             else:
                 self.duplicated_count += 1
                 self.logger.debug("Movie duplicated detected {}".format(movie))
-        return movies
+        return unique_movies
 
     def process_results(self):
         movies = []
@@ -45,13 +55,18 @@ class ResultsProcessor():
             else:
                 if thirdScraperMovie != None:
                     movies.append(thirdScraperMovie)
-                    self.logger.debug("New movie completed the pipeline (Pending process genres), Columns len {}, Movie {}".format(len(thirdScraperMovie.keys()),thirdScraperMovie))
+                    self.logger.debug("New movie completed the pipeline, Columns len {}, Movie {}".format(len(thirdScraperMovie.keys()),thirdScraperMovie))
                     self.result_count += 1
                 else:
                     self.logger.error("None movie receibed")
+        self.logger.debug("Pipeline completed, (Pending process genres, movie_star, remove duplicated)")
 
-        movies = self.delete_duplicates(movies)
-        movies = self.gp.process_genres(movies)
+        if not constants.START_FROM_CHECKPOINT_IMDb_SCRAPER:
+            movies = self.delete_duplicates(movies)
+            movies = self.gp.process_genres(movies)
+            movies = self.ss.process_stars(movies)
+        else:
+            movies = self.ss.process_stars(movies)
         self.export_results(movies)
 
     def log_measurements(self):
