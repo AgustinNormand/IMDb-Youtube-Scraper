@@ -68,7 +68,6 @@ class BOMOpeningWeekendsScraper:
             start_time_parsing = time.time()
             movies.extend(self.parse_response_page_mojo(text_response))
             self.time_elapsed_parsing += (time.time() - start_time_parsing)
-            break
         self.total_pages_scraped += len(movies)
 
         return movies
