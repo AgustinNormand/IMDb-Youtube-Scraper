@@ -5,6 +5,7 @@ BOX_OFFICE_MOJO_WORST_OPENINGS_URL = BOX_OFFICE_MOJO_BASE_URL + "/chart/btm_wide
 IMDb_URL = "https://www.imdb.com"
 ACTORS_IMDb_URL = "https://m.imdb.com"
 START_FROM_CHECKPOINT_IMDb_SCRAPER = True
+USE_MOVIES_CHECKPOINT_STAR_SCRAPER = True
 
 MONTHS = {
     'jan': 1,

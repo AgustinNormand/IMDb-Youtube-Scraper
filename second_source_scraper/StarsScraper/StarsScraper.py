@@ -2,6 +2,7 @@ import queue
 import time
 import pandas as pd
 import logging
+import constants
 from second_source_scraper.StarsScraper.StarsScraperWorker import StarsScraperWorker
 
 
@@ -11,6 +12,15 @@ class StarsScraper:
         self.tasks_queue = queue.Queue()
         self.scraped_actors = {}
         self.logger = logging.getLogger("StarsScraper")
+
+    def read_movies_from_checkpoint(self):
+        with open("checkpoint_actor_movies_scraped.csv", "r") as f:
+            lines = f.readlines()
+            for line in lines:
+                href, raiting = line.split(",")
+                href = href.strip()
+                raiting = float(raiting)
+                self.scraped_movies[href] = float(raiting)
 
     def initialization(self, movies):
         self.logger.debug("Movies to scrape stars {}".format(len(movies)))
@@ -32,13 +42,15 @@ class StarsScraper:
         for key in self.actors_tasks:
             self.tasks_queue.put([task_number, self.actors_tasks[key]])
             task_number += 1
-            #break
         self.logger.debug("Tasks to resolve {}".format(task_number))
+
+        if constants.USE_MOVIES_CHECKPOINT_STAR_SCRAPER:
+            self.read_movies_from_checkpoint()
 
 
     def manage_scrape_actors(self):
         workers = []
-        for worker_number in range(350):
+        for worker_number in range(200):
             worker = StarsScraperWorker(worker_number, self.tasks_queue, self.scraped_actors, self.scraped_movies)
             worker.start()
             workers.append(worker)
