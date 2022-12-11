@@ -20,7 +20,8 @@ class StarsScraperWorker(Thread):
         self.scraped_actors = scraped_actors
         self.scraped_movies = scraped_movies
 
-        time.sleep(worker_number * 2)
+    def configure_session(self):
+        time.sleep(self.worker_number)
         retry = Retry(connect=5, backoff_factor=0.5)
         adapter = HTTPAdapter(max_retries=retry)
         self.session = requests.Session()
@@ -132,23 +133,28 @@ class StarsScraperWorker(Thread):
                     return True
         return False
 
-    def scrape_previous_movies_raiting_until_75(self, previous_movies):
+    def scrape_if_needed_previous_movies_raiting_until_75(self, previous_movies, scraped_movies):
         for previous_movie in previous_movies:
-            text = self.request(previous_movie)
-            if text == None:
-                self.logger.error("None text {}".format(previous_movie))
-                continue
-            soup = BeautifulSoup(text, "html.parser")
-            div = soup.find("div", {"data-testid": "hero-rating-bar__aggregate-rating__score"})
-            if div != None:
-                raiting = float(div.find("span").get_text())
-                #with self.lock:
-                self.logger.debug("Task Number {}, requested {}, raiting {}".format(self.task_number, previous_movie, raiting))
-                self.scraped_movies[previous_movie] = raiting
-                if raiting >= 7.5:
+            if previous_movie in scraped_movies.keys():
+                if scraped_movies[previous_movie] >= 7.5:
                     return True
             else:
-                self.scraped_movies[previous_movie] = 0
+                text = self.request(previous_movie)
+                if text == None:
+                    self.logger.error("None text {}".format(previous_movie))
+                    continue
+                soup = BeautifulSoup(text, "html.parser")
+                div = soup.find("div", {"data-testid": "hero-rating-bar__aggregate-rating__score"})
+                if div != None:
+                    raiting = float(div.find("span").get_text())
+                    self.logger.debug("Task Number {}, requested {}, raiting {}".format(self.task_number, previous_movie, raiting))
+                    self.scraped_movies[previous_movie] = raiting
+                    if raiting >= 7.5:
+                        return True
+                else:
+                    self.scraped_movies[previous_movie] = 0
+                    self.logger.debug("Task Number {}, requested {}, raiting {}".format(self.task_number, previous_movie, 0))
+
 
         return False
 
@@ -199,6 +205,7 @@ class StarsScraperWorker(Thread):
         self.scraped_actors[actor_name]["star_before"] = []
 
     def run(self):
+        self.configure_session()
         while True:
             self.task_number, actor_tasks = self.tasks_queue.get()
 
@@ -234,9 +241,8 @@ class StarsScraperWorker(Thread):
                     self.logger.debug("Task Number {}. Dont need to do any extra requests".format(self.task_number))
 
                 else:
-                    result = self.scrape_previous_movies_raiting_until_75(previous_movies)
+                    result = self.scrape_if_needed_previous_movies_raiting_until_75(previous_movies, self.scraped_movies)
                     if result:
                         self.scraped_actors[actor_name]["star_before"].append(movie_url)
 
             self.tasks_queue.task_done()
-
