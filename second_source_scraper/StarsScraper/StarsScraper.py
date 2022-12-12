@@ -4,6 +4,7 @@ import pandas as pd
 import logging
 import constants
 from second_source_scraper.StarsScraper.StarsScraperWorker import StarsScraperWorker
+import ast
 
 
 class StarsScraper:
@@ -21,6 +22,30 @@ class StarsScraper:
                 href = href.strip()
                 raiting = float(raiting)
                 self.scraped_movies[href] = float(raiting)
+
+    def read_actors_from_checkpoint(self):
+        data = pd.read_csv("scraped_actors.csv")
+        for actor_name in data.columns:
+            if actor_name in self.scraped_actors.keys():
+                print("Actor was already in dict")
+
+            self.scraped_actors[actor_name] = {}
+            movies = data[actor_name][0]
+            star_before = data[actor_name][1]
+            specific_url = data[actor_name][2]
+            self.scraped_actors[actor_name]["movies"] = ast.literal_eval(movies)
+            self.scraped_actors[actor_name]["url"] = specific_url
+            self.scraped_actors[actor_name]["star_before"] = ast.literal_eval(star_before)
+
+    def get_missing_actors_scrape(self, movies):
+        missing_actors_scrape = []
+        for movie in movies:
+            for actor in movie["actors"]:
+                actor_name = actor[0]
+                if actor_name not in self.scraped_actors.keys():
+                    if actor_name not in missing_actors_scrape:
+                        missing_actors_scrape.append(actor_name)
+        return missing_actors_scrape
 
     def initialization(self, movies):
         self.logger.debug("Movies to scrape stars {}".format(len(movies)))
@@ -47,6 +72,27 @@ class StarsScraper:
         if constants.USE_MOVIES_CHECKPOINT_STAR_SCRAPER:
             self.read_movies_from_checkpoint()
 
+    def calculate_stars_of_movie(self, movie):
+        stars = 0
+        for actor in movie["actors"]:
+            actor_name = actor[0]
+            if actor_name not in self.scraped_actors.keys():
+                print("Actor no in scraped actors. {}".format(actor_name))
+            else:
+                star_before_actor_movies = self.scraped_actors[actor_name]["star_before"]
+                #print("Movie URL {}".format(movie["url_imdb"]))
+                #print("Star Before Actor Movies {}".format(star_before_actor_movies))
+                #adapted_movie_url = movie["url_imdb"].replace("imdb.com", "m.imdb.com")
+                if movie["url_imdb"] in star_before_actor_movies:
+                    stars += 1
+                    continue
+        return stars
+
+    def calculate_stars(self, movies):
+        for movie in movies:
+            movie["movie_star"] = self.calculate_stars_of_movie(movie)
+            movie.pop("actors")
+        return movies
 
     def manage_scrape_actors(self):
         workers = []
@@ -60,12 +106,17 @@ class StarsScraper:
     def process_stars(self, movies):
         start_time = time.time()
 
-        self.initialization(movies)
+        if constants.USE_ACTORS_CHECKPOINT_STAR_SCRAPER:
+            self.read_actors_from_checkpoint()
+            print(self.get_missing_actors_scrape(movies))
+        else:
+            self.initialization(movies)
+            self.manage_scrape_actors()
 
-        self.manage_scrape_actors()
+            df = pd.DataFrame.from_records(self.scraped_actors)
+            df.to_csv("scraped_actors.csv", index=False)
 
-        df = pd.DataFrame.from_records(self.scraped_actors)
-        df.to_csv("scraped_actors.csv", index=False)
+        movies = self.calculate_stars(movies)
 
         total_time_elapsed = time.time() - start_time
 
