@@ -17,3 +17,5 @@ scrapers_manager/ScrapersManager.log
 /checkpoint_actors/StarsScraper(0RaitingMovies).log
 /checkpoint_actors/StarsScraper(Non0RaitingMovies).log
 /second_source_scraper/StarsScraper/StarsScraper.log
+/checkpoint_actors/StarsScraper(Tasks1098-1097).log
+/checkpoint_actors/checkpoint_actor_movies_scraped(Tasks1098-1097).csv
