@@ -64,7 +64,8 @@ class ResultsProcessor():
         if not constants.START_FROM_CHECKPOINT_IMDb_SCRAPER:
             movies = self.delete_duplicates(movies)
             movies = self.gp.process_genres(movies)
-            movies = self.ss.process_stars(movies)
+            if constants.PROCESS_STARS:
+                movies = self.ss.process_stars(movies)
         else:
             movies = self.ss.process_stars(movies)
         self.export_results(movies)
