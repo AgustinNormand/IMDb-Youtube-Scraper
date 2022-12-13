@@ -4,7 +4,9 @@ import constants
 from scrapers_manager.GenresProcessor import GenresProcessor
 import logging
 
+from second_source_scraper.DirectorsScraper.DirectorsScraper import DirectorsScraper
 from second_source_scraper.StarsScraper.StarsScraper import StarsScraper
+from second_source_scraper.WritersScraper.WritersScraper import WritersScraper
 
 
 class ResultsProcessor():
@@ -15,6 +17,8 @@ class ResultsProcessor():
         self.result_count = 0
         self.duplicated_count = 0
         self.ss = StarsScraper()
+        self.ws = WritersScraper()
+        self.ds = DirectorsScraper()
 
     def export_results(self, movies):
         df = pd.DataFrame.from_records(movies)
@@ -66,8 +70,13 @@ class ResultsProcessor():
             movies = self.gp.process_genres(movies)
             if constants.PROCESS_STARS:
                 movies = self.ss.process_stars(movies)
+                movies = self.ws.process_writers(movies)
+                movies = self.ds.process_directors(movies)
         else:
             movies = self.ss.process_stars(movies)
+            movies = self.ws.process_writers(movies)
+            movies = self.ds.process_directors(movies)
+
         self.export_results(movies)
 
     def log_measurements(self):
