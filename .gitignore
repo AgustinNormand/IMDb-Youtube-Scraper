@@ -19,3 +19,12 @@ scrapers_manager/ScrapersManager.log
 /second_source_scraper/StarsScraper/StarsScraper.log
 /checkpoint_actors/StarsScraper(Tasks1098-1097).log
 /checkpoint_actors/checkpoint_actor_movies_scraped(Tasks1098-1097).csv
+/checkpoint_actors/checkpoint_actor_movies_scraped(CompletedOne).csv
+/checkpoint_actors/checkpoint_actor_movies_scraped(Directors).csv
+/checkpoint_actors/checkpoint_actor_movies_scraped(Writers).csv
+/checkpoint_actors/DirectorsScraper.log
+/second_source_scraper/DirectorsScraper/DirectorsScraper.log
+/scraped_directors.csv
+/scraped_writers.csv
+/checkpoint_actors/WritersScraper.log
+/second_source_scraper/WritersScraper/WritersScraper.log
