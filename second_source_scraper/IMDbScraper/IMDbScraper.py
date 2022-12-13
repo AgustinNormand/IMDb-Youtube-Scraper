@@ -117,12 +117,57 @@ class IMDbScraper():
         movie["actors"] = actors
         return movie
 
+    def scrape_directors(self, table, movie):
+        directors = []
+        for ancor in table.find_all("a"):
+            director_name = ancor.get_text().strip()
+            href = ancor["href"].split("?")[0]
+            director_url = constants.ACTORS_IMDb_URL + href
+            directors.append((director_name, director_url))
+        movie["directors"] = directors
+        return movie
+
+    def scrape_writers(self, table, movie):
+        writers = []
+        for ancor in table.find_all("a"):
+            writer_name = ancor.get_text().strip()
+            href = ancor["href"].split("?")[0]
+            writer_url = constants.ACTORS_IMDb_URL + href
+            writers.append((writer_name, writer_url))
+        movie["writers"] = writers
+        return movie
+
+    def parse_fullcredits_page(self, soup, movie):
+        div_fullcredits = soup.find("div", {"id":"fullcredits_content"})
+        tables = div_fullcredits.find_all("table", {"class":"simpleCreditsTable"})
+
+        labels = div_fullcredits.find_all("h4", {"class":"dataHeaderWithBorder"})
+
+        scraped_director = False
+        scraped_writers = False
+        for ziped in zip(labels, tables):
+            label = ziped[0].get_text().strip()
+            if "Directed by" in label:
+                movie = self.scrape_directors(ziped[1], movie)
+                scraped_director = True
+            if "Writing Credits" in label:
+                movie = self.scrape_writers(ziped[1], movie)
+                scraped_writers = True
+
+            if scraped_director and scraped_writers:
+                break
+
+        if not (scraped_director and scraped_writers):
+            self.logger.error("Director or Writer not scraped {}".format(movie))
+
+        return movie
+
     def process_movie_page(self, soup, movie):
         movie["user_raiting"] = self.get_raiting(soup, movie)
         movie = self.process_content_review(soup, movie)
         #movie = self.process_trailers(movie)
-        #movie = self.ss.scrape_stars(soup, movie)
         movie = self.scrape_actors(soup, movie)
+
         return movie
 
     def scrape_movie(self, movie):
@@ -135,6 +180,16 @@ class IMDbScraper():
 
             soup = BeautifulSoup(text_response_movie, "html.parser")
             movie = self.process_movie_page(soup, movie)
+
+            fullcredits_url = movie["url_imdb"] + "/fullcredits"
+            status_code_movie, text_response_movie = self.request(fullcredits_url)
+            if status_code_movie != 200:
+                self.logger.error(
+                    "Status code {}, URL {}, Movie {}".format(status_code_movie, fullcredits_url, movie))
+                return None
+
+            soup = BeautifulSoup(text_response_movie, "html.parser")
+            movie = self.parse_fullcredits_page(soup, movie)
 
             return movie
         except Exception as e:
