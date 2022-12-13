@@ -221,7 +221,7 @@ class StarsScraperWorker(Thread):
                 self.scrape_actor(actor_url, actor_name)
             else:
                 # with self.lock:
-                self.logger.debug(
+                self.logger.warning(
                     "Task Number {}, actor {} was in scraped actors".format(self.task_number, actor_name))
 
             for actor_task in actor_tasks:
@@ -233,6 +233,8 @@ class StarsScraperWorker(Thread):
                                                                            movie_url))
 
                 previous_movies = self.get_movies_previous_to(movie_url, self.scraped_actors[actor_name]["movies"])
+                if previous_movies == []:
+                    self.logger.warning("Previous movies empty {} {}".format(movie_url, actor_url))
                 star_before_without_requesting = self.any_previous_is_in_scraped_with_more_than_75(previous_movies,
                                                                                                    self.scraped_movies)
                 if star_before_without_requesting:
