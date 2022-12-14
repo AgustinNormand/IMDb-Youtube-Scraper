@@ -6,7 +6,6 @@ import constants
 from second_source_scraper.StarsScraper.StarsScraperWorker import StarsScraperWorker
 import ast
 
-
 class StarsScraper:
     def __init__(self):
         self.scraped_movies = {}
@@ -54,8 +53,6 @@ class StarsScraper:
         self.tasks = []
         small_task_number = 0
         for movie in movies:
-            adapted_url = movie["url_imdb"].replace("imdb", "m.imdb")
-            self.scraped_movies[adapted_url] = float(movie["user_raiting"])
             for (actor_name, actor_url) in movie["actors"]:
                 if actor_name not in self.actors_tasks.keys():
                     self.actors_tasks[actor_name] = []
@@ -69,15 +66,36 @@ class StarsScraper:
             task_number += 1
         self.logger.debug("Tasks to resolve {}".format(task_number))
 
-        if constants.USE_MOVIES_CHECKPOINT_STAR_SCRAPER:
-            self.read_movies_from_checkpoint()
+    def add_ranking_movies_to_scraped_movies(self, movies):
+        for movie in movies:
+            adapted_url = movie["url_imdb"].replace("imdb", "m.imdb")
+            self.scraped_movies[adapted_url] = float(movie["user_raiting"])
+
+    def create_tasks_for_missing_actors(self, missing_scrape_actors, movies):
+        self.actors_tasks = {}
+        self.tasks = []
+        small_task_number = 0
+        for movie in movies:
+            for (actor_name, actor_url) in movie["actors"]:
+                if actor_name in missing_scrape_actors:
+                    if actor_name not in self.actors_tasks.keys():
+                        self.actors_tasks[actor_name] = []
+                    self.actors_tasks[actor_name].append([actor_name, actor_url, movie["url_imdb"]])
+                    small_task_number += 1
+        self.logger.debug("Subtasks to resolve {}".format(small_task_number))
+
+        task_number = 0
+        for key in self.actors_tasks:
+            self.tasks_queue.put([task_number, self.actors_tasks[key]])
+            task_number += 1
+        self.logger.debug("Tasks to resolve {}".format(task_number))
 
     def calculate_stars_of_movie(self, movie):
         stars = 0
         for actor in movie["actors"]:
             actor_name = actor[0]
             if actor_name not in self.scraped_actors.keys():
-                print("Actor no in scraped actors. {}".format(actor_name))
+                self.logger.error("Actor no in scraped actors. {}".format(actor_name))
             else:
                 star_before_actor_movies = self.scraped_actors[actor_name]["star_before"]
                 #print("Movie URL {}".format(movie["url_imdb"]))
@@ -106,9 +124,18 @@ class StarsScraper:
     def process_stars(self, movies):
         start_time = time.time()
 
+        self.add_ranking_movies_to_scraped_movies(movies)
+
+        if constants.USE_MOVIES_CHECKPOINT_STAR_SCRAPER:
+            self.read_movies_from_checkpoint()
+
         if constants.USE_ACTORS_CHECKPOINT_STAR_SCRAPER:
             self.read_actors_from_checkpoint()
-            print(self.get_missing_actors_scrape(movies))
+            self.logger.debug("Checkpoint readed")
+            missing_scrape_actors = self.get_missing_actors_scrape(movies)
+            self.logger.debug("Actors with scrape missing {}".format(missing_scrape_actors))
+            self.create_tasks_for_missing_actors(missing_scrape_actors, movies)
+            self.manage_scrape_actors()
         else:
             self.initialization(movies)
             self.manage_scrape_actors()
