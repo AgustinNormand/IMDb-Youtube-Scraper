@@ -9,8 +9,6 @@ from requests.adapters import HTTPAdapter, Retry
 import requests
 
 
-
-
 class StarsScraperWorker(Thread):
     def __init__(self, worker_number, tasks_queue, scraped_actors, scraped_movies):
         Thread.__init__(self)
@@ -22,7 +20,7 @@ class StarsScraperWorker(Thread):
 
     def configure_session(self):
         time.sleep(self.worker_number)
-        retry = Retry(connect=5, backoff_factor=0.5)
+        retry = Retry(total=5, connect=5, backoff_factor=0.1, status_forcelist=[413, 429, 503, 500, 502])
         adapter = HTTPAdapter(max_retries=retry)
         self.session = requests.Session()
         self.session.mount('http://', adapter)
@@ -64,26 +62,22 @@ class StarsScraperWorker(Thread):
             soup = BeautifulSoup(text, "html.parser")
             if self.contains_filmo_section_actor_or_actress(soup):
                 self.scraped_actors[actor_name]["url"] = self.get_actor_url(soup, actor_url)
-                #with self.lock:
                 self.logger.debug(
                         "Scraped {}, generic url {}, contains {}, specific url {}".format(
                             actor_name, actor_url, "filmo_section_actor_or_actress",
                             self.scraped_actors[actor_name]["url"]))
             elif self.contains_actor_or_actress_filter(soup):
                 self.scraped_actors[actor_name]["url"] = self.get_actor_url(soup, actor_url)
-                #with self.lock:
                 self.logger.debug(
                             "Scraping {}, generic url {}, not contain {}, but contains {}, specific url {}".format(
                                 actor_name, actor_url, "filmo_section_actor_or_actress",
                                 "actor_filter or actress_filter",  self.scraped_actors[actor_name]["url"]
                                 ))
             else:
-                #with self.lock:
                 self.logger.debug("Scraping {}, generic url {}, not contemplated case".format(actor_name, actor_url))
                 self.scraped_actors[actor_name]["url"] = None
 
         except Exception as e:
-            #with self.lock:
             self.logger.debug("Exception {} processing {}".format(e, actor_url))
 
     def request(self, url):
@@ -92,13 +86,21 @@ class StarsScraperWorker(Thread):
         if remaining_to_second_between_requests > 0:
             time.sleep(remaining_to_second_between_requests)
 
-        r = self.session.get(url=url, proxies=self.proxies)
-        if r.status_code != 200:
-            #with self.lock:
-            self.logger.debug("Task Number {}, Status code {} in {}".format(self.task_number, r.status_code, url))
+        try:
+            r = self.session.get(url=url, proxies=self.proxies)
+            text = r.text
+            status_code = r.status_code
+        except Exception as e:
+            self.logger.error("Task Number {}, Exception {} in {}".format(self.task_number, e, url))
             return None
+
+        if status_code != 200:
+            self.logger.error("Task Number {}, Status code {} in {}".format(self.task_number, status_code, url))
+            return None
+
         self.last_request_timestamp = time.time()
-        return r.text
+
+        return text
 
     def parse_actor_page_to_get_movies(self, text):
         soup = BeautifulSoup(text, "html.parser")
@@ -154,8 +156,6 @@ class StarsScraperWorker(Thread):
                 else:
                     self.scraped_movies[previous_movie] = 0
                     self.logger.debug("Task Number {}, requested {}, raiting {}".format(self.task_number, previous_movie, 0))
-
-
         return False
 
     def get_proxy(self):
@@ -183,10 +183,7 @@ class StarsScraperWorker(Thread):
 
         response = self.request(actor_url)
         if response == None:
-            time.sleep(60)
-            response = self.request(actor_url)
-            if response == None:
-                return
+            return
 
         self.parse_actor_page_to_get_url(response, actor_url, actor_name)
 
@@ -196,10 +193,7 @@ class StarsScraperWorker(Thread):
         response = self.request(self.scraped_actors[actor_name]["url"])
 
         if response == None:
-            time.sleep(60)
-            response = self.request(self.scraped_actors[actor_name]["url"])
-            if response == None:
-                return
+            return
 
         self.scraped_actors[actor_name]["movies"] = self.parse_actor_page_to_get_movies(response)
         self.scraped_actors[actor_name]["star_before"] = []
