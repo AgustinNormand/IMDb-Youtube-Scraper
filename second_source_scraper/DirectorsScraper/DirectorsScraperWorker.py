@@ -22,7 +22,7 @@ class DirectorsScraperWorker(Thread):
 
     def configure_session(self):
         time.sleep(self.worker_number)
-        retry = Retry(connect=5, backoff_factor=0.5)
+        retry = Retry(total=5, connect=5, backoff_factor=0.1, status_forcelist=[413, 429, 503, 500])
         adapter = HTTPAdapter(max_retries=retry)
         self.session = requests.Session()
         self.session.mount('http://', adapter)
@@ -37,13 +37,20 @@ class DirectorsScraperWorker(Thread):
         if remaining_to_second_between_requests > 0:
             time.sleep(remaining_to_second_between_requests)
 
-        r = self.session.get(url=url, proxies=self.proxies)
-        if r.status_code != 200:
-            #with self.lock:
-            self.logger.debug("Task Number {}, Status code {} in {}".format(self.task_number, r.status_code, url))
+        try:
+            r = self.session.get(url=url, proxies=self.proxies)
+            text = r.text
+            status_code = r.status_code
+        except Exception as e:
+            self.logger.error("Task Number {}, Exception {} in {}".format(self.task_number, e, url))
             return None
+
+        if status_code != 200:
+            self.logger.error("Task Number {}, Status code {} in {}".format(self.task_number, status_code, url))
+            return None
+
         self.last_request_timestamp = time.time()
-        return r.text
+        return text
 
     def parse_director_page_to_get_movies(self, text):
         soup = BeautifulSoup(text, "html.parser")
@@ -127,12 +134,8 @@ class DirectorsScraperWorker(Thread):
         director_url = director_url + "filmotype/director"
 
         response = self.request(director_url)
-
         if response == None:
-            time.sleep(60)
-            response = self.request(director_url)
-            if response == None:
-                return
+            return
 
         self.scraped_directors[director_name]["movies"] = self.parse_director_page_to_get_movies(response)
         self.scraped_directors[director_name]["star_before"] = []
