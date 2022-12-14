@@ -38,12 +38,6 @@ class ScrapersManager():
         second_source_scraper_thread2 = threading.Thread(target=self.second_source_scraper.begin_scrape, daemon=True)
         second_source_scraper_thread2.start()
 
-        second_source_scraper_thread3 = threading.Thread(target=self.second_source_scraper.begin_scrape, daemon=True)
-        second_source_scraper_thread3.start()
-
-        second_source_scraper_thread4 = threading.Thread(target=self.second_source_scraper.begin_scrape, daemon=True)
-        second_source_scraper_thread4.start()
-
         third_source_scraper_thread = threading.Thread(target=self.third_source_scraper.begin_scrape, daemon=True)
         third_source_scraper_thread.start()
 
@@ -53,8 +47,6 @@ class ScrapersManager():
         first_source_scraper_thread.join()
         second_source_scraper_thread.join()
         second_source_scraper_thread2.join()
-        second_source_scraper_thread3.join()
-        second_source_scraper_thread4.join()
         third_source_scraper_thread.join()
         results_processor_thread.join()
 
@@ -105,6 +97,3 @@ class ScrapersManager():
         total_time_elapsed = time.time() - start_time
 
         self.logger.info("Total time whole scraping {:.3g} minutes".format(total_time_elapsed/60))
-
-        #ss = StarsScraper()
-        #ss.process_stars(lst)
