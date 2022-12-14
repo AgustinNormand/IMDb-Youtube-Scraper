@@ -14,7 +14,7 @@ class IMDbScraper():
         self.last_request_timestamp = time.time()
 
         self.session = requests.Session()
-        retry = Retry(connect=5, backoff_factor=0.5)
+        retry = Retry(connect=5, backoff_factor=0.5, status_forcelist=[413, 429, 503, 500])
         adapter = HTTPAdapter(max_retries=retry)
         self.session.mount('http://', adapter)
         self.session.mount('https://', adapter)
@@ -45,8 +45,11 @@ class IMDbScraper():
         return [r.status_code, r.text]
 
     def get_raiting(self, soup, movie):
-        div = soup.find("div", {"data-testid": "hero-rating-bar__aggregate-rating__score"})
-        return float(div.find("span").get_text())
+        try:
+            div = soup.find("div", {"data-testid": "hero-rating-bar__aggregate-rating__score"})
+            return float(div.find("span").get_text())
+        except Exception as e:
+            return 0
 
     def process_user_reviews(self, li):
         try:
@@ -117,9 +120,9 @@ class IMDbScraper():
         movie["actors"] = actors
         return movie
 
-    def scrape_directors(self, table, movie):
+    def scrape_directors(self, li_presentation, movie):
         directors = []
-        for ancor in table.find_all("a"):
+        for ancor in li_presentation.find_all("a", {"class":"ipc-metadata-list-item__list-content-item"}):
             director_name = ancor.get_text().strip()
             href = ancor["href"].split("?")[0]
             director_url = constants.ACTORS_IMDb_URL + href
@@ -127,46 +130,46 @@ class IMDbScraper():
         movie["directors"] = directors
         return movie
 
-    def scrape_writers(self, table, movie):
+    def scrape_writers(self, li_presentation, movie):
         writers = []
-        for ancor in table.find_all("a"):
+        for ancor in li_presentation.find_all("a", {"class":"ipc-metadata-list-item__list-content-item"}):
             writer_name = ancor.get_text().strip()
+            if writer_name == "Writers":
+                continue
             href = ancor["href"].split("?")[0]
             writer_url = constants.ACTORS_IMDb_URL + href
             writers.append((writer_name, writer_url))
         movie["writers"] = writers
         return movie
 
-    def parse_fullcredits_page(self, soup, movie):
-        div_fullcredits = soup.find("div", {"id":"fullcredits_content"})
-        tables = div_fullcredits.find_all("table", {"class":"simpleCreditsTable"})
-
-        labels = div_fullcredits.find_all("h4", {"class":"dataHeaderWithBorder"})
-
-        scraped_director = False
-        scraped_writers = False
-        for ziped in zip(labels, tables):
-            label = ziped[0].get_text().strip()
-            if "Directed by" in label:
-                movie = self.scrape_directors(ziped[1], movie)
-                scraped_director = True
-            if "Writing Credits" in label:
-                movie = self.scrape_writers(ziped[1], movie)
-                scraped_writers = True
-
-            if scraped_director and scraped_writers:
-                break
-
-        if not (scraped_director and scraped_writers):
-            self.logger.error("Director or Writer not scraped {}".format(movie))
-
-        return movie
 
     def process_movie_page(self, soup, movie):
         movie["user_raiting"] = self.get_raiting(soup, movie)
         movie = self.process_content_review(soup, movie)
-        #movie = self.process_trailers(movie)
         movie = self.scrape_actors(soup, movie)
+        section_title_cast = soup.find("section", {"data-testid":"title-cast"})
+        writers_scraped = False
+        directors_scraped = False
+        movie["writers"] = []
+        movie["directors"] = []
+
+        if section_title_cast != None:
+            for li_presentation in section_title_cast.find_all("li", {"role":"presentation", "class":"ipc-metadata-list__item"}):
+                label = li_presentation.find("button", {"class":"ipc-metadata-list-item__label"})
+                if label == None:
+                    label = li_presentation.find("a", {"class": "ipc-metadata-list-item__label"})
+
+                if label != None:
+                    label = label.get_text().strip()
+                    if label == "Directors" or label == "Director":
+                        movie = self.scrape_directors(li_presentation, movie)
+                        directors_scraped = True
+                    if label == "Writers" or label == "Writer":
+                        movie = self.scrape_writers(li_presentation, movie)
+                        writers_scraped = True
+
+        if not (writers_scraped and directors_scraped):
+            self.logger.warning("Writers or directors not scraped in {}".format(movie))
 
         return movie
 
@@ -177,19 +180,8 @@ class IMDbScraper():
             if status_code_movie != 200:
                 self.logger.error("Status code {}, URL {}, Movie {}".format(status_code_movie, movie["url_imdb"], movie))
                 return None
-
             soup = BeautifulSoup(text_response_movie, "html.parser")
             movie = self.process_movie_page(soup, movie)
-
-            fullcredits_url = movie["url_imdb"] + "/fullcredits"
-            status_code_movie, text_response_movie = self.request(fullcredits_url)
-            if status_code_movie != 200:
-                self.logger.error(
-                    "Status code {}, URL {}, Movie {}".format(status_code_movie, fullcredits_url, movie))
-                return None
-
-            soup = BeautifulSoup(text_response_movie, "html.parser")
-            movie = self.parse_fullcredits_page(soup, movie)
 
             return movie
         except Exception as e:
