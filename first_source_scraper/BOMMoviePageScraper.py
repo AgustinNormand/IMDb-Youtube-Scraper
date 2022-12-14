@@ -17,7 +17,7 @@ class BOMMoviePageScraper:
         self.last_request_timestamp = time.time()
 
         self.session = requests.Session()
-        retry = Retry(connect=5, backoff_factor=0.5)
+        retry = Retry(connect=5, backoff_factor=0.5, status_forcelist=[413, 429, 503, 500])
         adapter = HTTPAdapter(max_retries=retry)
         self.session.mount('http://', adapter)
         self.session.mount('https://', adapter)
