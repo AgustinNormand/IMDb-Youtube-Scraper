@@ -1,6 +1,17 @@
 from googleapiclient.discovery import build
 from dotenv import dotenv_values
 import logging
+import time
+from fp.fp import FreeProxy
+from fake_headers import Headers
+from requests.adapters import HTTPAdapter, Retry
+import requests
+import urllib.parse
+from bs4 import BeautifulSoup
+import json
+
+from third_source_scraper.YoutubeSearchScraper import YoutubeSearchScraper
+from third_source_scraper.YoutubeVideoScraper import YoutubeVideoScraper
 
 YOUTUBE_VIDEO_URL = "https://www.youtube.com/watch?v="
 
@@ -8,62 +19,36 @@ class YoutubeScraper():
 
     def __init__(self):
         self.logger = logging.getLogger("ThirdSourceScraper")
-        config = dotenv_values(".env")
-        self.youtube = build('youtube', 'v3', developerKey=config.get("API_KEY"), cache_discovery=False)
+        self.yss = YoutubeSearchScraper()
+        self.yvs = YoutubeVideoScraper()
 
-    def get_trailer_video(self, movie):
-        trailer_name = "{} Official Trailer".format(movie["movie_name"])
-        max_results = 1 # TODO
-        request = self.youtube.search().list(
-            part="snippet",
-            maxResults=max_results,
-            q=trailer_name,
-            type="video",
-            regionCode="AU"
-        )
-
-        response = request.execute()
-
-        self.logger.debug("Youtube Request for max_results {}".format(trailer_name, max_results))
-        self.logger.debug("kind {}".format(response["kind"]))
-        self.logger.debug("etag {}".format(response["etag"]))
-        self.logger.debug("nextPageToken {}".format(response["nextPageToken"]))
-        self.logger.debug("regionCode {}".format(response["regionCode"]))
-        self.logger.debug("pageInfo {}".format(response["pageInfo"]))
-        self.logger.debug("Items Len {}".format(len(response["items"])))
-
-        return response["items"][0]
-
-    def extract_info_from_trailer_video(self, trailer_video, movie):
-        video_id = trailer_video['id']["videoId"]
-        video_url = YOUTUBE_VIDEO_URL + video_id
-        movie["url_youtube"] = video_url
-        movie["trailer_release"] = trailer_video["snippet"]["publishedAt"]
-        return movie
-
-    def get_statistics(self, video_id):
-        request = self.youtube.videos().list(
-            part="statistics",
-            id=video_id
-        )
-        response = request.execute()
-        return response["items"][0]
-
-    def extract_info_from_statistics(self, statistics, movie):
-        movie["trailer_view"] = statistics["statistics"]["viewCount"]
-        movie["trailer_like"] = statistics["statistics"]["likeCount"]
-        movie["trailer_favorite"] = statistics["statistics"]["favoriteCount"]
-        movie["trailer_comment"] = statistics["statistics"]["commentCount"]
-
-        return movie
-
+#    def remove_videos_before(self, release_start, ampliated_top_k):
 
 
     def scrape_movie(self, movie):
-        trailer_video = self.get_trailer_video(movie)
-        movie = self.extract_info_from_trailer_video(trailer_video, movie)
+        try:
+            top_k = self.yss.get_search_top(15, movie)
+            #movie["trailers"] = top_k
 
-        statistics = self.get_statistics(trailer_video['id']["videoId"])
-        movie = self.extract_info_from_statistics(statistics, movie)
+            ampliated_top_k = self.yvs.ampliate(top_k)
+            movie["trailers"] = ampliated_top_k
 
-        return movie
+
+
+           # before_release_start_videos = self.remove_videos_before(movie["release_start"], ampliated_top_k)
+            #pending secondary results
+
+
+            #movie = self.get_trailer_video(movie)
+            #trailer_video = self.get_trailer_video(movie)
+            #trailer_video = self.get_trailer_video(movie)
+            #movie = self.extract_info_from_trailer_video(trailer_video, movie)
+            #statistics = self.get_statistics(trailer_video['id']["videoId"])
+            #movie = self.extract_info_from_statistics(statistics, movie)
+
+            return movie
+        except Exception as e:
+            self.logger.error("Exception {} in {}".format(e, movie))
+            return None
+
+

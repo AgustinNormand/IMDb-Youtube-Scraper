@@ -65,17 +65,17 @@ class ResultsProcessor():
                     self.logger.error("None movie receibed")
         self.logger.debug("Pipeline completed, (Pending process genres, movie_star, remove duplicated)")
 
-        if not constants.START_FROM_CHECKPOINT_IMDb_SCRAPER:
-            movies = self.delete_duplicates(movies)
-            movies = self.gp.process_genres(movies)
-            if constants.PROCESS_STARS:
-                movies = self.ss.process_stars(movies)
-                movies = self.ws.process_writers(movies)
-                movies = self.ds.process_directors(movies)
-        else:
-            movies = self.ss.process_stars(movies)
-            movies = self.ws.process_writers(movies)
-            movies = self.ds.process_directors(movies)
+        #if not constants.START_FROM_CHECKPOINT_IMDb_SCRAPER:
+        #    movies = self.delete_duplicates(movies)
+        #    movies = self.gp.process_genres(movies)
+        #    if constants.PROCESS_STARS:
+        #        movies = self.ss.process_stars(movies)
+        #        movies = self.ws.process_writers(movies)
+        #        movies = self.ds.process_directors(movies)
+        #else:
+        #    movies = self.ss.process_stars(movies)
+        #    movies = self.ws.process_writers(movies)
+        #    movies = self.ds.process_directors(movies)
 
         self.export_results(movies)
 

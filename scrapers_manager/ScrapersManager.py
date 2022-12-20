@@ -65,6 +65,12 @@ class ScrapersManager():
         third_source_scraper_thread = threading.Thread(target=self.third_source_scraper.begin_scrape, daemon=True)
         third_source_scraper_thread.start()
 
+        #third_source_scraper_threads = []
+        #for i in range(20):
+        #    third_source_scraper_thread = threading.Thread(target=self.third_source_scraper.begin_scrape, daemon=True)
+        #    third_source_scraper_thread.start()
+        #    third_source_scraper_threads.append(third_source_scraper_thread)
+
         results_processor_thread = threading.Thread(target=self.results_processor.process_results, daemon=True)
         results_processor_thread.start()
 
@@ -73,6 +79,9 @@ class ScrapersManager():
             reader = csv.DictReader(f)
             lst = list(reader)
         for item in lst:
+            #if item["movie_name"] != "Ted":
+            #    continue
+
             item["actors"] = ast.literal_eval(item["actors"])
             if item["writers"] == "":
                 item["writers"] = []
@@ -84,9 +93,13 @@ class ScrapersManager():
             else:
                 item["directors"] = ast.literal_eval(item["directors"])
             self.secondScraperQueue.put(item)
+            #break
 
         self.secondScraperQueue.put("NO_MORE_MOVIES")
         print("File Readed")
+
+        #for third_source_scraper_thread in third_source_scraper_threads:
+        #    third_source_scraper_thread.join()
 
         third_source_scraper_thread.join()
         results_processor_thread.join()
