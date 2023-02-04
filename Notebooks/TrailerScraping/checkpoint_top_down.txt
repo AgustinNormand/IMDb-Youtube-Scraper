@@ -1,0 +1,1770 @@
+Movie Avengers: Endgame, Result TcMBFSGVi1c
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 20 from 20
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 14 from 14
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 26 from 26
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 44 from 44
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 12 from 12
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 27 from 27
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 14 from 14
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 16 from 16
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 10 from 10
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 78 from 78
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 48 from 48
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 15 from 15
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 41 from 41
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 55 from 55
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 30 from 30
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 27 from 27
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 59 from 59
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 31 from 31
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 67 from 67
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 22 from 22
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 54 from 54
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 24 from 24
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 8 from 8
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 14 from 14
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 20 from 20
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 32 from 32
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 34 from 34
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 114 from 114
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 25 from 25
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 55 from 55
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 19 from 19
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 50 from 50
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 27 from 27
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 60 from 60
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 106 from 106
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 55 from 55
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 44 from 44
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 73 from 73
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 47 from 47
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 36 from 36
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 49 from 49
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 55 from 55
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 68 from 68
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 105 from 105
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 144 from 144
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 89 from 89
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 84 from 84
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 6 from 6
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 15 from 15
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 11 from 11
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 34 from 34
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 55 from 55
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 19 from 19
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 84 from 84
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 52 from 52
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 74 from 74
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 18 from 18
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 39 from 39
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 79 from 79
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 44 from 44
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 46 from 46
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 13 from 13
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 9 from 9
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 17 from 17
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 20 from 20
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 78 from 78
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 46 from 46
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 243 from 243
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 86 from 86
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 154 from 154
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 79 from 79
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 120 from 120
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 85 from 85
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 48 from 48
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 55 from 55
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 235 from 235
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 19 from 19
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 37 from 37
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 76 from 76
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 130 from 130
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 27 from 27
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 42 from 42
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 30 from 30
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 52 from 52
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 79 from 79
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 204 from 204
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 76 from 76
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 116 from 116
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 47 from 47
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 117 from 117
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 75 from 75
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 56 from 56
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 40 from 40
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 97 from 97
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 119 from 119
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 126 from 126
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 376 from 376
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 26 from 26
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 26 from 26
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 59 from 59
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 246 from 246
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 10 from 10
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 23 from 23
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 31 from 31
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 56 from 56
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 173 from 173
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 28 from 28
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 35 from 35
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 71 from 71
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 91 from 91
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 29 from 29
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 67 from 67
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 29 from 29
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 34 from 34
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 24 from 24
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 73 from 73
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 239 from 239
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 80 from 80
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 16 from 16
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 27 from 27
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 101 from 101
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 15 from 15
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 23 from 23
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 53 from 53
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 75 from 75
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 15 from 15
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 21 from 21
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 1 from 1
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 21 from 21
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 83 from 83
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 68 from 68
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 178 from 178
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 14 from 14
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 27 from 27
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 67 from 67
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 126 from 126
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 112 from 112
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 32 from 32
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 36 from 36
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 19 from 19
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 33 from 33
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 119 from 119
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 67 from 67
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 7 from 7
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 86 from 86
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 68 from 68
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 533 from 533
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 162 from 162
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 39 from 39
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 16 from 16
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 14 from 14
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 132 from 132
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 43 from 43
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 15 from 15
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 21 from 21
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 118 from 118
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 14 from 14
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 46 from 46
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 56 from 56
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 102 from 102
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 148 from 148
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 93 from 93
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 50 from 50
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 8 from 8
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 16 from 16
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 9 from 9
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 33 from 33
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 68 from 68
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 130 from 130
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 102 from 102
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 51 from 51
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 101 from 101
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 74 from 74
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 69 from 69
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 41 from 41
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 37 from 37
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 36 from 36
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 119 from 119
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 29 from 29
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 156 from 156
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 41 from 41
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 43 from 43
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 153 from 153
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 34 from 34
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 134 from 134
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 91 from 91
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 90 from 90
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 315 from 315
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 31 from 31
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 51 from 51
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 80 from 80
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 91 from 91
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 14 from 14
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 20 from 20
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 71 from 71
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 83 from 83
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 60 from 60
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 113 from 113
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 60 from 60
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 32 from 32
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 61 from 61
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 6 from 6
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 8 from 8
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 27 from 27
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 31 from 31
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 35 from 35
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 58 from 58
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 375 from 375
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 54 from 54
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 22 from 22
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 95 from 95
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 33 from 33
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 32 from 32
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 156 from 156
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 92 from 92
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 19 from 19
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 82 from 82
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 106 from 106
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 66 from 66
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 70 from 70
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 29 from 29
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 80 from 80
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 65 from 65
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 56 from 56
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 50 from 50
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 15 from 15
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 26 from 26
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 69 from 69
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 45 from 45
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 41 from 41
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 86 from 86
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 98 from 98
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 102 from 102
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 14 from 14
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 9 from 9
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 43 from 43
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 110 from 110
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 32 from 32
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 26 from 26
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 56 from 56
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 46 from 46
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 86 from 86
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 51 from 51
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 40 from 40
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 187 from 187
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 64 from 64
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 55 from 55
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 43 from 43
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 76 from 76
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 74 from 74
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 28 from 28
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 50 from 50
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 143 from 143
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 30 from 30
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 58 from 58
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 40 from 40
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 25 from 25
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 7 from 7
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 54 from 54
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 17 from 17
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 79 from 79
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 134 from 134
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 11 from 11
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 22 from 22
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 10 from 10
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 7 from 7
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 65 from 65
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 92 from 92
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 39 from 39
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 187 from 187
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 96 from 96
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 33 from 33
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 82 from 82
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 32 from 32
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 30 from 30
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 41 from 41
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 64 from 64
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 117 from 117
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 79 from 79
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 43 from 43
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 21 from 21
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 18 from 18
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 26 from 26
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 41 from 41
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 55 from 55
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 44 from 44
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 52 from 52
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 34 from 34
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 30 from 30
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 26 from 26
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 11 from 11
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 30 from 30
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 21 from 21
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 18 from 18
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 19 from 19
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 41 from 41
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 38 from 38
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 73 from 73
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 49 from 49
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 32 from 32
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 23 from 23
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 21 from 21
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 41 from 41
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 34 from 34
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 38 from 38
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 32 from 32
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 54 from 54
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 82 from 82
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 28 from 28
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 33 from 33
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 19 from 19
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 39 from 39
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 25 from 25
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 193 from 193
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 105 from 105
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 19 from 19
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 59 from 59
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 26 from 26
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 36 from 36
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 12 from 12
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 79 from 79
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 35 from 35
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 6 from 6
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 26 from 26
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 16 from 16
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 53 from 53
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 57 from 57
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 71 from 71
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 497 from 497
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 50 from 50
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 39 from 39
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 22 from 22
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 40 from 40
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 14 from 14
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 22 from 22
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 23 from 23
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 42 from 42
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 102 from 102
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 46 from 46
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 82 from 82
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 50 from 50
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 13 from 13
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 29 from 29
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 38 from 38
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 41 from 41
+Iteration results: posterior_comments_count: 40 from 100, posterior_reply_count: 10 from 15
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 21 from 25
+Iteration results: posterior_comments_count: 1 from 100, posterior_reply_count: 41 from 55
+Iteration results: posterior_comments_count: 1 from 100, posterior_reply_count: 14 from 26
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 13 from 22
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 25 from 42
+Iteration results: posterior_comments_count: 2 from 100, posterior_reply_count: 16 from 29
+Iteration results: posterior_comments_count: 1 from 100, posterior_reply_count: 7 from 62
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 8 from 27
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 124 from 205
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 1 from 88
+Iteration results: posterior_comments_count: 1 from 100, posterior_reply_count: 7 from 48
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 1 from 48
+Iteration results: posterior_comments_count: 1 from 100, posterior_reply_count: 1 from 60
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 1 from 64
+Iteration results: posterior_comments_count: 2 from 100, posterior_reply_count: 0 from 60
+Iteration results: posterior_comments_count: 1 from 100, posterior_reply_count: 0 from 110
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 1 from 35
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 2 from 38
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 4 from 73
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 50
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 28
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 2 from 132
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 1 from 49
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 20
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 1 from 54
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 1 from 57
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 32
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 13
+From total comment count, must delete total_posterior_comments_count: 34550 + total_posterior_reply_count: 21510
+Finished in 1805.1826977729797, Done 1 of 1549
+Movie Avengers: Endgame, Result hA6hldpSTF8
+Iteration results: posterior_comments_count: 99 from 99, posterior_reply_count: 12 from 12
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 37 from 37
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 25 from 25
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 60 from 60
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 31 from 31
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 12 from 12
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 52 from 52
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 9 from 9
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 21 from 21
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 25 from 25
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 36 from 36
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 21 from 21
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 18 from 18
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 46 from 46
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 22 from 22
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 75 from 75
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 44 from 44
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 21 from 21
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 182 from 182
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 5 from 5
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 177 from 177
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 230 from 230
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 27 from 27
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 514 from 514
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 47 from 47
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 156 from 156
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 24 from 24
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 144 from 144
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 152 from 152
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 21 from 21
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 39 from 39
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 75 from 75
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 78 from 78
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 20 from 20
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 37 from 37
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 59 from 59
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 146 from 146
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 105 from 105
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 23 from 23
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 48 from 48
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 164 from 164
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 16 from 16
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 74 from 74
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 18 from 18
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 225 from 225
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 82 from 82
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 18 from 18
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 95 from 95
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 4 from 4
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 14 from 14
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 46 from 46
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 148 from 148
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 33 from 33
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 20 from 20
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 103 from 103
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 61 from 61
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 31 from 31
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 87 from 87
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 178 from 178
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 47 from 47
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 44 from 44
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 138 from 138
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 131 from 131
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 32 from 32
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 39 from 39
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 8 from 8
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 184 from 184
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 192 from 192
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 98 from 98
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 47 from 47
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 22 from 22
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 16 from 16
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 35 from 35
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 8 from 8
+Iteration results: posterior_comments_count: 89 from 100, posterior_reply_count: 6 from 6
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 20 from 41
+Iteration results: posterior_comments_count: 2 from 100, posterior_reply_count: 62 from 90
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 22 from 42
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 8 from 55
+Iteration results: posterior_comments_count: 1 from 100, posterior_reply_count: 18 from 107
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 3 from 35
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 1 from 24
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 2 from 25
+Iteration results: posterior_comments_count: 2 from 100, posterior_reply_count: 6 from 16
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 43
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 50
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 18
+Iteration results: posterior_comments_count: 2 from 100, posterior_reply_count: 0 from 17
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 11
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 12
+From total comment count, must delete total_posterior_comments_count: 7495 + total_posterior_reply_count: 5482
+Finished in 470.8507685661316, Done 2 of 1549
+Movie Spider-Man: No Way Home, Result JfVOs4VSpmA
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 36 from 36
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 45 from 45
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 18 from 18
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 37 from 37
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 32 from 32
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 51 from 51
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 61 from 61
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 22 from 22
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 99 from 99
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 59 from 59
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 116 from 116
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 56 from 56
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 70 from 70
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 47 from 47
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 36 from 36
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 31 from 31
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 29 from 29
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 49 from 49
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 55 from 55
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 57 from 57
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 39 from 39
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 110 from 110
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 89 from 89
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 164 from 164
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 71 from 71
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 69 from 69
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 75 from 75
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 116 from 116
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 55 from 55
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 169 from 169
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 24 from 24
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 51 from 51
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 34 from 34
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 20 from 20
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 62 from 62
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 43 from 43
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 37 from 37
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 82 from 82
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 11 from 11
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 42 from 42
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 78 from 78
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 59 from 59
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 43 from 43
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 200 from 200
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 54 from 54
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 77 from 77
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 34 from 34
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 55 from 55
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 44 from 44
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 52 from 52
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 70 from 70
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 89 from 89
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 57 from 57
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 55 from 55
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 43 from 43
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 29 from 29
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 28 from 28
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 22 from 22
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 73 from 73
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 39 from 39
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 16 from 16
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 99 from 99
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 41 from 41
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 36 from 36
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 58 from 58
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 23 from 23
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 22 from 22
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 72 from 72
+Iteration results: posterior_comments_count: 61 from 100, posterior_reply_count: 48 from 55
+Iteration results: posterior_comments_count: 1 from 100, posterior_reply_count: 33 from 43
+Iteration results: posterior_comments_count: 1 from 100, posterior_reply_count: 12 from 27
+Iteration results: posterior_comments_count: 1 from 100, posterior_reply_count: 119 from 184
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 41
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 5 from 61
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 11 from 57
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 48
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 5 from 75
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 15 from 100
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 31
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 5 from 47
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 1 from 41
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 40 from 89
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 2 from 62
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 52
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 46
+From total comment count, must delete total_posterior_comments_count: 6864 + total_posterior_reply_count: 4233
+Finished in 618.3033039569855, Done 3 of 1549
+Movie Spider-Man: No Way Home, Result rt-2cxAiPJk
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 40 from 40
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 29 from 29
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 10 from 10
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 19 from 19
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 80 from 80
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 47 from 47
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 124 from 124
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 61 from 61
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 41 from 41
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 49 from 49
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 115 from 115
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 34 from 34
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 74 from 74
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 21 from 21
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 33 from 33
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 47 from 47
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 89 from 89
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 16 from 16
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 31 from 31
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 56 from 56
+Iteration results: posterior_comments_count: 57 from 100, posterior_reply_count: 136 from 149
+Iteration results: posterior_comments_count: 1 from 100, posterior_reply_count: 103 from 163
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 2 from 40
+Iteration results: posterior_comments_count: 1 from 100, posterior_reply_count: 14 from 45
+Iteration results: posterior_comments_count: 1 from 100, posterior_reply_count: 0 from 29
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 35 from 72
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 4 from 36
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 1 from 40
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 58 from 163
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 28
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 1 from 85
+Iteration results: posterior_comments_count: 1 from 100, posterior_reply_count: 4 from 103
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 42
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 51
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 51
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 4 from 52
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 13 from 101
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 14 from 106
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 3 from 55
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 5 from 50
+Iteration results: posterior_comments_count: 1 from 100, posterior_reply_count: 12 from 118
+Iteration results: posterior_comments_count: 1 from 100, posterior_reply_count: 1 from 112
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 91
+From total comment count, must delete total_posterior_comments_count: 2063 + total_posterior_reply_count: 1426
+Finished in 312.61543917655945, Done 4 of 1549
+Movie The Protégé, Result fSqa0a3mGk8
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 12 from 12
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 10 from 10
+Iteration results: posterior_comments_count: 55 from 100, posterior_reply_count: 15 from 17
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 7 from 47
+Iteration results: posterior_comments_count: 1 from 100, posterior_reply_count: 34 from 88
+Iteration results: posterior_comments_count: 0 from 10, posterior_reply_count: 0 from 1
+From total comment count, must delete total_posterior_comments_count: 256 + total_posterior_reply_count: 78
+Finished in 18.362425804138184, Done 1 of 1549
+Movie Firestarter, Result 59MJfJPP5eo
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 11 from 11
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 10 from 10
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 8 from 8
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 24 from 24
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 28 from 28
+Iteration results: posterior_comments_count: 84 from 100, posterior_reply_count: 28 from 31
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 0
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 10 from 10
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 14 from 25
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 6 from 17
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 10 from 25
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 2 from 20
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 4
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 20 from 46
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 0
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 18 from 35
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 34 from 85
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 3 from 10
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 9 from 33
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 5 from 20
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 115 from 128
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 2 from 13
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 12
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 1 from 8
+Iteration results: posterior_comments_count: 0 from 99, posterior_reply_count: 0 from 5
+From total comment count, must delete total_posterior_comments_count: 584 + total_posterior_reply_count: 358
+Finished in 68.38737654685974, Done 2 of 1549
+Movie The King's Speech, Result HXMqX9s67kY
+Iteration results: posterior_comments_count: 6 from 10, posterior_reply_count: 1 from 1
+From total comment count, must delete total_posterior_comments_count: 6 + total_posterior_reply_count: 1
+Finished in 0.7860064506530762, Done 3 of 1549
+Movie Bill & Ted Face the Music, Result 1gPGeAYo3yU
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 9 from 9
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 12 from 12
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 3 from 3
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 5 from 5
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 40 from 40
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 12 from 12
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 75 from 75
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 34 from 34
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 46 from 46
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 95 from 95
+Iteration results: posterior_comments_count: 33 from 100, posterior_reply_count: 82 from 92
+Iteration results: posterior_comments_count: 1 from 100, posterior_reply_count: 12 from 60
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 4 from 19
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 4 from 25
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 35 from 95
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 6 from 71
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 19 from 65
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 7 from 64
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 69
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 71
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 1 from 39
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 17 from 81
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 19
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 62
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 79
+From total comment count, must delete total_posterior_comments_count: 1034 + total_posterior_reply_count: 518
+Finished in 139.24860763549805, Done 4 of 1549
+Movie Bill & Ted Face the Music, Result 0hAL7emClFM
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 6 from 6
+Iteration results: posterior_comments_count: 67 from 100, posterior_reply_count: 20 from 24
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 3 from 15
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 2 from 9
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 10 from 41
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 3 from 18
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 12 from 47
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 12 from 25
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 9 from 30
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 1 from 12
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 8 from 61
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 44
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 15
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 10
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 20
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 37
+From total comment count, must delete total_posterior_comments_count: 167 + total_posterior_reply_count: 86
+Finished in 62.41091227531433, Done 5 of 1549
+Movie Phoenix Forgotten, Result RYiGkArTcYc
+Iteration results: posterior_comments_count: 52 from 100, posterior_reply_count: 9 from 10
+Iteration results: posterior_comments_count: 0 from 93, posterior_reply_count: 21 from 103
+From total comment count, must delete total_posterior_comments_count: 52 + total_posterior_reply_count: 30
+Finished in 10.241130828857422, Done 6 of 1549
+Movie Phoenix Forgotten, Result w_CybW-Ym90
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 2 from 2
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 2 from 2
+Iteration results: posterior_comments_count: 44 from 100, posterior_reply_count: 2 from 6
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 2 from 5
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 15 from 32
+Iteration results: posterior_comments_count: 0 from 65, posterior_reply_count: 71 from 190
+From total comment count, must delete total_posterior_comments_count: 244 + total_posterior_reply_count: 94
+Finished in 20.210113286972046, Done 7 of 1549
+Movie Cry Macho, Result JVc8SI5CAKw
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 14 from 14
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 7 from 7
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 10 from 10
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 27 from 27
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 57 from 57
+Iteration results: posterior_comments_count: 70 from 100, posterior_reply_count: 17 from 18
+Iteration results: posterior_comments_count: 1 from 100, posterior_reply_count: 9 from 16
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 35 from 49
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 46 from 54
+Iteration results: posterior_comments_count: 1 from 100, posterior_reply_count: 6 from 15
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 14 from 24
+Iteration results: posterior_comments_count: 1 from 100, posterior_reply_count: 1 from 10
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 8 from 11
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 13 from 55
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 12
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 51 from 161
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 1 from 43
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 17 from 182
+Iteration results: posterior_comments_count: 0 from 7, posterior_reply_count: 1 from 19
+From total comment count, must delete total_posterior_comments_count: 573 + total_posterior_reply_count: 334
+Finished in 77.99599123001099, Done 8 of 1549
+Movie The Art of Getting By, Result OeXaehdeNPo
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 13 from 13
+Iteration results: posterior_comments_count: 7 from 82, posterior_reply_count: 4 from 4
+From total comment count, must delete total_posterior_comments_count: 107 + total_posterior_reply_count: 17
+Finished in 4.065433025360107, Done 9 of 1549
+Movie Little Women, Result Ku5Huuw7fUU
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 5 from 5
+Iteration results: posterior_comments_count: 78 from 100, posterior_reply_count: 32 from 32
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 7 from 8
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 7 from 14
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 13 from 45
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 69 from 233
+Iteration results: posterior_comments_count: 2 from 16, posterior_reply_count: 5 from 48
+From total comment count, must delete total_posterior_comments_count: 180 + total_posterior_reply_count: 138
+Finished in 33.93525505065918, Done 10 of 1549
+Movie She Said, Result i5pxUQecM3Y
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 48 from 48
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 13 from 13
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 16 from 16
+Iteration results: posterior_comments_count: 49 from 100, posterior_reply_count: 44 from 45
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 27 from 42
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 9 from 23
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 32 from 89
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 21 from 110
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 102 from 352
+Iteration results: posterior_comments_count: 0 from 66, posterior_reply_count: 22 from 188
+From total comment count, must delete total_posterior_comments_count: 349 + total_posterior_reply_count: 334
+Finished in 73.92960357666016, Done 11 of 1549
+Movie God Bless the Broken Road, Result aZsmtuCddX4
+Iteration results: posterior_comments_count: 73 from 95, posterior_reply_count: 97 from 113
+From total comment count, must delete total_posterior_comments_count: 73 + total_posterior_reply_count: 97
+Finished in 8.99982237815857, Done 12 of 1549
+Movie The Metropolitan Opera HD Live: Puccini: La Fanciulla del West, Result yfW28VD0_YI
+Iteration results: posterior_comments_count: 1 from 6, posterior_reply_count: 1 from 8
+From total comment count, must delete total_posterior_comments_count: 1 + total_posterior_reply_count: 1
+Finished in 1.0813932418823242, Done 13 of 1549
+Movie Watcher, Result KDc6ZLo8sjc
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 16 from 16
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 53 from 53
+Iteration results: posterior_comments_count: 79 from 100, posterior_reply_count: 177 from 190
+Iteration results: posterior_comments_count: 0 from 16, posterior_reply_count: 26 from 70
+From total comment count, must delete total_posterior_comments_count: 279 + total_posterior_reply_count: 272
+Finished in 31.252166748046875, Done 14 of 1549
+Movie Judas and the Black Messiah, Result sSjtGqRXQ9Y
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 21 from 21
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 27 from 27
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 24 from 24
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 28 from 28
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 29 from 29
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 38 from 38
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 24 from 24
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 64 from 64
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 25 from 25
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 75 from 75
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 132 from 132
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 158 from 158
+Iteration results: posterior_comments_count: 61 from 100, posterior_reply_count: 149 from 153
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 65 from 118
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 100 from 172
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 23 from 60
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 2 from 19
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 1 from 27
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 33 from 72
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 1 from 21
+Iteration results: posterior_comments_count: 1 from 100, posterior_reply_count: 8 from 25
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 13
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 13 from 66
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 6 from 110
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 2 from 81
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 3 from 109
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 4 from 51
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 35 from 210
+Iteration results: posterior_comments_count: 1 from 100, posterior_reply_count: 1 from 29
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 5 from 130
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 1 from 90
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 33
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 66 from 170
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 14 from 74
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 31
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 13 from 78
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 2 from 78
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 17
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 44
+From total comment count, must delete total_posterior_comments_count: 1263 + total_posterior_reply_count: 1192
+Finished in 238.67401790618896, Done 15 of 1549
+Movie Judas and the Black Messiah, Result 6ivHf4ODMi4
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 8 from 8
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 23 from 23
+Iteration results: posterior_comments_count: 3 from 100, posterior_reply_count: 46 from 101
+Iteration results: posterior_comments_count: 1 from 100, posterior_reply_count: 46 from 97
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 22 from 77
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 13 from 154
+Iteration results: posterior_comments_count: 1 from 100, posterior_reply_count: 1 from 75
+Iteration results: posterior_comments_count: 0 from 6, posterior_reply_count: 0 from 0
+From total comment count, must delete total_posterior_comments_count: 205 + total_posterior_reply_count: 159
+Finished in 50.30917692184448, Done 16 of 1549
+Movie Max Steel, Result FSfWGcD78v4
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 5 from 5
+Iteration results: posterior_comments_count: 7 from 100, posterior_reply_count: 4 from 7
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 3 from 11
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 4 from 14
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 21 from 105
+Iteration results: posterior_comments_count: 0 from 21, posterior_reply_count: 13 from 60
+From total comment count, must delete total_posterior_comments_count: 107 + total_posterior_reply_count: 50
+Finished in 22.294625759124756, Done 17 of 1549
+Movie Pearl, Result L5PW5r3pEOg
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 13 from 13
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 24 from 24
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 18 from 18
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 23 from 23
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 17 from 17
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 31 from 31
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 65 from 65
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 72 from 72
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 105 from 105
+Iteration results: posterior_comments_count: 52 from 100, posterior_reply_count: 30 from 35
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 6 from 18
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 14 from 35
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 1 from 17
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 15 from 35
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 51 from 84
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 19 from 49
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 9
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 18
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 22
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 4 from 11
+Iteration results: posterior_comments_count: 1 from 100, posterior_reply_count: 6 from 55
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 3 from 27
+Iteration results: posterior_comments_count: 1 from 100, posterior_reply_count: 3 from 46
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 31
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 35
+From total comment count, must delete total_posterior_comments_count: 954 + total_posterior_reply_count: 520
+Finished in 129.40602803230286, Done 18 of 1549
+Movie The Goldfinch, Result IcG06hZooHM
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 1 from 1
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 27 from 27
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 12 from 12
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 54 from 54
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 48 from 48
+Iteration results: posterior_comments_count: 49 from 100, posterior_reply_count: 97 from 118
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 1 from 11
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 37 from 75
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 26 from 51
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 30 from 70
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 56 from 86
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 8
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 27 from 95
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 7 from 39
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 3 from 66
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 33
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 1 from 29
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 58
+Iteration results: posterior_comments_count: 0 from 98, posterior_reply_count: 1 from 119
+From total comment count, must delete total_posterior_comments_count: 549 + total_posterior_reply_count: 428
+Finished in 100.29735898971558, Done 19 of 1549
+Movie The Goldfinch, Result NM8hLj_qz5c
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 13 from 13
+Iteration results: posterior_comments_count: 4 from 100, posterior_reply_count: 25 from 59
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 24 from 47
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 38 from 173
+Iteration results: posterior_comments_count: 0 from 66, posterior_reply_count: 31 from 146
+From total comment count, must delete total_posterior_comments_count: 104 + total_posterior_reply_count: 131
+Finished in 44.512513399124146, Done 20 of 1549
+Movie The Cursed, Result -zT0jhfm1og
+Iteration results: posterior_comments_count: 62 from 100, posterior_reply_count: 24 from 34
+Iteration results: posterior_comments_count: 0 from 7, posterior_reply_count: 1 from 2
+From total comment count, must delete total_posterior_comments_count: 62 + total_posterior_reply_count: 25
+Finished in 7.723841905593872, Done 21 of 1549
+Movie Bandslam, Result jEMYlDrjuc0
+Iteration results: posterior_comments_count: 50 from 79, posterior_reply_count: 8 from 8
+From total comment count, must delete total_posterior_comments_count: 50 + total_posterior_reply_count: 8
+Finished in 2.759995937347412, Done 22 of 1549
+Movie Dog Days, Result fAfqqHwgI1U
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 2 from 2
+Iteration results: posterior_comments_count: 34 from 100, posterior_reply_count: 0 from 0
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 1
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 0
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 0
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 1
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 3 from 6
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 5
+From total comment count, must delete total_posterior_comments_count: 134 + total_posterior_reply_count: 5
+Finished in 7.929095268249512, Done 23 of 1549
+Movie Terrifier 2, Result 6KkONLf_ZKU
+Iteration results: posterior_comments_count: 98 from 98, posterior_reply_count: 21 from 21
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 26 from 26
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 16 from 16
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 44 from 44
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 85 from 85
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 33 from 33
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 25 from 25
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 45 from 45
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 55 from 55
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 56 from 56
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 31 from 31
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 24 from 24
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 41 from 41
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 27 from 27
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 629 from 629
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 36 from 36
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 44 from 44
+Iteration results: posterior_comments_count: 37 from 100, posterior_reply_count: 24 from 31
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 4 from 14
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 8 from 21
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 31 from 54
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 2 from 11
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 89 from 112
+Iteration results: posterior_comments_count: 1 from 100, posterior_reply_count: 25 from 65
+Iteration results: posterior_comments_count: 1 from 100, posterior_reply_count: 0 from 21
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 18 from 44
+Iteration results: posterior_comments_count: 1 from 100, posterior_reply_count: 33 from 152
+Iteration results: posterior_comments_count: 0 from 57, posterior_reply_count: 39 from 156
+From total comment count, must delete total_posterior_comments_count: 1738 + total_posterior_reply_count: 1511
+Finished in 187.3923282623291, Done 24 of 1549
+Movie Won't Back Down, Result 1a7SLGSmAsw
+Iteration results: posterior_comments_count: 21 from 28, posterior_reply_count: 7 from 7
+From total comment count, must delete total_posterior_comments_count: 21 + total_posterior_reply_count: 7
+Finished in 2.6019530296325684, Done 25 of 1549
+Movie Separation, Result XJ0fzKnXVCA
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 5 from 5
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 1 from 1
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 0 from 0
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 2 from 2
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 4 from 4
+Iteration results: posterior_comments_count: 77 from 100, posterior_reply_count: 29 from 29
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 31 from 41
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 1 from 2
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 123 from 160
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 163 from 278
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 84 from 228
+Iteration results: posterior_comments_count: 0 from 22, posterior_reply_count: 2 from 22
+From total comment count, must delete total_posterior_comments_count: 577 + total_posterior_reply_count: 445
+Finished in 42.717241048812866, Done 26 of 1549
+Movie Arctic Dogs, Result _2Wn0mwoJJA
+Iteration results: posterior_comments_count: 0 from 0, posterior_reply_count: 0 from 0
+From total comment count, must delete total_posterior_comments_count: 0 + total_posterior_reply_count: 0
+Finished in 0.05761861801147461, Done 27 of 1549
+Movie Replicas, Result bKdpGHazAqs
+Iteration results: posterior_comments_count: 65 from 100, posterior_reply_count: 30 from 33
+Iteration results: posterior_comments_count: 0 from 57, posterior_reply_count: 27 from 57
+From total comment count, must delete total_posterior_comments_count: 65 + total_posterior_reply_count: 57
+Finished in 13.054357290267944, Done 28 of 1549
+Movie Morgan, Result rqmHSR0bFU8
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 18 from 18
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 19 from 19
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 10 from 10
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 55 from 55
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 7 from 7
+Iteration results: posterior_comments_count: 65 from 100, posterior_reply_count: 8 from 8
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 3
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 4 from 7
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 20 from 21
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 4 from 18
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 40 from 75
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 1
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 13 from 42
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 44 from 148
+Iteration results: posterior_comments_count: 0 from 54, posterior_reply_count: 47 from 216
+From total comment count, must delete total_posterior_comments_count: 565 + total_posterior_reply_count: 289
+Finished in 53.494548082351685, Done 29 of 1549
+Movie The Mighty Macs, Result Y_VXhJCetwc
+Iteration results: posterior_comments_count: 30 from 50, posterior_reply_count: 5 from 5
+From total comment count, must delete total_posterior_comments_count: 30 + total_posterior_reply_count: 5
+Finished in 1.2853100299835205, Done 30 of 1549
+Movie P2, Result QtIsiXQ_6-I
+Iteration results: posterior_comments_count: 9 from 9, posterior_reply_count: 0 from 0
+From total comment count, must delete total_posterior_comments_count: 9 + total_posterior_reply_count: 0
+Finished in 0.5070595741271973, Done 31 of 1549
+Movie Before I Go to Sleep, Result Sx_BayaYx_0
+Iteration results: posterior_comments_count: 1 from 20, posterior_reply_count: 0 from 5
+From total comment count, must delete total_posterior_comments_count: 1 + total_posterior_reply_count: 0
+Finished in 1.130720853805542, Done 32 of 1549
+Movie Pilgrim's Progress, Result 04WXlAcOtS0
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 30 from 30
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 54 from 54
+Iteration results: posterior_comments_count: 88 from 100, posterior_reply_count: 22 from 23
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 14 from 36
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 5 from 54
+Iteration results: posterior_comments_count: 0 from 70, posterior_reply_count: 72 from 181
+From total comment count, must delete total_posterior_comments_count: 288 + total_posterior_reply_count: 197
+Finished in 40.47706460952759, Done 33 of 1549
+Movie Boogie, Result YN7pcEa83dU
+Iteration results: posterior_comments_count: 36 from 56, posterior_reply_count: 18 from 21
+From total comment count, must delete total_posterior_comments_count: 36 + total_posterior_reply_count: 18
+Finished in 4.463183164596558, Done 34 of 1549
+Movie Met Opera: The Hours, Result DesIn54F4jg
+Iteration results: posterior_comments_count: 0 from 3, posterior_reply_count: 0 from 0
+From total comment count, must delete total_posterior_comments_count: 0 + total_posterior_reply_count: 0
+Finished in 0.32878565788269043, Done 35 of 1549
+Movie The Metropolitan Opera HD Live: Nico Muhly: Marnie, Result M5nwgnp3wYU
+Iteration results: posterior_comments_count: 1 from 6, posterior_reply_count: 2 from 9
+From total comment count, must delete total_posterior_comments_count: 1 + total_posterior_reply_count: 2
+Finished in 1.0303354263305664, Done 36 of 1549
+Movie The Rocker, Result VZhmvFCk6rE
+Iteration results: posterior_comments_count: 62 from 100, posterior_reply_count: 30 from 30
+From total comment count, must delete total_posterior_comments_count: 62 + total_posterior_reply_count: 30
+Finished in 8.094156742095947, Done 37 of 1549
+Movie The Fifth Estate, Result wO1ZKvQP0_w
+Iteration results: posterior_comments_count: 2 from 2, posterior_reply_count: 0 from 0
+From total comment count, must delete total_posterior_comments_count: 2 + total_posterior_reply_count: 0
+Finished in 0.3124575614929199, Done 38 of 1549
+Movie Bucky Larson: Born to Be a Star, Result cRT93a8xE5s
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 19 from 19
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 50 from 50
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 2 from 2
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 1 from 1
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 2 from 2
+Iteration results: posterior_comments_count: 30 from 100, posterior_reply_count: 6 from 6
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 3 from 3
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 4 from 4
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 4 from 4
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 0
+Iteration results: posterior_comments_count: 0 from 40, posterior_reply_count: 3 from 3
+From total comment count, must delete total_posterior_comments_count: 530 + total_posterior_reply_count: 94
+Finished in 20.33960247039795, Done 39 of 1549
+Movie Battle for Terra, Result T5Aj4Pv4x2w
+Iteration results: posterior_comments_count: 0 from 0, posterior_reply_count: 0 from 0
+From total comment count, must delete total_posterior_comments_count: 0 + total_posterior_reply_count: 0
+Finished in 0.22943401336669922, Done 40 of 1549
+Movie The Stray, Result 8PLbC0IvKtc
+Iteration results: posterior_comments_count: 21 from 21, posterior_reply_count: 6 from 6
+From total comment count, must delete total_posterior_comments_count: 21 + total_posterior_reply_count: 6
+Finished in 2.080442428588867, Done 41 of 1549
+Movie Free Fire, Result ohDQPlzzp1k
+Iteration results: posterior_comments_count: 48 from 100, posterior_reply_count: 10 from 10
+Iteration results: posterior_comments_count: 0 from 81, posterior_reply_count: 13 from 58
+From total comment count, must delete total_posterior_comments_count: 48 + total_posterior_reply_count: 23
+Finished in 10.349751472473145, Done 42 of 1549
+Movie Beautifully Broken, Result TBj3GvFS8JI
+Iteration results: posterior_comments_count: 17 from 26, posterior_reply_count: 5 from 8
+From total comment count, must delete total_posterior_comments_count: 17 + total_posterior_reply_count: 5
+Finished in 2.5876643657684326, Done 43 of 1549
+Movie The Disappointments Room, Result fGX6raA-yxI
+Iteration results: posterior_comments_count: 5 from 5, posterior_reply_count: 6 from 6
+From total comment count, must delete total_posterior_comments_count: 5 + total_posterior_reply_count: 6
+Finished in 1.25825834274292, Done 44 of 1549
+Movie The Rhythm Section, Result 0Uq_5bYGYoY
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 9 from 9
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 20 from 20
+Iteration results: posterior_comments_count: 21 from 100, posterior_reply_count: 19 from 28
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 16 from 24
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 34 from 105
+Iteration results: posterior_comments_count: 0 from 18, posterior_reply_count: 9 from 38
+From total comment count, must delete total_posterior_comments_count: 221 + total_posterior_reply_count: 107
+Finished in 28.884599447250366, Done 45 of 1549
+Movie The Rhythm Section, Result yF4KFWpq2TI
+Iteration results: posterior_comments_count: 59 from 100, posterior_reply_count: 12 from 12
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 8 from 14
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 11 from 116
+Iteration results: posterior_comments_count: 0 from 18, posterior_reply_count: 0 from 6
+From total comment count, must delete total_posterior_comments_count: 59 + total_posterior_reply_count: 31
+Finished in 17.263041734695435, Done 46 of 1549
+Movie Those Who Wish Me Dead, Result sV6VNNjBkcE
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 100 from 100
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 17 from 17
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 23 from 23
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 23 from 23
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 37 from 37
+Iteration results: posterior_comments_count: 32 from 100, posterior_reply_count: 27 from 43
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 17 from 22
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 7 from 21
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 16 from 32
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 4 from 5
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 1 from 6
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 23 from 43
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 9 from 9
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 3 from 3
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 8 from 16
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 6 from 22
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 40 from 118
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 6
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 8 from 19
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 2 from 21
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 5 from 26
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 2 from 35
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 3 from 25
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 1 from 4
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 1 from 5
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 2 from 10
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 14
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 3
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 2 from 43
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 4 from 35
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 3 from 51
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 5 from 60
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 6 from 177
+Iteration results: posterior_comments_count: 0 from 26, posterior_reply_count: 1 from 17
+From total comment count, must delete total_posterior_comments_count: 532 + total_posterior_reply_count: 406
+Finished in 134.1854202747345, Done 47 of 1549
+Movie Victor Frankenstein, Result 7pxZxY_Siyc
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 5 from 5
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 3 from 3
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 75 from 75
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 23 from 23
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 43 from 43
+Iteration results: posterior_comments_count: 14 from 100, posterior_reply_count: 30 from 34
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 60 from 67
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 6 from 9
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 2 from 2
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 6
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 17 from 47
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 2 from 30
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 11 from 38
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 0
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 5 from 42
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 3 from 33
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 60
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 30
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 107
+From total comment count, must delete total_posterior_comments_count: 514 + total_posterior_reply_count: 285
+Finished in 48.41779375076294, Done 48 of 1549
+Movie A Journal for Jordan, Result FOzrXqf5pvE
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 12 from 12
+Iteration results: posterior_comments_count: 20 from 100, posterior_reply_count: 41 from 46
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 2 from 19
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 27
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 2 from 16
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 73
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 6 from 96
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 11 from 97
+Iteration results: posterior_comments_count: 0 from 64, posterior_reply_count: 0 from 56
+From total comment count, must delete total_posterior_comments_count: 120 + total_posterior_reply_count: 74
+Finished in 45.14974617958069, Done 49 of 1549
+Movie A Journal for Jordan, Result D3PbH8xYQY8
+Iteration results: posterior_comments_count: 9 from 100, posterior_reply_count: 0 from 7
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 3
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 30
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 38
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 21
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 73
+From total comment count, must delete total_posterior_comments_count: 9 + total_posterior_reply_count: 0
+Finished in 22.621257781982422, Done 50 of 1549
+Movie My All-American, Result QTahmkL8QzM
+Iteration results: posterior_comments_count: 10 from 36, posterior_reply_count: 3 from 9
+From total comment count, must delete total_posterior_comments_count: 10 + total_posterior_reply_count: 3
+Finished in 3.1196177005767822, Done 51 of 1549
+Movie Here Today, Result U3v8n_8-QqA
+Iteration results: posterior_comments_count: 91 from 100, posterior_reply_count: 20 from 20
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 42 from 60
+Iteration results: posterior_comments_count: 0 from 55, posterior_reply_count: 3 from 73
+From total comment count, must delete total_posterior_comments_count: 91 + total_posterior_reply_count: 65
+Finished in 19.651174545288086, Done 52 of 1549
+Movie Dylan Dog: Dead of Night, Result lAvh0p0tzjc
+Iteration results: posterior_comments_count: 10 from 10, posterior_reply_count: 0 from 0
+From total comment count, must delete total_posterior_comments_count: 10 + total_posterior_reply_count: 0
+Finished in 0.39847850799560547, Done 53 of 1549
+Movie Bad Samaritan, Result 2ZiNWzqll04
+Iteration results: posterior_comments_count: 56 from 90, posterior_reply_count: 32 from 50
+From total comment count, must delete total_posterior_comments_count: 56 + total_posterior_reply_count: 32
+Finished in 8.737667798995972, Done 54 of 1549
+Movie The Girl Who Believes in Miracles, Result aH6b6P18D34
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 9 from 9
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 28 from 28
+Iteration results: posterior_comments_count: 42 from 100, posterior_reply_count: 32 from 44
+Iteration results: posterior_comments_count: 2 from 80, posterior_reply_count: 110 from 236
+From total comment count, must delete total_posterior_comments_count: 244 + total_posterior_reply_count: 179
+Finished in 31.95864200592041, Done 55 of 1549
+Movie Gigi & Nate, Result n_tgQ105coQ
+Iteration results: posterior_comments_count: 41 from 71, posterior_reply_count: 8 from 15
+From total comment count, must delete total_posterior_comments_count: 41 + total_posterior_reply_count: 8
+Finished in 3.172724962234497, Done 56 of 1549
+Movie Fatale, Result tPWURGgKJ7o
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 1 from 1
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 9 from 9
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 27 from 27
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 74 from 74
+Iteration results: posterior_comments_count: 13 from 100, posterior_reply_count: 88 from 140
+Iteration results: posterior_comments_count: 0 from 19, posterior_reply_count: 40 from 79
+From total comment count, must delete total_posterior_comments_count: 413 + total_posterior_reply_count: 239
+Finished in 38.426908016204834, Done 57 of 1549
+Movie Zola, Result 46-uA9l8YI8
+Iteration results: posterior_comments_count: 24 from 30, posterior_reply_count: 21 from 21
+From total comment count, must delete total_posterior_comments_count: 24 + total_posterior_reply_count: 21
+Finished in 3.0697197914123535, Done 58 of 1549
+Movie How to Lose Friends & Alienate People, Result syTiXjUWqPE
+Iteration results: posterior_comments_count: 4 from 8, posterior_reply_count: 0 from 0
+From total comment count, must delete total_posterior_comments_count: 4 + total_posterior_reply_count: 0
+Finished in 0.30594420433044434, Done 59 of 1549
+Movie Life Itself, Result b5kwtJkUdpA
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 4 from 4
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 40 from 40
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 10 from 10
+Iteration results: posterior_comments_count: 61 from 100, posterior_reply_count: 74 from 74
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 10 from 21
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 5 from 20
+Iteration results: posterior_comments_count: 0 from 95, posterior_reply_count: 59 from 243
+From total comment count, must delete total_posterior_comments_count: 361 + total_posterior_reply_count: 202
+Finished in 41.52080512046814, Done 60 of 1549
+Movie The Identical, Result JUmM0riu5f4
+Iteration results: posterior_comments_count: 0 from 0, posterior_reply_count: 0 from 0
+From total comment count, must delete total_posterior_comments_count: 0 + total_posterior_reply_count: 0
+Finished in 0.2184286117553711, Done 61 of 1549
+Movie Infidel, Result cfXWVS2iI98
+Iteration results: posterior_comments_count: 26 from 59, posterior_reply_count: 46 from 92
+From total comment count, must delete total_posterior_comments_count: 26 + total_posterior_reply_count: 46
+Finished in 8.566693782806396, Done 62 of 1549
+Movie Together Together, Result Ouq-Bjaiz3M
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 81 from 81
+Iteration results: posterior_comments_count: 14 from 48, posterior_reply_count: 88 from 107
+From total comment count, must delete total_posterior_comments_count: 114 + total_posterior_reply_count: 169
+Finished in 19.371078491210938, Done 63 of 1549
+Movie The Letters, Result m0zDwMQ9Oak
+Iteration results: posterior_comments_count: 47 from 67, posterior_reply_count: 124 from 154
+From total comment count, must delete total_posterior_comments_count: 47 + total_posterior_reply_count: 124
+Finished in 10.863360404968262, Done 64 of 1549
+Movie Friend Request, Result 2kywBX06cs4
+Iteration results: posterior_comments_count: 1 from 13, posterior_reply_count: 0 from 2
+From total comment count, must delete total_posterior_comments_count: 1 + total_posterior_reply_count: 0
+Finished in 1.158888578414917, Done 65 of 1549
+Movie Copshop, Result wgdLO-U2mDQ
+Iteration results: posterior_comments_count: 7 from 34, posterior_reply_count: 8 from 17
+From total comment count, must delete total_posterior_comments_count: 7 + total_posterior_reply_count: 8
+Finished in 3.118657112121582, Done 66 of 1549
+Movie We Are Your Friends, Result gZzAeYWXFpk
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 9 from 9
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 5 from 5
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 10 from 10
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 13 from 13
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 5 from 5
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 31 from 31
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 78 from 78
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 35 from 35
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 8 from 8
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 42 from 42
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 44 from 44
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 2 from 2
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 136 from 136
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 146 from 146
+Iteration results: posterior_comments_count: 15 from 100, posterior_reply_count: 92 from 103
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 9 from 14
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 66 from 87
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 22 from 39
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 4 from 9
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 1
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 3
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 8
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 17 from 86
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 7 from 41
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 14 from 102
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 51
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 83
+From total comment count, must delete total_posterior_comments_count: 1415 + total_posterior_reply_count: 795
+Finished in 83.86643123626709, Done 67 of 1549
+Movie Honk for Jesus. Save Your Soul., Result YuI_R9JEkRg
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 34 from 34
+Iteration results: posterior_comments_count: 72 from 100, posterior_reply_count: 103 from 105
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 83 from 155
+Iteration results: posterior_comments_count: 0 from 50, posterior_reply_count: 30 from 117
+From total comment count, must delete total_posterior_comments_count: 172 + total_posterior_reply_count: 250
+Finished in 45.921499490737915, Done 68 of 1549
+Movie The Good House, Result jK_KcgHwA0s
+Iteration results: posterior_comments_count: 13 from 27, posterior_reply_count: 5 from 8
+From total comment count, must delete total_posterior_comments_count: 13 + total_posterior_reply_count: 5
+Finished in 2.377166986465454, Done 69 of 1549
+Movie The Neon Demon, Result YqFhKdRFPvA
+Iteration results: posterior_comments_count: 31 from 31, posterior_reply_count: 14 from 27
+From total comment count, must delete total_posterior_comments_count: 31 + total_posterior_reply_count: 14
+Finished in 3.4646453857421875, Done 70 of 1549
+Movie Assassination Nation, Result hZvK_uXlnAI
+Iteration results: posterior_comments_count: 0 from 0, posterior_reply_count: 0 from 0
+From total comment count, must delete total_posterior_comments_count: 0 + total_posterior_reply_count: 0
+Finished in 0.20374560356140137, Done 71 of 1549
+Movie Friends 25th: The One With The Anniversary, Result YfsxGGN4kjM
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 27 from 27
+Iteration results: posterior_comments_count: 49 from 50, posterior_reply_count: 25 from 25
+From total comment count, must delete total_posterior_comments_count: 149 + total_posterior_reply_count: 52
+Finished in 9.884837865829468, Done 72 of 1549
+Movie Rendition, Result NN3JmdbM9oE
+Iteration results: posterior_comments_count: 48 from 49, posterior_reply_count: 5 from 5
+From total comment count, must delete total_posterior_comments_count: 48 + total_posterior_reply_count: 5
+Finished in 1.1634104251861572, Done 73 of 1549
+Movie Collide, Result gubU4V3ewQw
+Iteration results: posterior_comments_count: 17 from 29, posterior_reply_count: 9 from 10
+From total comment count, must delete total_posterior_comments_count: 17 + total_posterior_reply_count: 9
+Finished in 1.875023365020752, Done 74 of 1549
+Movie Land, Result iLXtENg8xKo
+Iteration results: posterior_comments_count: 30 from 98, posterior_reply_count: 23 from 61
+From total comment count, must delete total_posterior_comments_count: 30 + total_posterior_reply_count: 23
+Finished in 9.867583990097046, Done 75 of 1549
+Movie Rock the Kasbah, Result HOV14l58Ekg
+Iteration results: posterior_comments_count: 12 from 17, posterior_reply_count: 0 from 1
+From total comment count, must delete total_posterior_comments_count: 12 + total_posterior_reply_count: 0
+Finished in 0.8036324977874756, Done 76 of 1549
+Movie Rock the Kasbah, Result 4PKOefvGpNE
+Iteration results: posterior_comments_count: 10 from 16, posterior_reply_count: 1 from 2
+From total comment count, must delete total_posterior_comments_count: 10 + total_posterior_reply_count: 1
+Finished in 0.9792191982269287, Done 77 of 1549
+Movie The Brothers Solomon, Result FTwTXJf2_nc
+Iteration results: posterior_comments_count: 0 from 1, posterior_reply_count: 0 from 0
+From total comment count, must delete total_posterior_comments_count: 0 + total_posterior_reply_count: 0
+Finished in 0.32438135147094727, Done 78 of 1549
+Movie Sgt. Stubby: An American Hero, Result L2rekx-k5X0
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 23 from 23
+Iteration results: posterior_comments_count: 37 from 63, posterior_reply_count: 133 from 152
+From total comment count, must delete total_posterior_comments_count: 137 + total_posterior_reply_count: 156
+Finished in 18.067538738250732, Done 79 of 1549
+Movie Finding You, Result jdv_PMffxyE
+Iteration results: posterior_comments_count: 84 from 100, posterior_reply_count: 11 from 16
+Iteration results: posterior_comments_count: 0 from 61, posterior_reply_count: 26 from 66
+From total comment count, must delete total_posterior_comments_count: 84 + total_posterior_reply_count: 37
+Finished in 12.53964614868164, Done 80 of 1549
+Movie Voyagers, Result EwJkexUBSeg
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 5 from 5
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 15 from 15
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 7 from 7
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 18 from 18
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 49 from 49
+Iteration results: posterior_comments_count: 45 from 100, posterior_reply_count: 80 from 84
+Iteration results: posterior_comments_count: 0 from 86, posterior_reply_count: 108 from 161
+From total comment count, must delete total_posterior_comments_count: 545 + total_posterior_reply_count: 282
+Finished in 35.62316870689392, Done 81 of 1549
+Movie Voyagers, Result 11wwx5VKThY
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 10 from 10
+Iteration results: posterior_comments_count: 74 from 100, posterior_reply_count: 11 from 11
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 39 from 57
+Iteration results: posterior_comments_count: 1 from 100, posterior_reply_count: 27 from 100
+Iteration results: posterior_comments_count: 0 from 5, posterior_reply_count: 3 from 3
+From total comment count, must delete total_posterior_comments_count: 175 + total_posterior_reply_count: 90
+Finished in 23.518393993377686, Done 82 of 1549
+Movie Jane Got a Gun, Result fm7qxI3gmpw
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 12 from 12
+Iteration results: posterior_comments_count: 20 from 100, posterior_reply_count: 22 from 25
+Iteration results: posterior_comments_count: 0 from 74, posterior_reply_count: 15 from 74
+From total comment count, must delete total_posterior_comments_count: 120 + total_posterior_reply_count: 49
+Finished in 12.907297849655151, Done 83 of 1549
+Movie Jane Got a Gun, Result 9AKf06lP2Gk
+Iteration results: posterior_comments_count: 70 from 100, posterior_reply_count: 5 from 5
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 8 from 28
+Iteration results: posterior_comments_count: 0 from 69, posterior_reply_count: 13 from 70
+From total comment count, must delete total_posterior_comments_count: 70 + total_posterior_reply_count: 26
+Finished in 11.813064098358154, Done 84 of 1549
+Movie Joe Bell, Result Q9hNIzP6ycM
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 19 from 19
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 27 from 27
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 116 from 116
+Iteration results: posterior_comments_count: 93 from 100, posterior_reply_count: 77 from 78
+Iteration results: posterior_comments_count: 1 from 100, posterior_reply_count: 35 from 69
+Iteration results: posterior_comments_count: 0 from 79, posterior_reply_count: 18 from 320
+From total comment count, must delete total_posterior_comments_count: 394 + total_posterior_reply_count: 292
+Finished in 52.99784445762634, Done 85 of 1549
+Movie Studio 666, Result UEDkqOBhPis
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 12 from 12
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 44 from 44
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 88 from 88
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 132 from 132
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 200 from 200
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 16 from 16
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 7 from 7
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 13 from 13
+Iteration results: posterior_comments_count: 21 from 100, posterior_reply_count: 16 from 24
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 5 from 9
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 7 from 18
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 5 from 33
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 3 from 9
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 15 from 25
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 4 from 20
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 2 from 3
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 5
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 3
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 1 from 4
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 7 from 17
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 6
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 3
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 8
+From total comment count, must delete total_posterior_comments_count: 821 + total_posterior_reply_count: 577
+Finished in 92.48412299156189, Done 86 of 1549
+Movie Rules Don't Apply, Result a_QiAunKtxo
+Iteration results: posterior_comments_count: 37 from 82, posterior_reply_count: 17 from 40
+From total comment count, must delete total_posterior_comments_count: 37 + total_posterior_reply_count: 17
+Finished in 6.616912126541138, Done 87 of 1549
+Movie Rules Don't Apply, Result D1JrMOiG5hc
+Iteration results: posterior_comments_count: 13 from 100, posterior_reply_count: 2 from 26
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 4 from 49
+Iteration results: posterior_comments_count: 0 from 28, posterior_reply_count: 2 from 31
+From total comment count, must delete total_posterior_comments_count: 13 + total_posterior_reply_count: 8
+Finished in 13.103741884231567, Done 88 of 1549
+Movie The Final Season, Result a-Kp8FjSGNk
+Iteration results: posterior_comments_count: 13 from 16, posterior_reply_count: 2 from 2
+From total comment count, must delete total_posterior_comments_count: 13 + total_posterior_reply_count: 2
+Finished in 0.631195068359375, Done 89 of 1549
+Movie Show Me the Father, Result 4TZb7YfK-JI
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 8 from 8
+Iteration results: posterior_comments_count: 13 from 100, posterior_reply_count: 13 from 22
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 5 from 27
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 14 from 147
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 19 from 83
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 9 from 81
+Iteration results: posterior_comments_count: 0 from 71, posterior_reply_count: 2 from 193
+From total comment count, must delete total_posterior_comments_count: 113 + total_posterior_reply_count: 70
+Finished in 44.564534187316895, Done 90 of 1549
+Movie The Empty Man, Result tk6u9X1bW30
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 14 from 14
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 19 from 19
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 43 from 43
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 14 from 14
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 124 from 124
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 54 from 54
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 26 from 26
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 26 from 26
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 9 from 9
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 15 from 15
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 51 from 51
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 6 from 6
+Iteration results: posterior_comments_count: 95 from 100, posterior_reply_count: 87 from 87
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 113 from 119
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 37 from 49
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 62 from 100
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 36 from 74
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 209 from 392
+Iteration results: posterior_comments_count: 1 from 12, posterior_reply_count: 0 from 3
+From total comment count, must delete total_posterior_comments_count: 1296 + total_posterior_reply_count: 945
+Finished in 108.0945177078247, Done 91 of 1549
+Movie The Wolf and the Lion, Result hNL5t9mHs5o
+Iteration results: posterior_comments_count: 68 from 71, posterior_reply_count: 24 from 25
+From total comment count, must delete total_posterior_comments_count: 68 + total_posterior_reply_count: 24
+Finished in 4.216687440872192, Done 92 of 1549
+Movie Dream Horse, Result qh3c0mGsKkI
+Iteration results: posterior_comments_count: 16 from 28, posterior_reply_count: 40 from 46
+From total comment count, must delete total_posterior_comments_count: 16 + total_posterior_reply_count: 40
+Finished in 3.9465270042419434, Done 93 of 1549
+Movie Medieval, Result AmQILSvYajI
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 12 from 12
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 39 from 39
+Iteration results: posterior_comments_count: 54 from 100, posterior_reply_count: 51 from 55
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 3 from 22
+Iteration results: posterior_comments_count: 0 from 84, posterior_reply_count: 132 from 242
+From total comment count, must delete total_posterior_comments_count: 254 + total_posterior_reply_count: 237
+Finished in 30.478968381881714, Done 94 of 1549
+Movie Professor Marston & the Wonder Women, Result OILVviwLfUM
+Iteration results: posterior_comments_count: 6 from 100, posterior_reply_count: 6 from 11
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 1 from 21
+Iteration results: posterior_comments_count: 0 from 85, posterior_reply_count: 2 from 206
+From total comment count, must delete total_posterior_comments_count: 6 + total_posterior_reply_count: 9
+Finished in 22.738746881484985, Done 95 of 1549
+Movie X Games 3D: The Movie, Result XTSDcGdAPJ0
+Iteration results: posterior_comments_count: 99 from 100, posterior_reply_count: 0 from 0
+Iteration results: posterior_comments_count: 0 from 92, posterior_reply_count: 0 from 0
+From total comment count, must delete total_posterior_comments_count: 99 + total_posterior_reply_count: 0
+Finished in 1.108532190322876, Done 96 of 1549
+Movie Reminiscence, Result _BggT--yxf0
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 7 from 7
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 7 from 7
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 22 from 22
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 31 from 31
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 39 from 39
+Iteration results: posterior_comments_count: 92 from 100, posterior_reply_count: 31 from 31
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 12 from 25
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 12 from 23
+Iteration results: posterior_comments_count: 1 from 100, posterior_reply_count: 13 from 28
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 0
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 1 from 7
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 19 from 32
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 61 from 153
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 14
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 3 from 40
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 15
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 3 from 46
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 12 from 30
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 1 from 17
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 86
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 5
+From total comment count, must delete total_posterior_comments_count: 593 + total_posterior_reply_count: 274
+Finished in 73.39916181564331, Done 97 of 1549
+Movie Mr. Malcolm's List, Result KrH6hLyoS6A
+Iteration results: posterior_comments_count: 17 from 19, posterior_reply_count: 14 from 19
+From total comment count, must delete total_posterior_comments_count: 17 + total_posterior_reply_count: 14
+Finished in 1.382112979888916, Done 98 of 1549
+Movie Jem and the Holograms, Result pifhszsZKg4
+Iteration results: posterior_comments_count: 0 from 0, posterior_reply_count: 0 from 0
+From total comment count, must delete total_posterior_comments_count: 0 + total_posterior_reply_count: 0
+Finished in 0.07073402404785156, Done 99 of 1549
+Movie Jem and the Holograms, Result r7g8v8H3EGk
+Iteration results: posterior_comments_count: 0 from 0, posterior_reply_count: 0 from 0
+From total comment count, must delete total_posterior_comments_count: 0 + total_posterior_reply_count: 0
+Finished in 0.04946279525756836, Done 100 of 1549
+Movie The Quintessential Quintuplets Movie, Result maS5nHFa1o8
+Iteration results: posterior_comments_count: 19 from 100, posterior_reply_count: 22 from 34
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 5 from 10
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 5 from 46
+Iteration results: posterior_comments_count: 0 from 65, posterior_reply_count: 1 from 93
+From total comment count, must delete total_posterior_comments_count: 19 + total_posterior_reply_count: 33
+Finished in 19.417776346206665, Done 101 of 1549
+Movie Standing Ovation, Result 3hihbhW6kp0
+Iteration results: posterior_comments_count: 0 from 0, posterior_reply_count: 0 from 0
+From total comment count, must delete total_posterior_comments_count: 0 + total_posterior_reply_count: 0
+Finished in 0.06035900115966797, Done 102 of 1549
+Movie Promising Young Woman, Result 7i5kiFDunk8
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 39 from 39
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 34 from 34
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 41 from 41
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 88 from 88
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 100 from 100
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 37 from 37
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 189 from 189
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 151 from 151
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 80 from 80
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 101 from 101
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 162 from 162
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 97 from 97
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 96 from 96
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 395 from 395
+Iteration results: posterior_comments_count: 99 from 99, posterior_reply_count: 55 from 55
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 85 from 85
+Iteration results: posterior_comments_count: 84 from 100, posterior_reply_count: 219 from 219
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 343 from 437
+Iteration results: posterior_comments_count: 1 from 100, posterior_reply_count: 21 from 111
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 144 from 231
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 19 from 85
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 109 from 219
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 71 from 583
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 205 from 436
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 137 from 563
+Iteration results: posterior_comments_count: 0 from 47, posterior_reply_count: 45 from 179
+From total comment count, must delete total_posterior_comments_count: 1684 + total_posterior_reply_count: 3063
+Finished in 260.3510932922363, Done 103 of 1549
+Movie Promising Young Woman, Result we5yV7Gc9rY
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 18 from 18
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 99 from 99
+Iteration results: posterior_comments_count: 50 from 99, posterior_reply_count: 97 from 135
+Iteration results: posterior_comments_count: 1 from 100, posterior_reply_count: 101 from 198
+Iteration results: posterior_comments_count: 0 from 30, posterior_reply_count: 14 from 71
+From total comment count, must delete total_posterior_comments_count: 251 + total_posterior_reply_count: 329
+Finished in 40.20550274848938, Done 104 of 1549
+Movie 23 Blast, Result 2pcOtvyMjZs
+Iteration results: posterior_comments_count: 0 from 0, posterior_reply_count: 0 from 0
+From total comment count, must delete total_posterior_comments_count: 0 + total_posterior_reply_count: 0
+Finished in 0.2108321189880371, Done 105 of 1549
+Movie Mack & Rita, Result uWvKIvO1QgM
+Iteration results: posterior_comments_count: 3 from 82, posterior_reply_count: 3 from 50
+From total comment count, must delete total_posterior_comments_count: 3 + total_posterior_reply_count: 3
+Finished in 7.933541297912598, Done 106 of 1549
+Movie Dragon Ball Z: Broly - The Legendary Super Saiyan, Result mDlTYHVoUGA
+Iteration results: posterior_comments_count: 7 from 51, posterior_reply_count: 2 from 26
+From total comment count, must delete total_posterior_comments_count: 7 + total_posterior_reply_count: 2
+Finished in 3.6991984844207764, Done 107 of 1549
+Movie Half Brothers, Result tmxxfuLPWXg
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 6 from 6
+Iteration results: posterior_comments_count: 87 from 100, posterior_reply_count: 22 from 23
+Iteration results: posterior_comments_count: 0 from 46, posterior_reply_count: 18 from 48
+From total comment count, must delete total_posterior_comments_count: 187 + total_posterior_reply_count: 46
+Finished in 13.568320274353027, Done 108 of 1549
+Movie The Broken Hearts Gallery, Result 7aokhRzwlJI
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 5 from 5
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 33 from 33
+Iteration results: posterior_comments_count: 46 from 100, posterior_reply_count: 5 from 8
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 17 from 45
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 30 from 44
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 3
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 3 from 5
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 1 from 3
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 4 from 11
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 27 from 59
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 32 from 112
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 52 from 181
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 5 from 79
+Iteration results: posterior_comments_count: 0 from 25, posterior_reply_count: 7 from 76
+From total comment count, must delete total_posterior_comments_count: 246 + total_posterior_reply_count: 221
+Finished in 53.582401275634766, Done 109 of 1549
+Movie The Broken Hearts Gallery, Result Lj4rfz8MDyc
+Iteration results: posterior_comments_count: 30 from 72, posterior_reply_count: 26 from 36
+From total comment count, must delete total_posterior_comments_count: 30 + total_posterior_reply_count: 26
+Finished in 5.922918796539307, Done 110 of 1549
+Movie Running the Bases, Result g0nlx_Fjdlk
+Iteration results: posterior_comments_count: 21 from 29, posterior_reply_count: 11 from 20
+From total comment count, must delete total_posterior_comments_count: 21 + total_posterior_reply_count: 11
+Finished in 3.297711133956909, Done 111 of 1549
+Movie Infinite Storm, Result 1doAmMGu0-8
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 25 from 25
+Iteration results: posterior_comments_count: 31 from 100, posterior_reply_count: 25 from 35
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 54 from 150
+Iteration results: posterior_comments_count: 0 from 2, posterior_reply_count: 2 from 16
+From total comment count, must delete total_posterior_comments_count: 131 + total_posterior_reply_count: 106
+Finished in 25.713484287261963, Done 112 of 1549
+Movie The Metropolitan Opera HD Live: Mussorgsky: Boris Godunov, Result Ezo6P0SQ1C4
+Iteration results: posterior_comments_count: 3 from 4, posterior_reply_count: 2 from 2
+From total comment count, must delete total_posterior_comments_count: 3 + total_posterior_reply_count: 2
+Finished in 0.7058022022247314, Done 113 of 1549
+Movie The Metropolitan Opera HD Live: Mussorgsky: Boris Godunov, Result qp6tanQjNFc
+Iteration results: posterior_comments_count: 4 from 11, posterior_reply_count: 2 from 3
+From total comment count, must delete total_posterior_comments_count: 4 + total_posterior_reply_count: 2
+Finished in 1.0731914043426514, Done 114 of 1549
+Movie Wild West Comedy Show: 30 Days & 30 Nights - Hollywood to the Heartland, Result P-9sW-Zlx00
+Iteration results: posterior_comments_count: 4 from 4, posterior_reply_count: 0 from 0
+From total comment count, must delete total_posterior_comments_count: 4 + total_posterior_reply_count: 0
+Finished in 0.3447873592376709, Done 115 of 1549
+Movie The Metropolitan Opera HD Live: Mozart: Die Zauberflöte, Result uEuSZ5ZXOtc
+Iteration results: posterior_comments_count: 0 from 1, posterior_reply_count: 0 from 0
+From total comment count, must delete total_posterior_comments_count: 0 + total_posterior_reply_count: 0
+Finished in 0.2543511390686035, Done 116 of 1549
+Movie Words on Bathroom Walls, Result 4E1-RnpOe8Q
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 9 from 9
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 13 from 13
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 7 from 7
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 33 from 33
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 32 from 32
+Iteration results: posterior_comments_count: 11 from 100, posterior_reply_count: 7 from 7
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 19 from 23
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 11 from 30
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 10 from 22
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 1 from 5
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 14 from 35
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 51 from 82
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 2 from 19
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 115 from 455
+Iteration results: posterior_comments_count: 0 from 9, posterior_reply_count: 0 from 10
+From total comment count, must delete total_posterior_comments_count: 511 + total_posterior_reply_count: 324
+Finished in 59.688098430633545, Done 117 of 1549
+Movie The D Train, Result 3PzB1Feeocw
+Iteration results: posterior_comments_count: 18 from 29, posterior_reply_count: 27 from 39
+From total comment count, must delete total_posterior_comments_count: 18 + total_posterior_reply_count: 27
+Finished in 3.1776797771453857, Done 118 of 1549
+Movie Phantom, Result hTGNNxqlba0
+Iteration results: posterior_comments_count: 48 from 52, posterior_reply_count: 3 from 3
+From total comment count, must delete total_posterior_comments_count: 48 + total_posterior_reply_count: 3
+Finished in 0.8934516906738281, Done 119 of 1549
+Movie DanTDM Presents The Contest, Result _ClMMFFTK_A
+Iteration results: posterior_comments_count: 66 from 100, posterior_reply_count: 16 from 17
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 1 from 6
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 6 from 15
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 18
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 1 from 16
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 2 from 16
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 3 from 25
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 14
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 15 from 209
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 1 from 48
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 1 from 6
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 0
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 7
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 17
+From total comment count, must delete total_posterior_comments_count: 66 + total_posterior_reply_count: 46
+Finished in 43.91318368911743, Done 120 of 1549
+Movie Bennett's War, Result ZngxYCDt-Vw
+Iteration results: posterior_comments_count: 51 from 100, posterior_reply_count: 3 from 18
+Iteration results: posterior_comments_count: 0 from 59, posterior_reply_count: 17 from 79
+From total comment count, must delete total_posterior_comments_count: 51 + total_posterior_reply_count: 20
+Finished in 13.849031686782837, Done 121 of 1549
+Movie Evangelion: 3.0+1.01 Thrice Upon a Time, Result GZfuWMDEJpw
+Iteration results: posterior_comments_count: 10 from 100, posterior_reply_count: 3 from 185
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 50
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 20
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 1 from 41
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 2 from 124
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 28
+Iteration results: posterior_comments_count: 1 from 100, posterior_reply_count: 0 from 25
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 59
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 4 from 125
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 0 from 27
+From total comment count, must delete total_posterior_comments_count: 11 + total_posterior_reply_count: 10
+Finished in 67.0025782585144, Done 122 of 1549
+Movie The Virginity Hit, Result dA8BUZWpVkI
+Iteration results: posterior_comments_count: 69 from 74, posterior_reply_count: 17 from 17
+From total comment count, must delete total_posterior_comments_count: 69 + total_posterior_reply_count: 17
+Finished in 2.9850375652313232, Done 123 of 1549
+Movie The Virginity Hit, Result k6SaCxZHJQo
+Iteration results: posterior_comments_count: 10 from 13, posterior_reply_count: 0 from 0
+From total comment count, must delete total_posterior_comments_count: 10 + total_posterior_reply_count: 0
+Finished in 0.4811897277832031, Done 124 of 1549
+Movie Nomadland, Result 6sxCFZ8_d84
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 10 from 10
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 16 from 16
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 15 from 15
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 70 from 70
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 34 from 34
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 72 from 72
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 46 from 46
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 31 from 31
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 10 from 10
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 24 from 24
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 20 from 20
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 52 from 52
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 317 from 317
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 22 from 22
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 28 from 28
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 52 from 52
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 20 from 20
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 59 from 59
+Iteration results: posterior_comments_count: 37 from 100, posterior_reply_count: 49 from 54
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 110 from 129
+Iteration results: posterior_comments_count: 1 from 100, posterior_reply_count: 10 from 24
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 39 from 60
+Iteration results: posterior_comments_count: 1 from 100, posterior_reply_count: 5 from 16
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 14 from 38
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 116 from 280
+Iteration results: posterior_comments_count: 0 from 34, posterior_reply_count: 76 from 274
+From total comment count, must delete total_posterior_comments_count: 1839 + total_posterior_reply_count: 1317
+Finished in 137.11164784431458, Done 125 of 1549
+Movie Nomadland, Result dVP7PNRx8Mw
+Iteration results: posterior_comments_count: 35 from 100, posterior_reply_count: 7 from 10
+Iteration results: posterior_comments_count: 1 from 100, posterior_reply_count: 1 from 49
+Iteration results: posterior_comments_count: 0 from 20, posterior_reply_count: 0 from 52
+From total comment count, must delete total_posterior_comments_count: 36 + total_posterior_reply_count: 8
+Finished in 13.928394556045532, Done 126 of 1549
+Movie Nomadland, Result BZ4o4jwSaHk
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 14 from 14
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 67 from 67
+Iteration results: posterior_comments_count: 77 from 100, posterior_reply_count: 91 from 91
+Iteration results: posterior_comments_count: 0 from 92, posterior_reply_count: 51 from 141
+From total comment count, must delete total_posterior_comments_count: 277 + total_posterior_reply_count: 223
+Finished in 33.574963092803955, Done 127 of 1549
+Movie The Tiger Rising, Result LX6QGUH-Wi8
+Iteration results: posterior_comments_count: 69 from 84, posterior_reply_count: 73 from 91
+From total comment count, must delete total_posterior_comments_count: 69 + total_posterior_reply_count: 73
+Finished in 9.62384843826294, Done 128 of 1549
+Movie Puffs: Filmed Live Off Broadway, Result a_T6OX2JagI
+Iteration results: posterior_comments_count: 23 from 24, posterior_reply_count: 8 from 8
+From total comment count, must delete total_posterior_comments_count: 23 + total_posterior_reply_count: 8
+Finished in 2.06895112991333, Done 129 of 1549
+Movie All My Life, Result mWyJvohEFj8
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 4 from 4
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 0 from 0
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 11 from 11
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 3 from 3
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 3 from 3
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 18 from 18
+Iteration results: posterior_comments_count: 32 from 100, posterior_reply_count: 3 from 4
+Iteration results: posterior_comments_count: 1 from 100, posterior_reply_count: 108 from 155
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 37 from 69
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 54 from 107
+Iteration results: posterior_comments_count: 0 from 84, posterior_reply_count: 109 from 231
+From total comment count, must delete total_posterior_comments_count: 633 + total_posterior_reply_count: 350
+Finished in 48.85805869102478, Done 130 of 1549
+Movie Nobel Son, Result wSETJ-Oc4_c
+Iteration results: posterior_comments_count: 2 from 2, posterior_reply_count: 3 from 3
+From total comment count, must delete total_posterior_comments_count: 2 + total_posterior_reply_count: 3
+Finished in 0.5383098125457764, Done 131 of 1549
+Movie The Bounce Back, Result nSbxnwP7NPo
+Iteration results: posterior_comments_count: 0 from 0, posterior_reply_count: 0 from 0
+From total comment count, must delete total_posterior_comments_count: 0 + total_posterior_reply_count: 0
+Finished in 0.06055283546447754, Done 132 of 1549
+Movie Profile, Result DKgW8UcGMNk
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 15 from 15
+Iteration results: posterior_comments_count: 94 from 100, posterior_reply_count: 114 from 114
+Iteration results: posterior_comments_count: 0 from 100, posterior_reply_count: 76 from 129
+Iteration results: posterior_comments_count: 0 from 13, posterior_reply_count: 30 from 113
+From total comment count, must delete total_posterior_comments_count: 194 + total_posterior_reply_count: 235
+Finished in 33.19354438781738, Done 133 of 1549
+Movie God's Country, Result 92kQD4fc0a0
+Iteration results: posterior_comments_count: 100 from 100, posterior_reply_count: 30 from 30
+Iteration results: posterior_comments_count: 35 from 89, posterior_reply_count: 187 from 297
+From total comment count, must delete total_posterior_comments_count: 135 + total_posterior_reply_count: 217
+Finished in 21.864012479782104, Done 134 of 1549

@@ -1,0 +1,15 @@
+=VERDADERO()
+=SI(A3=A2;H2;NO(H2))
+
+
+
+
+
+
+=unique(ScoreScheme!D2:D2872)
+=CONTAR.SI('Hoja 5'!$D$2:$D$2872;A2)
+
+A2:H3970
+=Y($H2=0;$H2<>"")
+
+

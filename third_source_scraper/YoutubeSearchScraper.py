@@ -62,7 +62,6 @@ class YoutubeSearchScraper():
             r = self.session.get(url=url, proxies=self.proxies)
             text = r.text
             status_code = r.status_code
-            #self.logger.debug("New request to {}".format(url))
         except Exception as e:
             self.logger.error("Exception {} in {}".format(e, url))
             return None
@@ -75,7 +74,10 @@ class YoutubeSearchScraper():
         return text
 
     def get_search_top(self, top_k, movie):
-        return self.get_search_results(movie)[:top_k]
+        if top_k == -1:
+            return self.get_search_results(movie)
+        else:
+            return self.get_search_results(movie)[:top_k]
 
     def extract_json_data_from_script(self, text):
         soup = BeautifulSoup(text, "html.parser")
@@ -119,16 +121,14 @@ class YoutubeSearchScraper():
                 try:
                     title = result["videoRenderer"]["title"]["runs"][0]["text"]
                     channel = result["videoRenderer"]["longBylineText"]["runs"][0]["text"]
-                    #published = result["videoRenderer"]["publishedTimeText"]["simpleText"]
                     video_id = result["videoRenderer"]["videoId"]
-                    #self.scrape_video(video_id)
                     results.append([title, channel, video_id])
-                    #break
                 except Exception as e:
-                    # self.logger.warning("Exception {} extracting title and channel from {}".format(e, result))
+                    #self.logger.warning("Exception {} extracting title and channel".format(e))
                     pass
         return results
 
+    """
     def parse_json_data_secondary(self, data):
         results = []
         try:
@@ -138,7 +138,6 @@ class YoutubeSearchScraper():
             self.logger.debug("Len of secondary results {}".format(len(secondary_results)))
             for content in secondary_results:
                 self.logger.debug("Secondary Results Keys {}".format(content.keys()))
-                # self.logger.debug(content["universalWatchCardRenderer"])
                 results = []
                 for item in \
                 content["universalWatchCardRenderer"]["sections"][0]["watchCardSectionSequenceRenderer"]["lists"][0][
@@ -149,14 +148,13 @@ class YoutubeSearchScraper():
                         "url"]
                     channel = item["watchCardCompactVideoRenderer"]["byline"]["runs"][0]["text"]
                     results.append([title, channel])
-                    #self.logger.debug("{} {}".format(title, channel))
         except Exception as e:
-            self.logger.debug(e)
+            self.logger.warning("Exception {} parsing data secondary".format(e))
             pass
         return results
+    """
 
     def get_search_results(self, movie):
-        #known_channels = ["Marvel Entertainment", "Sony Pictures Entertainment", "Star Wars", "Universal Pictures", "Walt Disney Studios", "Pixar", "Warner Bros. Pictures", "The Hunger Games", "The Fast Saga", "The Twilight Saga"]
         trailer_name = "{} Official Trailer".format(movie["movie_name"])
         query_url = "https://www.youtube.com/results?search_query={}".format(
             urllib.parse.quote_plus(trailer_name.lower()))

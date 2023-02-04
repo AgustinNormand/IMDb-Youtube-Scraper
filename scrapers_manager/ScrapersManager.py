@@ -20,7 +20,7 @@ class ScrapersManager():
         self.second_source_scraper = SecondSourceScraper(self.firstScraperQueue, self.secondScraperQueue)
 
         self.thirdScraperQueue = queue.Queue()
-        self.third_source_scraper = ThirdSourceScraper(self.secondScraperQueue, self.thirdScraperQueue)
+        #self.third_source_scraper = ThirdSourceScraper(self.secondScraperQueue, self.thirdScraperQueue)
 
         self.results_processor = ResultsProcessor(self.thirdScraperQueue)
 
@@ -38,7 +38,8 @@ class ScrapersManager():
         second_source_scraper_thread2 = threading.Thread(target=self.second_source_scraper.begin_scrape, daemon=True)
         second_source_scraper_thread2.start()
 
-        third_source_scraper_thread = threading.Thread(target=self.third_source_scraper.begin_scrape, daemon=True)
+        self.third_source_scraper = ThirdSourceScraper(self.secondScraperQueue, self.thirdScraperQueue)
+        third_source_scraper_thread = threading.Thread(target=self.third_source_scraper.run, daemon=True)
         third_source_scraper_thread.start()
 
         results_processor_thread = threading.Thread(target=self.results_processor.process_results, daemon=True)
@@ -62,14 +63,15 @@ class ScrapersManager():
     def begin_scrape_from_third_scraper(self):
         start_time = time.time()
 
-        third_source_scraper_thread = threading.Thread(target=self.third_source_scraper.begin_scrape, daemon=True)
-        third_source_scraper_thread.start()
+        #third_source_scraper_thread = threading.Thread(target=self.third_source_scraper.begin_scrape, daemon=True)
+        #third_source_scraper_thread.start()
 
-        #third_source_scraper_threads = []
-        #for i in range(20):
-        #    third_source_scraper_thread = threading.Thread(target=self.third_source_scraper.begin_scrape, daemon=True)
-        #    third_source_scraper_thread.start()
-        #    third_source_scraper_threads.append(third_source_scraper_thread)
+        third_source_scraper_threads = []
+        for i in range(50):
+            third_source_scraper = ThirdSourceScraper(self.secondScraperQueue, self.thirdScraperQueue)
+            #third_source_scraper_thread = threading.Thread(target=third_source_scraper.begin_scrape, daemon=True)
+            third_source_scraper.start()
+            third_source_scraper_threads.append(third_source_scraper)
 
         results_processor_thread = threading.Thread(target=self.results_processor.process_results, daemon=True)
         results_processor_thread.start()
@@ -78,33 +80,34 @@ class ScrapersManager():
         with open(csv_filename) as f:
             reader = csv.DictReader(f)
             lst = list(reader)
+
         for item in lst:
-            #if item["movie_name"] != "Ted":
+            #if item["movie_name"] != "The Dark Knight":
             #    continue
 
-            item["actors"] = ast.literal_eval(item["actors"])
-            if item["writers"] == "":
-                item["writers"] = []
-            else:
-                item["writers"] = ast.literal_eval(item["writers"])
+            #item["actors"] = ast.literal_eval(item["actors"])
+            #if item["writers"] == "":
+            #    item["writers"] = []
+            #else:
+            #    item["writers"] = ast.literal_eval(item["writers"])
 
-            if item["directors"] == "":
-                item["directors"] = []
-            else:
-                item["directors"] = ast.literal_eval(item["directors"])
+            #if item["directors"] == "":
+            #    item["directors"] = []
+            #else:
+            #    item["directors"] = ast.literal_eval(item["directors"])
             self.secondScraperQueue.put(item)
-            #break
 
         self.secondScraperQueue.put("NO_MORE_MOVIES")
         print("File Readed")
 
-        #for third_source_scraper_thread in third_source_scraper_threads:
-        #    third_source_scraper_thread.join()
+        for thread in third_source_scraper_threads:
+            thread.join()
+        self.thirdScraperQueue.put("NO_MORE_MOVIES")
 
-        third_source_scraper_thread.join()
+        #third_source_scraper_thread.join()
         results_processor_thread.join()
 
-        self.third_source_scraper.log_measurements()
+        #self.third_source_scraper.log_measurements()
         self.results_processor.log_measurements()
 
         total_time_elapsed = time.time() - start_time

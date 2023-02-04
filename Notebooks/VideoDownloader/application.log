@@ -1,0 +1,35 @@
+INFO:root:Worker Number 0, Processing  12
+INFO:root:Worker Number 1, Processing  173
+INFO:root:Worker Number 2, Processing  189
+INFO:root:Worker Number 3, Processing  559
+INFO:root:Worker Number 4, Processing  578
+INFO:root:Worker Number 5, Processing  586
+INFO:root:Worker Number 6, Processing  588
+INFO:root:Worker Number 7, Processing  592
+INFO:root:Worker Number 8, Processing  622
+INFO:root:Worker Number 9, Processing  644
+INFO:root:Worker Number 10, Processing  652
+INFO:root:Worker Number 11, Processing  654
+INFO:root:Worker Number 12, Processing  664
+INFO:root:Worker Number 13, Processing  704
+INFO:root:Worker Number 14, Processing  706
+INFO:root:Worker Number 15, Processing  725
+INFO:root:Worker Number 16, Processing  730
+INFO:root:Worker Number 17, Processing  733
+INFO:root:Worker Number 18, Processing  739
+INFO:root:Worker Number 19, Processing  748
+INFO:root:Worker Number 20, Processing  751
+INFO:root:Worker Number 21, Processing  759
+INFO:root:Worker Number 22, Processing  760
+INFO:root:Worker Number 23, Processing  762
+INFO:root:Worker Number 24, Processing  764
+INFO:root:Worker Number 25, Processing  813
+INFO:root:Worker Number 26, Processing  942
+INFO:root:Worker Number 27, Processing  1026
+INFO:root:Worker Number 28, Processing  1334
+INFO:root:Worker Number 29, Processing  1343
+ERROR:root:Worker Number 28, Error in 1334, 'streamingData'
+ERROR:root:Worker Number 29, Error in 1343, 'streamingData'
+ERROR:root:Worker Number 27, Error in 1026, 'streamingData'
+ERROR:root:Worker Number 12, Error in 664, 'streamingData'
+ERROR:root:Worker Number 10, Error in 652, 3QCJTbHU60U is age restricted, and can't be accessed without logging in.

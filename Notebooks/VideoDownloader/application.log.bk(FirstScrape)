@@ -1,0 +1,1884 @@
+INFO:root:Worker Number 0, Processing  0
+INFO:root:Worker Number 1, Processing  1
+INFO:root:Worker Number 2, Processing  2
+INFO:root:Worker Number 3, Processing  3
+INFO:root:Worker Number 4, Processing  4
+INFO:root:Worker Number 5, Processing  5
+INFO:root:Worker Number 6, Processing  6
+INFO:root:Worker Number 7, Processing  7
+INFO:root:Worker Number 8, Processing  8
+INFO:root:Worker Number 9, Processing  9
+INFO:root:Worker Number 10, Processing  10
+INFO:root:Worker Number 11, Processing  11
+INFO:root:Worker Number 12, Processing  12
+INFO:root:Worker Number 13, Processing  13
+INFO:root:Worker Number 14, Processing  14
+INFO:root:Worker Number 15, Processing  15
+INFO:root:Worker Number 16, Processing  16
+INFO:root:Worker Number 17, Processing  17
+INFO:root:Worker Number 18, Processing  18
+INFO:root:Worker Number 19, Processing  19
+INFO:root:Worker Number 20, Processing  20
+INFO:root:Worker Number 21, Processing  21
+INFO:root:Worker Number 22, Processing  22
+INFO:root:Worker Number 23, Processing  23
+INFO:root:Worker Number 24, Processing  24
+INFO:root:Worker Number 25, Processing  25
+INFO:root:Worker Number 26, Processing  26
+INFO:root:Worker Number 27, Processing  27
+INFO:root:Worker Number 28, Processing  28
+INFO:root:Worker Number 29, Processing  29
+INFO:root:Worker Number 30, Processing  30
+INFO:root:Worker Number 31, Processing  31
+INFO:root:Worker Number 32, Processing  32
+INFO:root:Worker Number 33, Processing  33
+INFO:root:Worker Number 34, Processing  34
+INFO:root:Worker Number 35, Processing  35
+INFO:root:Worker Number 36, Processing  36
+INFO:root:Worker Number 37, Processing  37
+INFO:root:Worker Number 38, Processing  38
+INFO:root:Worker Number 39, Processing  39
+INFO:root:Worker Number 40, Processing  40
+INFO:root:Worker Number 41, Processing  41
+INFO:root:Worker Number 42, Processing  42
+INFO:root:Worker Number 43, Processing  43
+INFO:root:Worker Number 44, Processing  44
+INFO:root:Worker Number 45, Processing  45
+INFO:root:Worker Number 46, Processing  46
+INFO:root:Worker Number 47, Processing  47
+INFO:root:Worker Number 48, Processing  48
+INFO:root:Worker Number 49, Processing  49
+INFO:root:Worker Number 50, Processing  50
+INFO:root:Worker Number 51, Processing  51
+INFO:root:Worker Number 52, Processing  52
+INFO:root:Worker Number 53, Processing  53
+INFO:root:Worker Number 54, Processing  54
+INFO:root:Worker Number 55, Processing  55
+INFO:root:Worker Number 56, Processing  56
+INFO:root:Worker Number 57, Processing  57
+INFO:root:Worker Number 58, Processing  58
+INFO:root:Worker Number 59, Processing  59
+INFO:root:Worker Number 60, Processing  60
+INFO:root:Worker Number 61, Processing  61
+INFO:root:Worker Number 62, Processing  62
+INFO:root:Worker Number 63, Processing  63
+INFO:root:Worker Number 64, Processing  64
+INFO:root:Worker Number 65, Processing  65
+INFO:root:Worker Number 66, Processing  66
+INFO:root:Worker Number 67, Processing  67
+INFO:root:Worker Number 68, Processing  68
+INFO:root:Worker Number 69, Processing  69
+INFO:root:Worker Number 70, Processing  70
+INFO:root:Worker Number 71, Processing  71
+INFO:root:Worker Number 72, Processing  72
+INFO:root:Worker Number 73, Processing  73
+INFO:root:Worker Number 74, Processing  74
+INFO:root:Worker Number 75, Processing  75
+INFO:root:Worker Number 76, Processing  76
+INFO:root:Worker Number 77, Processing  77
+INFO:root:Worker Number 78, Processing  78
+INFO:root:Worker Number 79, Processing  79
+INFO:root:Worker Number 80, Processing  80
+INFO:root:Worker Number 81, Processing  81
+INFO:root:Worker Number 82, Processing  82
+INFO:root:Worker Number 83, Processing  83
+INFO:root:Worker Number 84, Processing  84
+INFO:root:Worker Number 85, Processing  85
+INFO:root:Worker Number 86, Processing  86
+INFO:root:Worker Number 87, Processing  87
+INFO:root:Worker Number 88, Processing  88
+INFO:root:Worker Number 89, Processing  89
+INFO:root:Worker Number 90, Processing  90
+INFO:root:Worker Number 91, Processing  91
+INFO:root:Worker Number 92, Processing  92
+INFO:root:Worker Number 93, Processing  93
+INFO:root:Worker Number 94, Processing  94
+INFO:root:Worker Number 95, Processing  95
+INFO:root:Worker Number 96, Processing  96
+INFO:root:Worker Number 97, Processing  97
+INFO:root:Worker Number 98, Processing  98
+INFO:root:Worker Number 99, Processing  99
+INFO:root:Worker Number 31, Processing  100
+INFO:root:Worker Number 9, Processing  101
+INFO:root:Worker Number 75, Processing  102
+INFO:root:Worker Number 98, Processing  103
+INFO:root:Worker Number 95, Processing  104
+ERROR:root:Worker Number 78, Error in 78, IncompleteRead(8783278 bytes read, 653906 more expected)
+INFO:root:Worker Number 78, Processing  105
+INFO:root:Worker Number 39, Processing  106
+INFO:root:Worker Number 61, Processing  107
+INFO:root:Worker Number 79, Processing  108
+INFO:root:Worker Number 84, Processing  109
+INFO:root:Worker Number 57, Processing  110
+INFO:root:Worker Number 81, Processing  111
+INFO:root:Worker Number 74, Processing  112
+INFO:root:Worker Number 73, Processing  113
+INFO:root:Worker Number 87, Processing  114
+INFO:root:Worker Number 69, Processing  115
+INFO:root:Worker Number 70, Processing  116
+INFO:root:Worker Number 96, Processing  117
+INFO:root:Worker Number 89, Processing  118
+INFO:root:Worker Number 94, Processing  119
+INFO:root:Worker Number 51, Processing  120
+INFO:root:Worker Number 62, Processing  121
+INFO:root:Worker Number 67, Processing  122
+INFO:root:Worker Number 68, Processing  123
+INFO:root:Worker Number 20, Processing  124
+INFO:root:Worker Number 58, Processing  125
+INFO:root:Worker Number 45, Processing  126
+INFO:root:Worker Number 56, Processing  127
+INFO:root:Worker Number 86, Processing  128
+INFO:root:Worker Number 93, Processing  129
+INFO:root:Worker Number 59, Processing  130
+INFO:root:Worker Number 83, Processing  131
+INFO:root:Worker Number 97, Processing  132
+INFO:root:Worker Number 49, Processing  133
+INFO:root:Worker Number 38, Processing  134
+INFO:root:Worker Number 17, Processing  135
+INFO:root:Worker Number 66, Processing  136
+INFO:root:Worker Number 92, Processing  137
+INFO:root:Worker Number 23, Processing  138
+INFO:root:Worker Number 40, Processing  139
+INFO:root:Worker Number 27, Processing  140
+INFO:root:Worker Number 65, Processing  141
+INFO:root:Worker Number 7, Processing  142
+INFO:root:Worker Number 37, Processing  143
+INFO:root:Worker Number 50, Processing  144
+INFO:root:Worker Number 43, Processing  145
+INFO:root:Worker Number 15, Processing  146
+INFO:root:Worker Number 80, Processing  147
+INFO:root:Worker Number 82, Processing  148
+INFO:root:Worker Number 48, Processing  149
+INFO:root:Worker Number 63, Processing  150
+INFO:root:Worker Number 46, Processing  151
+INFO:root:Worker Number 64, Processing  152
+INFO:root:Worker Number 1, Processing  153
+INFO:root:Worker Number 4, Processing  154
+INFO:root:Worker Number 3, Processing  155
+INFO:root:Worker Number 55, Processing  156
+INFO:root:Worker Number 11, Processing  157
+INFO:root:Worker Number 18, Processing  158
+INFO:root:Worker Number 90, Processing  159
+INFO:root:Worker Number 60, Processing  160
+INFO:root:Worker Number 76, Processing  161
+INFO:root:Worker Number 24, Processing  162
+INFO:root:Worker Number 25, Processing  163
+INFO:root:Worker Number 10, Processing  164
+INFO:root:Worker Number 2, Processing  165
+INFO:root:Worker Number 32, Processing  166
+INFO:root:Worker Number 22, Processing  167
+INFO:root:Worker Number 54, Processing  168
+INFO:root:Worker Number 29, Processing  169
+INFO:root:Worker Number 26, Processing  170
+INFO:root:Worker Number 14, Processing  171
+INFO:root:Worker Number 28, Processing  172
+INFO:root:Worker Number 13, Processing  173
+INFO:root:Worker Number 8, Processing  174
+INFO:root:Worker Number 35, Processing  175
+INFO:root:Worker Number 91, Processing  176
+INFO:root:Worker Number 34, Processing  177
+INFO:root:Worker Number 5, Processing  178
+INFO:root:Worker Number 0, Processing  179
+INFO:root:Worker Number 36, Processing  180
+ERROR:root:Worker Number 6, Error in 6, IncompleteRead(6963701 bytes read, 77587 more expected)
+INFO:root:Worker Number 6, Processing  181
+INFO:root:Worker Number 88, Processing  182
+INFO:root:Worker Number 16, Processing  183
+INFO:root:Worker Number 85, Processing  184
+INFO:root:Worker Number 52, Processing  185
+INFO:root:Worker Number 44, Processing  186
+ERROR:root:Worker Number 12, Error in 12, IncompleteRead(9379394 bytes read, 57790 more expected)
+INFO:root:Worker Number 12, Processing  187
+INFO:root:Worker Number 71, Processing  188
+INFO:root:Worker Number 33, Processing  189
+INFO:root:Worker Number 77, Processing  190
+INFO:root:Worker Number 99, Processing  191
+INFO:root:Worker Number 30, Processing  192
+ERROR:root:Worker Number 42, Error in 42, IncompleteRead(2102817 bytes read, 445331 more expected)
+INFO:root:Worker Number 42, Processing  193
+INFO:root:Worker Number 41, Processing  194
+ERROR:root:Worker Number 19, Error in 19, IncompleteRead(8337298 bytes read, 72548 more expected)
+INFO:root:Worker Number 47, Processing  195
+INFO:root:Worker Number 19, Processing  196
+INFO:root:Worker Number 72, Processing  197
+INFO:root:Worker Number 21, Processing  198
+INFO:root:Worker Number 53, Processing  199
+INFO:root:Worker Number 9, Processing  200
+INFO:root:Worker Number 75, Processing  201
+INFO:root:Worker Number 39, Processing  202
+INFO:root:Worker Number 31, Processing  203
+INFO:root:Worker Number 70, Processing  204
+INFO:root:Worker Number 49, Processing  205
+INFO:root:Worker Number 84, Processing  206
+INFO:root:Worker Number 96, Processing  207
+INFO:root:Worker Number 68, Processing  208
+INFO:root:Worker Number 95, Processing  209
+INFO:root:Worker Number 86, Processing  210
+INFO:root:Worker Number 61, Processing  211
+INFO:root:Worker Number 20, Processing  212
+INFO:root:Worker Number 98, Processing  213
+INFO:root:Worker Number 74, Processing  214
+INFO:root:Worker Number 81, Processing  215
+INFO:root:Worker Number 78, Processing  216
+INFO:root:Worker Number 89, Processing  217
+INFO:root:Worker Number 57, Processing  218
+INFO:root:Worker Number 51, Processing  219
+INFO:root:Worker Number 65, Processing  220
+INFO:root:Worker Number 23, Processing  221
+INFO:root:Worker Number 79, Processing  222
+INFO:root:Worker Number 67, Processing  223
+INFO:root:Worker Number 45, Processing  224
+INFO:root:Worker Number 94, Processing  225
+INFO:root:Worker Number 56, Processing  226
+INFO:root:Worker Number 10, Processing  227
+INFO:root:Worker Number 25, Processing  228
+INFO:root:Worker Number 69, Processing  229
+INFO:root:Worker Number 66, Processing  230
+INFO:root:Worker Number 58, Processing  231
+INFO:root:Worker Number 80, Processing  232
+INFO:root:Worker Number 55, Processing  233
+INFO:root:Worker Number 59, Processing  234
+INFO:root:Worker Number 73, Processing  235
+INFO:root:Worker Number 22, Processing  236
+INFO:root:Worker Number 83, Processing  237
+INFO:root:Worker Number 93, Processing  238
+INFO:root:Worker Number 97, Processing  239
+INFO:root:Worker Number 17, Processing  240
+INFO:root:Worker Number 18, Processing  241
+INFO:root:Worker Number 87, Processing  242
+INFO:root:Worker Number 82, Processing  243
+INFO:root:Worker Number 26, Processing  244
+INFO:root:Worker Number 62, Processing  245
+INFO:root:Worker Number 46, Processing  246
+INFO:root:Worker Number 90, Processing  247
+INFO:root:Worker Number 60, Processing  248
+INFO:root:Worker Number 43, Processing  249
+INFO:root:Worker Number 36, Processing  250
+ERROR:root:Worker Number 38, Error in 134, IncompleteRead(9304166 bytes read, 133018 more expected)
+INFO:root:Worker Number 38, Processing  251
+INFO:root:Worker Number 76, Processing  252
+ERROR:root:Worker Number 7, Error in 142, IncompleteRead(9366477 bytes read, 37992 more expected)
+INFO:root:Worker Number 7, Processing  253
+INFO:root:Worker Number 4, Processing  254
+INFO:root:Worker Number 1, Processing  255
+INFO:root:Worker Number 27, Processing  256
+INFO:root:Worker Number 48, Processing  257
+INFO:root:Worker Number 32, Processing  258
+INFO:root:Worker Number 91, Processing  259
+INFO:root:Worker Number 15, Processing  260
+INFO:root:Worker Number 37, Processing  261
+INFO:root:Worker Number 53, Processing  262
+INFO:root:Worker Number 11, Processing  263
+INFO:root:Worker Number 85, Processing  264
+INFO:root:Worker Number 92, Processing  265
+INFO:root:Worker Number 35, Processing  266
+INFO:root:Worker Number 64, Processing  267
+INFO:root:Worker Number 44, Processing  268
+INFO:root:Worker Number 8, Processing  269
+INFO:root:Worker Number 99, Processing  270
+INFO:root:Worker Number 54, Processing  271
+INFO:root:Worker Number 28, Processing  272
+INFO:root:Worker Number 24, Processing  273
+INFO:root:Worker Number 3, Processing  274
+INFO:root:Worker Number 34, Processing  275
+INFO:root:Worker Number 77, Processing  276
+INFO:root:Worker Number 14, Processing  277
+INFO:root:Worker Number 52, Processing  278
+ERROR:root:Worker Number 13, Error in 173, IncompleteRead(9197934 bytes read, 239250 more expected)
+INFO:root:Worker Number 13, Processing  279
+INFO:root:Worker Number 5, Processing  280
+INFO:root:Worker Number 71, Processing  281
+INFO:root:Worker Number 12, Processing  282
+INFO:root:Worker Number 29, Processing  283
+INFO:root:Worker Number 47, Processing  284
+INFO:root:Worker Number 21, Processing  285
+INFO:root:Worker Number 72, Processing  286
+ERROR:root:Worker Number 6, Error in 181, IncompleteRead(9307253 bytes read, 129931 more expected)
+INFO:root:Worker Number 6, Processing  287
+INFO:root:Worker Number 0, Processing  288
+INFO:root:Worker Number 40, Processing  289
+INFO:root:Worker Number 2, Processing  290
+INFO:root:Worker Number 63, Processing  291
+INFO:root:Worker Number 88, Processing  292
+INFO:root:Worker Number 19, Processing  293
+ERROR:root:Worker Number 33, Error in 189, IncompleteRead(7754235 bytes read, 38214 more expected)
+INFO:root:Worker Number 33, Processing  294
+INFO:root:Worker Number 16, Processing  295
+INFO:root:Worker Number 42, Processing  296
+INFO:root:Worker Number 30, Processing  297
+ERROR:root:Worker Number 41, Error in 194, IncompleteRead(9162629 bytes read, 274555 more expected)
+INFO:root:Worker Number 41, Processing  298
+INFO:root:Worker Number 50, Processing  299
+INFO:root:Worker Number 75, Processing  300
+INFO:root:Worker Number 81, Processing  301
+ERROR:root:Worker Number 84, Error in 206, IncompleteRead(9025014 bytes read, 412170 more expected)
+INFO:root:Worker Number 84, Processing  302
+INFO:root:Worker Number 49, Processing  303
+INFO:root:Worker Number 31, Processing  304
+INFO:root:Worker Number 79, Processing  305
+INFO:root:Worker Number 9, Processing  306
+INFO:root:Worker Number 74, Processing  307
+INFO:root:Worker Number 89, Processing  308
+INFO:root:Worker Number 96, Processing  309
+INFO:root:Worker Number 57, Processing  310
+INFO:root:Worker Number 45, Processing  311
+INFO:root:Worker Number 69, Processing  312
+INFO:root:Worker Number 68, Processing  313
+INFO:root:Worker Number 86, Processing  314
+INFO:root:Worker Number 10, Processing  315
+INFO:root:Worker Number 20, Processing  316
+INFO:root:Worker Number 98, Processing  317
+INFO:root:Worker Number 23, Processing  318
+INFO:root:Worker Number 95, Processing  319
+INFO:root:Worker Number 90, Processing  320
+INFO:root:Worker Number 39, Processing  321
+INFO:root:Worker Number 67, Processing  322
+INFO:root:Worker Number 58, Processing  323
+INFO:root:Worker Number 51, Processing  324
+INFO:root:Worker Number 26, Processing  325
+INFO:root:Worker Number 25, Processing  326
+INFO:root:Worker Number 65, Processing  327
+INFO:root:Worker Number 78, Processing  328
+INFO:root:Worker Number 82, Processing  329
+INFO:root:Worker Number 56, Processing  330
+INFO:root:Worker Number 80, Processing  331
+INFO:root:Worker Number 83, Processing  332
+INFO:root:Worker Number 94, Processing  333
+INFO:root:Worker Number 36, Processing  334
+INFO:root:Worker Number 70, Processing  335
+INFO:root:Worker Number 18, Processing  336
+INFO:root:Worker Number 17, Processing  337
+INFO:root:Worker Number 62, Processing  338
+INFO:root:Worker Number 55, Processing  339
+INFO:root:Worker Number 59, Processing  340
+INFO:root:Worker Number 48, Processing  341
+INFO:root:Worker Number 73, Processing  342
+INFO:root:Worker Number 15, Processing  343
+INFO:root:Worker Number 43, Processing  344
+INFO:root:Worker Number 87, Processing  345
+INFO:root:Worker Number 91, Processing  346
+INFO:root:Worker Number 37, Processing  347
+INFO:root:Worker Number 32, Processing  348
+INFO:root:Worker Number 61, Processing  349
+INFO:root:Worker Number 27, Processing  350
+INFO:root:Worker Number 66, Processing  351
+INFO:root:Worker Number 22, Processing  352
+INFO:root:Worker Number 60, Processing  353
+INFO:root:Worker Number 93, Processing  354
+INFO:root:Worker Number 1, Processing  355
+INFO:root:Worker Number 35, Processing  356
+INFO:root:Worker Number 92, Processing  357
+INFO:root:Worker Number 85, Processing  358
+INFO:root:Worker Number 3, Processing  359
+INFO:root:Worker Number 4, Processing  360
+INFO:root:Worker Number 44, Processing  361
+INFO:root:Worker Number 7, Processing  362
+INFO:root:Worker Number 54, Processing  363
+INFO:root:Worker Number 76, Processing  364
+INFO:root:Worker Number 97, Processing  365
+INFO:root:Worker Number 24, Processing  366
+INFO:root:Worker Number 28, Processing  367
+INFO:root:Worker Number 34, Processing  368
+INFO:root:Worker Number 77, Processing  369
+INFO:root:Worker Number 46, Processing  370
+INFO:root:Worker Number 5, Processing  371
+INFO:root:Worker Number 38, Processing  372
+INFO:root:Worker Number 72, Processing  373
+INFO:root:Worker Number 29, Processing  374
+INFO:root:Worker Number 63, Processing  375
+INFO:root:Worker Number 13, Processing  376
+ERROR:root:Worker Number 53, Error in 262, IncompleteRead(9349124 bytes read, 88060 more expected)
+INFO:root:Worker Number 53, Processing  377
+INFO:root:Worker Number 8, Processing  378
+ERROR:root:Worker Number 6, Error in 287, IncompleteRead(9204053 bytes read, 233131 more expected)
+INFO:root:Worker Number 6, Processing  379
+ERROR:root:Worker Number 88, Error in 292, IncompleteRead(9057977 bytes read, 379207 more expected)
+INFO:root:Worker Number 88, Processing  380
+INFO:root:Worker Number 64, Processing  381
+INFO:root:Worker Number 33, Processing  382
+INFO:root:Worker Number 42, Processing  383
+ERROR:root:Worker Number 12, Error in 282, IncompleteRead(9000398 bytes read, 436786 more expected)
+INFO:root:Worker Number 12, Processing  384
+INFO:root:Worker Number 16, Processing  385
+ERROR:root:Worker Number 52, Error in 278, IncompleteRead(9304915 bytes read, 132269 more expected)
+INFO:root:Worker Number 52, Processing  386
+INFO:root:Worker Number 41, Processing  387
+INFO:root:Worker Number 11, Processing  388
+INFO:root:Worker Number 99, Processing  389
+INFO:root:Worker Number 47, Processing  390
+INFO:root:Worker Number 0, Processing  391
+INFO:root:Worker Number 30, Processing  392
+INFO:root:Worker Number 75, Processing  393
+INFO:root:Worker Number 71, Processing  394
+INFO:root:Worker Number 14, Processing  395
+INFO:root:Worker Number 21, Processing  396
+INFO:root:Worker Number 2, Processing  397
+INFO:root:Worker Number 19, Processing  398
+ERROR:root:Worker Number 50, Error in 299, IncompleteRead(8684717 bytes read, 752467 more expected)
+INFO:root:Worker Number 50, Processing  399
+INFO:root:Worker Number 81, Processing  400
+INFO:root:Worker Number 84, Processing  401
+INFO:root:Worker Number 40, Processing  402
+ERROR:root:Worker Number 49, Error in 303, IncompleteRead(9295462 bytes read, 141722 more expected)
+INFO:root:Worker Number 49, Processing  403
+INFO:root:Worker Number 80, Processing  404
+INFO:root:Worker Number 79, Processing  405
+ERROR:root:Worker Number 95, Error in 319, IncompleteRead(9097528 bytes read, 339656 more expected)
+INFO:root:Worker Number 95, Processing  406
+INFO:root:Worker Number 31, Processing  407
+INFO:root:Worker Number 57, Processing  408
+INFO:root:Worker Number 69, Processing  409
+INFO:root:Worker Number 89, Processing  410
+INFO:root:Worker Number 36, Processing  411
+INFO:root:Worker Number 39, Processing  412
+INFO:root:Worker Number 86, Processing  413
+ERROR:root:Worker Number 9, Error in 306, IncompleteRead(8759043 bytes read, 678141 more expected)
+INFO:root:Worker Number 9, Processing  414
+INFO:root:Worker Number 65, Processing  415
+INFO:root:Worker Number 96, Processing  416
+ERROR:root:Worker Number 74, Error in 307, IncompleteRead(9228042 bytes read, 209142 more expected)
+INFO:root:Worker Number 74, Processing  417
+ERROR:root:Worker Number 57, Error in 408, Remote end closed connection without response
+INFO:root:Worker Number 57, Processing  418
+ERROR:root:Worker Number 31, Error in 407, Remote end closed connection without response
+INFO:root:Worker Number 31, Processing  419
+ERROR:root:Worker Number 20, Error in 316, IncompleteRead(8779941 bytes read, 657243 more expected)
+INFO:root:Worker Number 20, Processing  420
+ERROR:root:Worker Number 83, Error in 332, IncompleteRead(8583445 bytes read, 853739 more expected)
+INFO:root:Worker Number 83, Processing  421
+ERROR:root:Worker Number 48, Error in 341, IncompleteRead(8263178 bytes read, 1174006 more expected)
+INFO:root:Worker Number 48, Processing  422
+ERROR:root:Worker Number 67, Error in 322, IncompleteRead(8525046 bytes read, 912138 more expected)
+INFO:root:Worker Number 67, Processing  423
+ERROR:root:Worker Number 18, Error in 336, IncompleteRead(9376808 bytes read, 60376 more expected)
+INFO:root:Worker Number 18, Processing  424
+ERROR:root:Worker Number 55, Error in 339, IncompleteRead(8952315 bytes read, 484869 more expected)
+INFO:root:Worker Number 55, Processing  425
+INFO:root:Worker Number 26, Processing  426
+ERROR:root:Worker Number 58, Error in 323, IncompleteRead(9182571 bytes read, 254613 more expected)
+INFO:root:Worker Number 58, Processing  427
+ERROR:root:Worker Number 32, Error in 348, IncompleteRead(9158700 bytes read, 278484 more expected)
+INFO:root:Worker Number 32, Processing  428
+INFO:root:Worker Number 78, Processing  429
+INFO:root:Worker Number 98, Processing  430
+INFO:root:Worker Number 59, Processing  431
+ERROR:root:Worker Number 51, Error in 324, IncompleteRead(9096799 bytes read, 340385 more expected)
+INFO:root:Worker Number 51, Processing  432
+INFO:root:Worker Number 37, Processing  433
+INFO:root:Worker Number 56, Processing  434
+ERROR:root:Worker Number 22, Error in 352, IncompleteRead(9321651 bytes read, 115533 more expected)
+INFO:root:Worker Number 22, Processing  435
+ERROR:root:Worker Number 73, Error in 342, IncompleteRead(9163496 bytes read, 273688 more expected)
+INFO:root:Worker Number 73, Processing  436
+INFO:root:Worker Number 25, Processing  437
+INFO:root:Worker Number 91, Processing  438
+INFO:root:Worker Number 82, Processing  439
+INFO:root:Worker Number 70, Processing  440
+INFO:root:Worker Number 68, Processing  441
+INFO:root:Worker Number 45, Processing  442
+INFO:root:Worker Number 66, Processing  443
+INFO:root:Worker Number 27, Processing  444
+ERROR:root:Worker Number 90, Error in 320, IncompleteRead(9323815 bytes read, 113369 more expected)
+INFO:root:Worker Number 90, Processing  445
+INFO:root:Worker Number 43, Processing  446
+INFO:root:Worker Number 10, Processing  447
+INFO:root:Worker Number 3, Processing  448
+INFO:root:Worker Number 54, Processing  449
+INFO:root:Worker Number 7, Processing  450
+INFO:root:Worker Number 94, Processing  451
+INFO:root:Worker Number 62, Processing  452
+ERROR:root:Worker Number 23, Error in 318, IncompleteRead(7825910 bytes read, 292859 more expected)
+INFO:root:Worker Number 23, Processing  453
+INFO:root:Worker Number 87, Processing  454
+ERROR:root:Worker Number 88, Error in 380, <urlopen error [Errno -3] Temporary failure in name resolution>
+INFO:root:Worker Number 88, Processing  455
+ERROR:root:Worker Number 88, Error in 455, <urlopen error [Errno -3] Temporary failure in name resolution>
+INFO:root:Worker Number 88, Processing  456
+INFO:root:Worker Number 93, Processing  457
+INFO:root:Worker Number 34, Processing  458
+INFO:root:Worker Number 15, Processing  459
+INFO:root:Worker Number 44, Processing  460
+INFO:root:Worker Number 92, Processing  461
+INFO:root:Worker Number 24, Processing  462
+ERROR:root:Worker Number 76, Error in 364, IncompleteRead(5865067 bytes read, 63854 more expected)
+INFO:root:Worker Number 76, Processing  463
+INFO:root:Worker Number 85, Processing  464
+INFO:root:Worker Number 29, Processing  465
+ERROR:root:Worker Number 72, Error in 373, IncompleteRead(9148924 bytes read, 288260 more expected)
+INFO:root:Worker Number 72, Processing  466
+INFO:root:Worker Number 4, Processing  467
+INFO:root:Worker Number 35, Processing  468
+INFO:root:Worker Number 28, Processing  469
+INFO:root:Worker Number 60, Processing  470
+INFO:root:Worker Number 97, Processing  471
+INFO:root:Worker Number 12, Processing  472
+INFO:root:Worker Number 61, Processing  473
+INFO:root:Worker Number 16, Processing  474
+INFO:root:Worker Number 1, Processing  475
+INFO:root:Worker Number 46, Processing  476
+ERROR:root:Worker Number 33, Error in 382, IncompleteRead(9145494 bytes read, 291690 more expected)
+INFO:root:Worker Number 33, Processing  477
+INFO:root:Worker Number 17, Processing  478
+INFO:root:Worker Number 47, Processing  479
+INFO:root:Worker Number 64, Processing  480
+INFO:root:Worker Number 77, Processing  481
+INFO:root:Worker Number 41, Processing  482
+INFO:root:Worker Number 13, Processing  483
+INFO:root:Worker Number 8, Processing  484
+INFO:root:Worker Number 71, Processing  485
+INFO:root:Worker Number 52, Processing  486
+INFO:root:Worker Number 38, Processing  487
+INFO:root:Worker Number 5, Processing  488
+INFO:root:Worker Number 53, Processing  489
+INFO:root:Worker Number 81, Processing  490
+INFO:root:Worker Number 0, Processing  491
+INFO:root:Worker Number 99, Processing  492
+INFO:root:Worker Number 50, Processing  493
+ERROR:root:Worker Number 19, Error in 398, IncompleteRead(3997600 bytes read, 1385222 more expected)
+INFO:root:Worker Number 19, Processing  494
+INFO:root:Worker Number 75, Processing  495
+INFO:root:Worker Number 21, Processing  496
+INFO:root:Worker Number 42, Processing  497
+INFO:root:Worker Number 63, Processing  498
+INFO:root:Worker Number 11, Processing  499
+INFO:root:Worker Number 2, Processing  500
+INFO:root:Worker Number 14, Processing  501
+INFO:root:Worker Number 6, Processing  502
+INFO:root:Worker Number 49, Processing  503
+INFO:root:Worker Number 80, Processing  504
+INFO:root:Worker Number 30, Processing  505
+INFO:root:Worker Number 79, Processing  506
+INFO:root:Worker Number 95, Processing  507
+INFO:root:Worker Number 39, Processing  508
+INFO:root:Worker Number 84, Processing  509
+INFO:root:Worker Number 9, Processing  510
+INFO:root:Worker Number 86, Processing  511
+INFO:root:Worker Number 78, Processing  512
+INFO:root:Worker Number 74, Processing  513
+INFO:root:Worker Number 31, Processing  514
+INFO:root:Worker Number 89, Processing  515
+INFO:root:Worker Number 32, Processing  516
+INFO:root:Worker Number 40, Processing  517
+INFO:root:Worker Number 20, Processing  518
+INFO:root:Worker Number 37, Processing  519
+INFO:root:Worker Number 65, Processing  520
+INFO:root:Worker Number 51, Processing  521
+INFO:root:Worker Number 70, Processing  522
+INFO:root:Worker Number 27, Processing  523
+INFO:root:Worker Number 83, Processing  524
+INFO:root:Worker Number 48, Processing  525
+INFO:root:Worker Number 58, Processing  526
+INFO:root:Worker Number 57, Processing  527
+INFO:root:Worker Number 66, Processing  528
+INFO:root:Worker Number 43, Processing  529
+INFO:root:Worker Number 68, Processing  530
+ERROR:root:Worker Number 26, Error in 426, IncompleteRead(9057818 bytes read, 379366 more expected)
+INFO:root:Worker Number 26, Processing  531
+ERROR:root:Worker Number 36, Error in 411, IncompleteRead(5797562 bytes read, 439233 more expected)
+INFO:root:Worker Number 36, Processing  532
+INFO:root:Worker Number 69, Processing  533
+INFO:root:Worker Number 91, Processing  534
+INFO:root:Worker Number 25, Processing  535
+ERROR:root:Worker Number 22, Error in 435, IncompleteRead(8615737 bytes read, 61525 more expected)
+INFO:root:Worker Number 22, Processing  536
+INFO:root:Worker Number 55, Processing  537
+INFO:root:Worker Number 54, Processing  538
+INFO:root:Worker Number 96, Processing  539
+ERROR:root:Worker Number 90, Error in 445, IncompleteRead(9401654 bytes read, 35530 more expected)
+INFO:root:Worker Number 90, Processing  540
+INFO:root:Worker Number 18, Processing  541
+INFO:root:Worker Number 98, Processing  542
+INFO:root:Worker Number 10, Processing  543
+ERROR:root:Worker Number 7, Error in 450, IncompleteRead(8934146 bytes read, 503038 more expected)
+INFO:root:Worker Number 7, Processing  544
+INFO:root:Worker Number 82, Processing  545
+ERROR:root:Worker Number 92, Error in 461, IncompleteRead(6214992 bytes read, 633278 more expected)
+INFO:root:Worker Number 92, Processing  546
+INFO:root:Worker Number 59, Processing  547
+ERROR:root:Worker Number 88, Error in 456, IncompleteRead(6080586 bytes read, 258327 more expected)
+INFO:root:Worker Number 88, Processing  548
+INFO:root:Worker Number 45, Processing  549
+ERROR:root:Worker Number 34, Error in 458, IncompleteRead(9282561 bytes read, 154623 more expected)
+INFO:root:Worker Number 34, Processing  550
+INFO:root:Worker Number 56, Processing  551
+INFO:root:Worker Number 87, Processing  552
+INFO:root:Worker Number 73, Processing  553
+INFO:root:Worker Number 76, Processing  554
+INFO:root:Worker Number 67, Processing  555
+INFO:root:Worker Number 1, Processing  556
+INFO:root:Worker Number 24, Processing  557
+INFO:root:Worker Number 94, Processing  558
+INFO:root:Worker Number 3, Processing  559
+INFO:root:Worker Number 4, Processing  560
+INFO:root:Worker Number 12, Processing  561
+INFO:root:Worker Number 62, Processing  562
+INFO:root:Worker Number 72, Processing  563
+INFO:root:Worker Number 97, Processing  564
+INFO:root:Worker Number 93, Processing  565
+INFO:root:Worker Number 17, Processing  566
+INFO:root:Worker Number 23, Processing  567
+INFO:root:Worker Number 13, Processing  568
+ERROR:root:Worker Number 16, Error in 474, IncompleteRead(9273816 bytes read, 163368 more expected)
+INFO:root:Worker Number 16, Processing  569
+INFO:root:Worker Number 46, Processing  570
+INFO:root:Worker Number 15, Processing  571
+INFO:root:Worker Number 64, Processing  572
+INFO:root:Worker Number 29, Processing  573
+ERROR:root:Worker Number 60, Error in 470, IncompleteRead(9185095 bytes read, 252089 more expected)
+INFO:root:Worker Number 60, Processing  574
+INFO:root:Worker Number 44, Processing  575
+INFO:root:Worker Number 52, Processing  576
+INFO:root:Worker Number 28, Processing  577
+INFO:root:Worker Number 77, Processing  578
+INFO:root:Worker Number 85, Processing  579
+INFO:root:Worker Number 35, Processing  580
+INFO:root:Worker Number 71, Processing  581
+INFO:root:Worker Number 47, Processing  582
+INFO:root:Worker Number 38, Processing  583
+ERROR:root:Worker Number 41, Error in 482, IncompleteRead(5465611 bytes read, 179629 more expected)
+INFO:root:Worker Number 41, Processing  584
+INFO:root:Worker Number 8, Processing  585
+INFO:root:Worker Number 5, Processing  586
+INFO:root:Worker Number 33, Processing  587
+INFO:root:Worker Number 75, Processing  588
+INFO:root:Worker Number 53, Processing  589
+INFO:root:Worker Number 19, Processing  590
+INFO:root:Worker Number 0, Processing  591
+INFO:root:Worker Number 14, Processing  592
+ERROR:root:Worker Number 42, Error in 497, IncompleteRead(9111297 bytes read, 325887 more expected)
+INFO:root:Worker Number 42, Processing  593
+INFO:root:Worker Number 2, Processing  594
+INFO:root:Worker Number 84, Processing  595
+INFO:root:Worker Number 81, Processing  596
+INFO:root:Worker Number 11, Processing  597
+INFO:root:Worker Number 6, Processing  598
+INFO:root:Worker Number 21, Processing  599
+INFO:root:Worker Number 80, Processing  600
+INFO:root:Worker Number 61, Processing  601
+INFO:root:Worker Number 99, Processing  602
+INFO:root:Worker Number 50, Processing  603
+INFO:root:Worker Number 63, Processing  604
+INFO:root:Worker Number 30, Processing  605
+INFO:root:Worker Number 49, Processing  606
+INFO:root:Worker Number 74, Processing  607
+INFO:root:Worker Number 27, Processing  608
+INFO:root:Worker Number 68, Processing  609
+INFO:root:Worker Number 69, Processing  610
+INFO:root:Worker Number 86, Processing  611
+INFO:root:Worker Number 83, Processing  612
+INFO:root:Worker Number 48, Processing  613
+INFO:root:Worker Number 57, Processing  614
+INFO:root:Worker Number 26, Processing  615
+INFO:root:Worker Number 79, Processing  616
+INFO:root:Worker Number 31, Processing  617
+INFO:root:Worker Number 39, Processing  618
+INFO:root:Worker Number 51, Processing  619
+ERROR:root:Worker Number 89, Error in 515, IncompleteRead(7232911 bytes read, 30255 more expected)
+INFO:root:Worker Number 89, Processing  620
+INFO:root:Worker Number 78, Processing  621
+INFO:root:Worker Number 37, Processing  622
+INFO:root:Worker Number 65, Processing  623
+INFO:root:Worker Number 66, Processing  624
+INFO:root:Worker Number 54, Processing  625
+INFO:root:Worker Number 43, Processing  626
+INFO:root:Worker Number 9, Processing  627
+INFO:root:Worker Number 36, Processing  628
+INFO:root:Worker Number 96, Processing  629
+INFO:root:Worker Number 90, Processing  630
+INFO:root:Worker Number 59, Processing  631
+INFO:root:Worker Number 95, Processing  632
+INFO:root:Worker Number 55, Processing  633
+INFO:root:Worker Number 70, Processing  634
+ERROR:root:Worker Number 91, Error in 534, IncompleteRead(9369149 bytes read, 68035 more expected)
+INFO:root:Worker Number 91, Processing  635
+INFO:root:Worker Number 88, Processing  636
+INFO:root:Worker Number 20, Processing  637
+INFO:root:Worker Number 40, Processing  638
+INFO:root:Worker Number 18, Processing  639
+ERROR:root:Worker Number 7, Error in 544, IncompleteRead(3790593 bytes read, 626333 more expected)
+INFO:root:Worker Number 7, Processing  640
+INFO:root:Worker Number 34, Processing  641
+INFO:root:Worker Number 32, Processing  642
+INFO:root:Worker Number 98, Processing  643
+INFO:root:Worker Number 45, Processing  644
+INFO:root:Worker Number 25, Processing  645
+INFO:root:Worker Number 1, Processing  646
+INFO:root:Worker Number 10, Processing  647
+INFO:root:Worker Number 73, Processing  648
+INFO:root:Worker Number 87, Processing  649
+INFO:root:Worker Number 58, Processing  650
+INFO:root:Worker Number 22, Processing  651
+INFO:root:Worker Number 76, Processing  652
+INFO:root:Worker Number 4, Processing  653
+INFO:root:Worker Number 94, Processing  654
+INFO:root:Worker Number 82, Processing  655
+INFO:root:Worker Number 72, Processing  656
+INFO:root:Worker Number 24, Processing  657
+INFO:root:Worker Number 97, Processing  658
+INFO:root:Worker Number 92, Processing  659
+INFO:root:Worker Number 56, Processing  660
+ERROR:root:Worker Number 92, Error in 659, Remote end closed connection without response
+INFO:root:Worker Number 92, Processing  661
+INFO:root:Worker Number 62, Processing  662
+INFO:root:Worker Number 44, Processing  663
+ERROR:root:Worker Number 64, Error in 572, IncompleteRead(4405066 bytes read, 840551 more expected)
+INFO:root:Worker Number 64, Processing  664
+ERROR:root:Worker Number 60, Error in 574, IncompleteRead(6023074 bytes read, 1020749 more expected)
+INFO:root:Worker Number 60, Processing  665
+INFO:root:Worker Number 16, Processing  666
+ERROR:root:Worker Number 76, Error in 652, 3QCJTbHU60U is age restricted, and can't be accessed without logging in.
+INFO:root:Worker Number 76, Processing  667
+ERROR:root:Worker Number 22, Error in 651, <urlopen error [Errno -3] Temporary failure in name resolution>
+INFO:root:Worker Number 22, Processing  668
+ERROR:root:Worker Number 35, Error in 580, <urlopen error [Errno -3] Temporary failure in name resolution>
+INFO:root:Worker Number 35, Processing  669
+ERROR:root:Worker Number 85, Error in 579, <urlopen error [Errno -3] Temporary failure in name resolution>
+INFO:root:Worker Number 85, Processing  670
+ERROR:root:Worker Number 76, Error in 667, <urlopen error [Errno -3] Temporary failure in name resolution>
+INFO:root:Worker Number 76, Processing  671
+ERROR:root:Worker Number 28, Error in 577, <urlopen error [Errno -3] Temporary failure in name resolution>
+ERROR:root:Worker Number 71, Error in 581, <urlopen error [Errno -3] Temporary failure in name resolution>
+ERROR:root:Worker Number 4, Error in 653, <urlopen error [Errno -3] Temporary failure in name resolution>
+ERROR:root:Worker Number 60, Error in 665, <urlopen error [Errno -3] Temporary failure in name resolution>
+ERROR:root:Worker Number 16, Error in 666, <urlopen error [Errno -3] Temporary failure in name resolution>
+INFO:root:Worker Number 28, Processing  672
+INFO:root:Worker Number 71, Processing  673
+INFO:root:Worker Number 4, Processing  674
+INFO:root:Worker Number 60, Processing  675
+INFO:root:Worker Number 16, Processing  676
+ERROR:root:Worker Number 22, Error in 668, <urlopen error [Errno -3] Temporary failure in name resolution>
+INFO:root:Worker Number 22, Processing  677
+ERROR:root:Worker Number 47, Error in 582, <urlopen error [Errno -3] Temporary failure in name resolution>
+INFO:root:Worker Number 47, Processing  678
+ERROR:root:Worker Number 38, Error in 583, <urlopen error [Errno -3] Temporary failure in name resolution>
+INFO:root:Worker Number 38, Processing  679
+ERROR:root:Worker Number 35, Error in 669, <urlopen error [Errno -3] Temporary failure in name resolution>
+INFO:root:Worker Number 35, Processing  680
+ERROR:root:Worker Number 85, Error in 670, <urlopen error [Errno -3] Temporary failure in name resolution>
+INFO:root:Worker Number 85, Processing  681
+ERROR:root:Worker Number 60, Error in 675, <urlopen error [Errno -3] Temporary failure in name resolution>
+ERROR:root:Worker Number 22, Error in 677, <urlopen error [Errno -3] Temporary failure in name resolution>
+ERROR:root:Worker Number 16, Error in 676, <urlopen error [Errno -3] Temporary failure in name resolution>
+ERROR:root:Worker Number 28, Error in 672, <urlopen error [Errno -3] Temporary failure in name resolution>
+ERROR:root:Worker Number 71, Error in 673, <urlopen error [Errno -3] Temporary failure in name resolution>
+ERROR:root:Worker Number 76, Error in 671, <urlopen error [Errno -3] Temporary failure in name resolution>
+ERROR:root:Worker Number 4, Error in 674, <urlopen error [Errno -3] Temporary failure in name resolution>
+INFO:root:Worker Number 60, Processing  682
+INFO:root:Worker Number 22, Processing  683
+INFO:root:Worker Number 16, Processing  684
+INFO:root:Worker Number 28, Processing  685
+INFO:root:Worker Number 71, Processing  686
+INFO:root:Worker Number 76, Processing  687
+INFO:root:Worker Number 4, Processing  688
+ERROR:root:Worker Number 17, Error in 566, IncompleteRead(4949341 bytes read, 164257 more expected)
+ERROR:root:Worker Number 15, Error in 571, IncompleteRead(8273786 bytes read, 1163398 more expected)
+INFO:root:Worker Number 17, Processing  689
+INFO:root:Worker Number 15, Processing  690
+ERROR:root:Worker Number 46, Error in 570, IncompleteRead(8574463 bytes read, 862721 more expected)
+INFO:root:Worker Number 46, Processing  691
+ERROR:root:Worker Number 16, Error in 684, <urlopen error [Errno -3] Temporary failure in name resolution>
+ERROR:root:Worker Number 28, Error in 685, <urlopen error [Errno -3] Temporary failure in name resolution>
+ERROR:root:Worker Number 22, Error in 683, <urlopen error [Errno -3] Temporary failure in name resolution>
+INFO:root:Worker Number 16, Processing  692
+ERROR:root:Worker Number 71, Error in 686, <urlopen error [Errno -3] Temporary failure in name resolution>
+ERROR:root:Worker Number 60, Error in 682, <urlopen error [Errno -3] Temporary failure in name resolution>
+INFO:root:Worker Number 28, Processing  693
+INFO:root:Worker Number 22, Processing  694
+INFO:root:Worker Number 71, Processing  695
+INFO:root:Worker Number 60, Processing  696
+ERROR:root:Worker Number 13, Error in 568, IncompleteRead(1601511 bytes read, 172260 more expected)
+INFO:root:Worker Number 13, Processing  697
+ERROR:root:Worker Number 75, Error in 588, IncompleteRead(7817260 bytes read, 1619924 more expected)
+INFO:root:Worker Number 75, Processing  698
+ERROR:root:Worker Number 44, Error in 663, <urlopen error [Errno -3] Temporary failure in name resolution>
+INFO:root:Worker Number 44, Processing  699
+ERROR:root:Worker Number 14, Error in 592, <urlopen error [Errno -3] Temporary failure in name resolution>
+ERROR:root:Worker Number 84, Error in 595, <urlopen error [Errno -3] Temporary failure in name resolution>
+INFO:root:Worker Number 14, Processing  700
+INFO:root:Worker Number 84, Processing  701
+ERROR:root:Worker Number 0, Error in 591, <urlopen error [Errno -3] Temporary failure in name resolution>
+INFO:root:Worker Number 0, Processing  702
+ERROR:root:Worker Number 67, Error in 555, IncompleteRead(8781283 bytes read, 655901 more expected)
+INFO:root:Worker Number 67, Processing  703
+INFO:root:Worker Number 23, Processing  704
+ERROR:root:Worker Number 77, Error in 578, IncompleteRead(7804687 bytes read, 1632497 more expected)
+INFO:root:Worker Number 77, Processing  705
+INFO:root:Worker Number 33, Processing  706
+INFO:root:Worker Number 93, Processing  707
+INFO:root:Worker Number 12, Processing  708
+ERROR:root:Worker Number 29, Error in 573, IncompleteRead(9022732 bytes read, 414452 more expected)
+INFO:root:Worker Number 29, Processing  709
+ERROR:root:Worker Number 5, Error in 586, IncompleteRead(9084203 bytes read, 352981 more expected)
+INFO:root:Worker Number 5, Processing  710
+ERROR:root:Worker Number 53, Error in 589, IncompleteRead(5458619 bytes read, 342246 more expected)
+INFO:root:Worker Number 53, Processing  711
+ERROR:root:Worker Number 19, Error in 590, IncompleteRead(8839186 bytes read, 597998 more expected)
+INFO:root:Worker Number 19, Processing  712
+ERROR:root:Worker Number 52, Error in 576, IncompleteRead(8955027 bytes read, 66912 more expected)
+INFO:root:Worker Number 52, Processing  713
+ERROR:root:Worker Number 3, Error in 559, IncompleteRead(9024297 bytes read, 412887 more expected)
+INFO:root:Worker Number 3, Processing  714
+INFO:root:Worker Number 2, Processing  715
+ERROR:root:Worker Number 11, Error in 597, IncompleteRead(9166996 bytes read, 270188 more expected)
+INFO:root:Worker Number 11, Processing  716
+INFO:root:Worker Number 8, Processing  717
+ERROR:root:Worker Number 60, Error in 696, IncompleteRead(204769 bytes read)
+INFO:root:Worker Number 60, Processing  718
+ERROR:root:Worker Number 64, Error in 664, 'streamingData'
+INFO:root:Worker Number 64, Processing  719
+INFO:root:Worker Number 6, Processing  720
+ERROR:root:Worker Number 22, Error in 694, IncompleteRead(204769 bytes read)
+INFO:root:Worker Number 22, Processing  721
+INFO:root:Worker Number 61, Processing  722
+ERROR:root:Worker Number 71, Error in 695, Remote end closed connection without response
+ERROR:root:Worker Number 52, Error in 713, Remote end closed connection without response
+INFO:root:Worker Number 71, Processing  723
+INFO:root:Worker Number 52, Processing  724
+ERROR:root:Worker Number 71, Error in 723, <urlopen error [Errno -3] Temporary failure in name resolution>
+ERROR:root:Worker Number 52, Error in 724, <urlopen error [Errno -3] Temporary failure in name resolution>
+ERROR:root:Worker Number 39, Error in 618, <urlopen error [Errno -3] Temporary failure in name resolution>
+ERROR:root:Worker Number 3, Error in 714, <urlopen error [Errno -3] Temporary failure in name resolution>
+INFO:root:Worker Number 71, Processing  725
+INFO:root:Worker Number 52, Processing  726
+INFO:root:Worker Number 39, Processing  727
+INFO:root:Worker Number 3, Processing  728
+INFO:root:Worker Number 80, Processing  729
+INFO:root:Worker Number 50, Processing  730
+INFO:root:Worker Number 42, Processing  731
+ERROR:root:Worker Number 50, Error in 730, Remote end closed connection without response
+INFO:root:Worker Number 50, Processing  732
+ERROR:root:Worker Number 74, Error in 607, <urlopen error [Errno -3] Temporary failure in name resolution>
+INFO:root:Worker Number 74, Processing  733
+ERROR:root:Worker Number 65, Error in 623, <urlopen error [Errno -3] Temporary failure in name resolution>
+ERROR:root:Worker Number 69, Error in 610, IncompleteRead(9337957 bytes read, 99227 more expected)
+ERROR:root:Worker Number 81, Error in 596, IncompleteRead(8805359 bytes read, 631825 more expected)
+INFO:root:Worker Number 65, Processing  734
+ERROR:root:Worker Number 51, Error in 619, IncompleteRead(7530048 bytes read, 587822 more expected)
+INFO:root:Worker Number 69, Processing  735
+INFO:root:Worker Number 81, Processing  736
+INFO:root:Worker Number 51, Processing  737
+INFO:root:Worker Number 27, Processing  738
+ERROR:root:Worker Number 86, Error in 611, IncompleteRead(8824614 bytes read, 612570 more expected)
+INFO:root:Worker Number 86, Processing  739
+INFO:root:Worker Number 48, Processing  740
+ERROR:root:Worker Number 83, Error in 612, IncompleteRead(9150985 bytes read, 286199 more expected)
+INFO:root:Worker Number 83, Processing  741
+INFO:root:Worker Number 41, Processing  742
+ERROR:root:Worker Number 21, Error in 599, IncompleteRead(9340171 bytes read, 97013 more expected)
+INFO:root:Worker Number 21, Processing  743
+ERROR:root:Worker Number 63, Error in 604, IncompleteRead(8520784 bytes read, 916400 more expected)
+INFO:root:Worker Number 63, Processing  744
+ERROR:root:Worker Number 37, Error in 622, IncompleteRead(9050545 bytes read, 386639 more expected)
+INFO:root:Worker Number 37, Processing  745
+ERROR:root:Worker Number 99, Error in 602, IncompleteRead(9027683 bytes read, 409501 more expected)
+INFO:root:Worker Number 99, Processing  746
+ERROR:root:Worker Number 57, Error in 614, IncompleteRead(9010147 bytes read, 427037 more expected)
+INFO:root:Worker Number 57, Processing  747
+ERROR:root:Worker Number 26, Error in 615, IncompleteRead(2819338 bytes read, 870284 more expected)
+INFO:root:Worker Number 26, Processing  748
+ERROR:root:Worker Number 31, Error in 617, IncompleteRead(7468276 bytes read, 325572 more expected)
+INFO:root:Worker Number 31, Processing  749
+ERROR:root:Worker Number 68, Error in 609, IncompleteRead(9100343 bytes read, 336841 more expected)
+INFO:root:Worker Number 68, Processing  750
+ERROR:root:Worker Number 89, Error in 620, IncompleteRead(9367423 bytes read, 69761 more expected)
+INFO:root:Worker Number 89, Processing  751
+ERROR:root:Worker Number 55, Error in 633, <urlopen error [Errno -3] Temporary failure in name resolution>
+ERROR:root:Worker Number 7, Error in 640, <urlopen error [Errno -3] Temporary failure in name resolution>
+INFO:root:Worker Number 55, Processing  752
+ERROR:root:Worker Number 88, Error in 636, <urlopen error [Errno -3] Temporary failure in name resolution>
+ERROR:root:Worker Number 57, Error in 747, <urlopen error [Errno -3] Temporary failure in name resolution>
+INFO:root:Worker Number 7, Processing  753
+INFO:root:Worker Number 88, Processing  754
+INFO:root:Worker Number 57, Processing  755
+ERROR:root:Worker Number 26, Error in 748, <urlopen error [Errno -3] Temporary failure in name resolution>
+ERROR:root:Worker Number 98, Error in 643, <urlopen error [Errno -3] Temporary failure in name resolution>
+INFO:root:Worker Number 26, Processing  756
+INFO:root:Worker Number 98, Processing  757
+ERROR:root:Worker Number 34, Error in 641, <urlopen error [Errno -3] Temporary failure in name resolution>
+ERROR:root:Worker Number 68, Error in 750, <urlopen error [Errno -3] Temporary failure in name resolution>
+ERROR:root:Worker Number 3, Error in 728, <urlopen error [Errno -3] Temporary failure in name resolution>
+INFO:root:Worker Number 34, Processing  758
+INFO:root:Worker Number 68, Processing  759
+INFO:root:Worker Number 3, Processing  760
+ERROR:root:Worker Number 37, Error in 745, <urlopen error [Errno -3] Temporary failure in name resolution>
+INFO:root:Worker Number 37, Processing  761
+ERROR:root:Worker Number 31, Error in 749, <urlopen error [Errno -3] Temporary failure in name resolution>
+INFO:root:Worker Number 31, Processing  762
+ERROR:root:Worker Number 99, Error in 746, Remote end closed connection without response
+INFO:root:Worker Number 99, Processing  763
+INFO:root:Worker Number 79, Processing  764
+ERROR:root:Worker Number 78, Error in 621, IncompleteRead(8642878 bytes read, 794306 more expected)
+INFO:root:Worker Number 78, Processing  765
+ERROR:root:Worker Number 20, Error in 637, IncompleteRead(6340529 bytes read, 1246516 more expected)
+ERROR:root:Worker Number 43, Error in 626, IncompleteRead(8867492 bytes read, 569692 more expected)
+INFO:root:Worker Number 20, Processing  766
+INFO:root:Worker Number 43, Processing  767
+ERROR:root:Worker Number 95, Error in 632, IncompleteRead(8736896 bytes read, 700288 more expected)
+INFO:root:Worker Number 95, Processing  768
+ERROR:root:Worker Number 66, Error in 624, <urlopen error [Errno -3] Temporary failure in name resolution>
+INFO:root:Worker Number 66, Processing  769
+ERROR:root:Worker Number 54, Error in 625, <urlopen error [Errno -3] Temporary failure in name resolution>
+INFO:root:Worker Number 54, Processing  770
+ERROR:root:Worker Number 9, Error in 627, IncompleteRead(8654295 bytes read, 782889 more expected)
+INFO:root:Worker Number 9, Processing  771
+ERROR:root:Worker Number 45, Error in 644, <urlopen error [Errno -3] Temporary failure in name resolution>
+ERROR:root:Worker Number 43, Error in 767, <urlopen error [Errno -3] Temporary failure in name resolution>
+ERROR:root:Worker Number 96, Error in 629, <urlopen error [Errno -3] Temporary failure in name resolution>
+INFO:root:Worker Number 45, Processing  772
+ERROR:root:Worker Number 20, Error in 766, <urlopen error [Errno -3] Temporary failure in name resolution>
+INFO:root:Worker Number 43, Processing  773
+ERROR:root:Worker Number 90, Error in 630, IncompleteRead(8177471 bytes read, 1259713 more expected)
+INFO:root:Worker Number 96, Processing  774
+INFO:root:Worker Number 20, Processing  775
+INFO:root:Worker Number 90, Processing  776
+INFO:root:Worker Number 36, Processing  777
+INFO:root:Worker Number 91, Processing  778
+ERROR:root:Worker Number 30, Error in 605, IncompleteRead(4909289 bytes read, 640324 more expected)
+INFO:root:Worker Number 30, Processing  779
+ERROR:root:Worker Number 25, Error in 645, IncompleteRead(9082366 bytes read, 354818 more expected)
+INFO:root:Worker Number 25, Processing  780
+ERROR:root:Worker Number 49, Error in 606, IncompleteRead(7584523 bytes read, 514980 more expected)
+INFO:root:Worker Number 49, Processing  781
+ERROR:root:Worker Number 92, Error in 661, IncompleteRead(446797 bytes read)
+INFO:root:Worker Number 92, Processing  782
+ERROR:root:Worker Number 40, Error in 638, IncompleteRead(8359452 bytes read, 11842 more expected)
+INFO:root:Worker Number 40, Processing  783
+ERROR:root:Worker Number 1, Error in 646, IncompleteRead(9224819 bytes read, 212365 more expected)
+INFO:root:Worker Number 1, Processing  784
+ERROR:root:Worker Number 18, Error in 639, IncompleteRead(8907385 bytes read, 529799 more expected)
+INFO:root:Worker Number 18, Processing  785
+INFO:root:Worker Number 70, Processing  786
+INFO:root:Worker Number 32, Processing  787
+ERROR:root:Worker Number 73, Error in 648, IncompleteRead(8936478 bytes read, 500706 more expected)
+INFO:root:Worker Number 73, Processing  788
+ERROR:root:Worker Number 87, Error in 649, IncompleteRead(9160335 bytes read, 276849 more expected)
+INFO:root:Worker Number 87, Processing  789
+ERROR:root:Worker Number 59, Error in 631, IncompleteRead(8565019 bytes read, 872165 more expected)
+INFO:root:Worker Number 59, Processing  790
+ERROR:root:Worker Number 94, Error in 654, IncompleteRead(8303562 bytes read, 1133622 more expected)
+INFO:root:Worker Number 94, Processing  791
+ERROR:root:Worker Number 24, Error in 657, IncompleteRead(8873778 bytes read, 563406 more expected)
+INFO:root:Worker Number 24, Processing  792
+INFO:root:Worker Number 10, Processing  793
+INFO:root:Worker Number 58, Processing  794
+INFO:root:Worker Number 85, Processing  795
+INFO:root:Worker Number 16, Processing  796
+ERROR:root:Worker Number 0, Error in 702, IncompleteRead(3770970 bytes read, 698047 more expected)
+INFO:root:Worker Number 0, Processing  797
+INFO:root:Worker Number 35, Processing  798
+INFO:root:Worker Number 13, Processing  799
+ERROR:root:Worker Number 84, Error in 701, IncompleteRead(9353051 bytes read, 84133 more expected)
+INFO:root:Worker Number 84, Processing  800
+INFO:root:Worker Number 82, Processing  801
+INFO:root:Worker Number 44, Processing  802
+ERROR:root:Worker Number 47, Error in 678, IncompleteRead(9380378 bytes read, 56806 more expected)
+INFO:root:Worker Number 47, Processing  803
+INFO:root:Worker Number 38, Processing  804
+ERROR:root:Worker Number 97, Error in 658, IncompleteRead(9398852 bytes read, 38332 more expected)
+INFO:root:Worker Number 97, Processing  805
+INFO:root:Worker Number 72, Processing  806
+INFO:root:Worker Number 15, Processing  807
+INFO:root:Worker Number 62, Processing  808
+INFO:root:Worker Number 46, Processing  809
+ERROR:root:Worker Number 76, Error in 687, IncompleteRead(9409500 bytes read, 27684 more expected)
+INFO:root:Worker Number 76, Processing  810
+INFO:root:Worker Number 22, Processing  811
+ERROR:root:Worker Number 17, Error in 689, IncompleteRead(9365495 bytes read, 71689 more expected)
+INFO:root:Worker Number 17, Processing  812
+ERROR:root:Worker Number 23, Error in 704, IncompleteRead(9174077 bytes read, 263107 more expected)
+INFO:root:Worker Number 23, Processing  813
+ERROR:root:Worker Number 19, Error in 712, IncompleteRead(9167651 bytes read, 269533 more expected)
+INFO:root:Worker Number 19, Processing  814
+INFO:root:Worker Number 64, Processing  815
+INFO:root:Worker Number 5, Processing  816
+ERROR:root:Worker Number 77, Error in 705, IncompleteRead(9054934 bytes read, 382250 more expected)
+INFO:root:Worker Number 77, Processing  817
+INFO:root:Worker Number 14, Processing  818
+INFO:root:Worker Number 28, Processing  819
+ERROR:root:Worker Number 8, Error in 717, IncompleteRead(9307946 bytes read, 129238 more expected)
+INFO:root:Worker Number 8, Processing  820
+INFO:root:Worker Number 12, Processing  821
+INFO:root:Worker Number 80, Processing  822
+INFO:root:Worker Number 53, Processing  823
+INFO:root:Worker Number 67, Processing  824
+INFO:root:Worker Number 75, Processing  825
+INFO:root:Worker Number 61, Processing  826
+INFO:root:Worker Number 39, Processing  827
+INFO:root:Worker Number 6, Processing  828
+INFO:root:Worker Number 93, Processing  829
+INFO:root:Worker Number 60, Processing  830
+ERROR:root:Worker Number 69, Error in 735, IncompleteRead(9269382 bytes read, 167802 more expected)
+INFO:root:Worker Number 69, Processing  831
+ERROR:root:Worker Number 11, Error in 716, IncompleteRead(8312429 bytes read, 1124755 more expected)
+INFO:root:Worker Number 11, Processing  832
+ERROR:root:Worker Number 81, Error in 736, IncompleteRead(8665374 bytes read, 771810 more expected)
+INFO:root:Worker Number 81, Processing  833
+INFO:root:Worker Number 83, Processing  834
+INFO:root:Worker Number 2, Processing  835
+INFO:root:Worker Number 42, Processing  836
+ERROR:root:Worker Number 48, Error in 740, IncompleteRead(9250089 bytes read, 187095 more expected)
+INFO:root:Worker Number 48, Processing  837
+INFO:root:Worker Number 26, Processing  838
+INFO:root:Worker Number 29, Processing  839
+INFO:root:Worker Number 27, Processing  840
+ERROR:root:Worker Number 51, Error in 737, IncompleteRead(2720703 bytes read, 502408 more expected)
+INFO:root:Worker Number 51, Processing  841
+ERROR:root:Worker Number 21, Error in 743, IncompleteRead(2322010 bytes read, 1137028 more expected)
+INFO:root:Worker Number 21, Processing  842
+ERROR:root:Worker Number 34, Error in 758, IncompleteRead(6995268 bytes read, 246202 more expected)
+ERROR:root:Worker Number 33, Error in 706, IncompleteRead(6457126 bytes read, 802500 more expected)
+INFO:root:Worker Number 33, Processing  844
+ERROR:root:Worker Number 20, Error in 775, <urlopen error [Errno -3] Temporary failure in name resolution>
+INFO:root:Worker Number 34, Processing  843
+ERROR:root:Worker Number 57, Error in 755, IncompleteRead(7046827 bytes read, 320024 more expected)
+INFO:root:Worker Number 20, Processing  845
+INFO:root:Worker Number 57, Processing  846
+ERROR:root:Worker Number 49, Error in 781, <urlopen error [Errno -3] Temporary failure in name resolution>
+INFO:root:Worker Number 49, Processing  847
+ERROR:root:Worker Number 83, Error in 834, Remote end closed connection without response
+INFO:root:Worker Number 83, Processing  848
+ERROR:root:Worker Number 79, Error in 764, IncompleteRead(7734396 bytes read, 1702788 more expected)
+ERROR:root:Worker Number 7, Error in 753, IncompleteRead(8527538 bytes read, 909646 more expected)
+INFO:root:Worker Number 79, Processing  849
+INFO:root:Worker Number 7, Processing  850
+ERROR:root:Worker Number 31, Error in 762, IncompleteRead(7413095 bytes read, 2024089 more expected)
+INFO:root:Worker Number 31, Processing  851
+ERROR:root:Worker Number 3, Error in 760, <urlopen error [Errno -3] Temporary failure in name resolution>
+INFO:root:Worker Number 3, Processing  852
+ERROR:root:Worker Number 34, Error in 843, <urlopen error [Errno -3] Temporary failure in name resolution>
+INFO:root:Worker Number 34, Processing  853
+ERROR:root:Worker Number 20, Error in 845, <urlopen error [Errno -3] Temporary failure in name resolution>
+INFO:root:Worker Number 20, Processing  854
+ERROR:root:Worker Number 51, Error in 841, <urlopen error [Errno -3] Temporary failure in name resolution>
+ERROR:root:Worker Number 21, Error in 842, <urlopen error [Errno -3] Temporary failure in name resolution>
+ERROR:root:Worker Number 83, Error in 848, <urlopen error [Errno -3] Temporary failure in name resolution>
+ERROR:root:Worker Number 57, Error in 846, <urlopen error [Errno -3] Temporary failure in name resolution>
+ERROR:root:Worker Number 49, Error in 847, <urlopen error [Errno -3] Temporary failure in name resolution>
+ERROR:root:Worker Number 42, Error in 836, <urlopen error [Errno -3] Temporary failure in name resolution>
+INFO:root:Worker Number 51, Processing  855
+ERROR:root:Worker Number 33, Error in 844, <urlopen error [Errno -3] Temporary failure in name resolution>
+INFO:root:Worker Number 21, Processing  856
+INFO:root:Worker Number 83, Processing  857
+INFO:root:Worker Number 57, Processing  858
+INFO:root:Worker Number 49, Processing  859
+ERROR:root:Worker Number 88, Error in 754, <urlopen error [Errno -3] Temporary failure in name resolution>
+INFO:root:Worker Number 42, Processing  860
+INFO:root:Worker Number 33, Processing  861
+INFO:root:Worker Number 88, Processing  862
+INFO:root:Worker Number 98, Processing  863
+ERROR:root:Worker Number 74, Error in 733, IncompleteRead(5698814 bytes read, 924191 more expected)
+INFO:root:Worker Number 74, Processing  864
+ERROR:root:Worker Number 43, Error in 773, IncompleteRead(8550067 bytes read, 887117 more expected)
+INFO:root:Worker Number 43, Processing  865
+ERROR:root:Worker Number 99, Error in 763, IncompleteRead(9418811 bytes read, 18373 more expected)
+INFO:root:Worker Number 99, Processing  866
+ERROR:root:Worker Number 98, Error in 863, Remote end closed connection without response
+INFO:root:Worker Number 98, Processing  867
+ERROR:root:Worker Number 71, Error in 725, IncompleteRead(8777636 bytes read, 659548 more expected)
+INFO:root:Worker Number 71, Processing  868
+ERROR:root:Worker Number 25, Error in 780, <urlopen error [Errno -3] Temporary failure in name resolution>
+INFO:root:Worker Number 25, Processing  869
+ERROR:root:Worker Number 89, Error in 751, IncompleteRead(8075897 bytes read, 1361287 more expected)
+INFO:root:Worker Number 89, Processing  870
+ERROR:root:Worker Number 48, Error in 837, Remote end closed connection without response
+INFO:root:Worker Number 48, Processing  871
+ERROR:root:Worker Number 66, Error in 769, IncompleteRead(8749742 bytes read, 687442 more expected)
+INFO:root:Worker Number 66, Processing  872
+ERROR:root:Worker Number 43, Error in 865, Remote end closed connection without response
+INFO:root:Worker Number 43, Processing  873
+ERROR:root:Worker Number 74, Error in 864, <urlopen error [Errno -3] Temporary failure in name resolution>
+ERROR:root:Worker Number 9, Error in 771, IncompleteRead(2101081 bytes read, 269869 more expected)
+INFO:root:Worker Number 74, Processing  874
+INFO:root:Worker Number 9, Processing  875
+ERROR:root:Worker Number 50, Error in 732, IncompleteRead(7366344 bytes read, 506894 more expected)
+INFO:root:Worker Number 50, Processing  876
+ERROR:root:Worker Number 54, Error in 770, IncompleteRead(9020900 bytes read, 416284 more expected)
+INFO:root:Worker Number 54, Processing  877
+ERROR:root:Worker Number 36, Error in 777, IncompleteRead(8856966 bytes read, 580218 more expected)
+INFO:root:Worker Number 36, Processing  878
+ERROR:root:Worker Number 29, Error in 839, <urlopen error EOF occurred in violation of protocol (_ssl.c:2396)>
+INFO:root:Worker Number 29, Processing  879
+ERROR:root:Worker Number 50, Error in 876, <urlopen error EOF occurred in violation of protocol (_ssl.c:2396)>
+INFO:root:Worker Number 50, Processing  880
+ERROR:root:Worker Number 18, Error in 785, Remote end closed connection without response
+INFO:root:Worker Number 18, Processing  881
+INFO:root:Worker Number 65, Processing  882
+INFO:root:Worker Number 37, Processing  883
+ERROR:root:Worker Number 45, Error in 772, IncompleteRead(9162157 bytes read, 275027 more expected)
+INFO:root:Worker Number 45, Processing  884
+ERROR:root:Worker Number 68, Error in 759, IncompleteRead(9007881 bytes read, 429303 more expected)
+INFO:root:Worker Number 68, Processing  885
+ERROR:root:Worker Number 86, Error in 739, IncompleteRead(6402426 bytes read, 877947 more expected)
+INFO:root:Worker Number 86, Processing  886
+ERROR:root:Worker Number 78, Error in 765, IncompleteRead(9348674 bytes read, 88510 more expected)
+INFO:root:Worker Number 78, Processing  887
+ERROR:root:Worker Number 95, Error in 768, IncompleteRead(7258064 bytes read, 358187 more expected)
+INFO:root:Worker Number 95, Processing  888
+ERROR:root:Worker Number 41, Error in 742, IncompleteRead(9045176 bytes read, 392008 more expected)
+INFO:root:Worker Number 41, Processing  889
+ERROR:root:Worker Number 92, Error in 782, IncompleteRead(7904129 bytes read, 334049 more expected)
+INFO:root:Worker Number 92, Processing  890
+ERROR:root:Worker Number 70, Error in 786, IncompleteRead(9002934 bytes read, 434250 more expected)
+INFO:root:Worker Number 70, Processing  891
+ERROR:root:Worker Number 30, Error in 779, IncompleteRead(9123273 bytes read, 313911 more expected)
+INFO:root:Worker Number 30, Processing  892
+ERROR:root:Worker Number 1, Error in 784, IncompleteRead(8974241 bytes read, 462943 more expected)
+INFO:root:Worker Number 1, Processing  893
+INFO:root:Worker Number 91, Processing  894
+INFO:root:Worker Number 55, Processing  895
+ERROR:root:Worker Number 40, Error in 783, IncompleteRead(8549332 bytes read, 887852 more expected)
+INFO:root:Worker Number 40, Processing  896
+INFO:root:Worker Number 73, Processing  897
+INFO:root:Worker Number 24, Processing  898
+INFO:root:Worker Number 59, Processing  899
+INFO:root:Worker Number 10, Processing  900
+INFO:root:Worker Number 87, Processing  901
+INFO:root:Worker Number 90, Processing  902
+INFO:root:Worker Number 0, Processing  903
+INFO:root:Worker Number 47, Processing  904
+ERROR:root:Worker Number 76, Error in 810, IncompleteRead(6078432 bytes read, 869207 more expected)
+INFO:root:Worker Number 76, Processing  905
+INFO:root:Worker Number 58, Processing  906
+INFO:root:Worker Number 97, Processing  907
+INFO:root:Worker Number 96, Processing  908
+INFO:root:Worker Number 32, Processing  909
+INFO:root:Worker Number 22, Processing  910
+INFO:root:Worker Number 44, Processing  911
+INFO:root:Worker Number 94, Processing  912
+ERROR:root:Worker Number 85, Error in 795, IncompleteRead(6422025 bytes read, 534745 more expected)
+INFO:root:Worker Number 85, Processing  913
+ERROR:root:Worker Number 15, Error in 807, IncompleteRead(8832051 bytes read, 605133 more expected)
+INFO:root:Worker Number 15, Processing  914
+ERROR:root:Worker Number 13, Error in 799, IncompleteRead(9175423 bytes read, 261761 more expected)
+INFO:root:Worker Number 13, Processing  915
+INFO:root:Worker Number 72, Processing  916
+ERROR:root:Worker Number 19, Error in 814, IncompleteRead(8749310 bytes read, 687874 more expected)
+INFO:root:Worker Number 19, Processing  917
+ERROR:root:Worker Number 17, Error in 812, IncompleteRead(9179434 bytes read, 257750 more expected)
+INFO:root:Worker Number 17, Processing  918
+INFO:root:Worker Number 46, Processing  919
+ERROR:root:Worker Number 38, Error in 804, IncompleteRead(8683729 bytes read, 753455 more expected)
+INFO:root:Worker Number 38, Processing  920
+ERROR:root:Worker Number 23, Error in 813, IncompleteRead(9299809 bytes read, 137375 more expected)
+INFO:root:Worker Number 23, Processing  921
+ERROR:root:Worker Number 8, Error in 820, IncompleteRead(9371384 bytes read, 65800 more expected)
+INFO:root:Worker Number 8, Processing  922
+INFO:root:Worker Number 35, Processing  923
+INFO:root:Worker Number 84, Processing  924
+INFO:root:Worker Number 53, Processing  925
+INFO:root:Worker Number 28, Processing  926
+INFO:root:Worker Number 16, Processing  927
+ERROR:root:Worker Number 44, Error in 911, Remote end closed connection without response
+INFO:root:Worker Number 44, Processing  928
+INFO:root:Worker Number 82, Processing  929
+INFO:root:Worker Number 5, Processing  930
+ERROR:root:Worker Number 61, Error in 826, IncompleteRead(9171425 bytes read, 265759 more expected)
+INFO:root:Worker Number 61, Processing  931
+INFO:root:Worker Number 14, Processing  932
+ERROR:root:Worker Number 12, Error in 821, IncompleteRead(9218426 bytes read, 218758 more expected)
+INFO:root:Worker Number 12, Processing  933
+ERROR:root:Worker Number 75, Error in 825, IncompleteRead(8779962 bytes read, 657222 more expected)
+INFO:root:Worker Number 75, Processing  934
+ERROR:root:Worker Number 93, Error in 829, IncompleteRead(8952184 bytes read, 485000 more expected)
+INFO:root:Worker Number 93, Processing  935
+ERROR:root:Worker Number 60, Error in 830, IncompleteRead(8898141 bytes read, 539043 more expected)
+INFO:root:Worker Number 60, Processing  936
+INFO:root:Worker Number 77, Processing  937
+INFO:root:Worker Number 80, Processing  938
+INFO:root:Worker Number 69, Processing  939
+INFO:root:Worker Number 39, Processing  940
+INFO:root:Worker Number 64, Processing  941
+INFO:root:Worker Number 79, Processing  942
+INFO:root:Worker Number 62, Processing  943
+INFO:root:Worker Number 6, Processing  944
+INFO:root:Worker Number 81, Processing  945
+INFO:root:Worker Number 67, Processing  946
+INFO:root:Worker Number 11, Processing  947
+INFO:root:Worker Number 20, Processing  948
+INFO:root:Worker Number 88, Processing  949
+INFO:root:Worker Number 3, Processing  950
+INFO:root:Worker Number 21, Processing  951
+INFO:root:Worker Number 34, Processing  952
+INFO:root:Worker Number 99, Processing  953
+INFO:root:Worker Number 26, Processing  954
+INFO:root:Worker Number 48, Processing  955
+INFO:root:Worker Number 31, Processing  956
+INFO:root:Worker Number 25, Processing  957
+INFO:root:Worker Number 7, Processing  958
+ERROR:root:Worker Number 42, Error in 860, IncompleteRead(9165718 bytes read, 271466 more expected)
+INFO:root:Worker Number 42, Processing  959
+ERROR:root:Worker Number 11, Error in 947, <urlopen error EOF occurred in violation of protocol (_ssl.c:2396)>
+INFO:root:Worker Number 11, Processing  960
+ERROR:root:Worker Number 25, Error in 957, <urlopen error EOF occurred in violation of protocol (_ssl.c:2396)>
+INFO:root:Worker Number 25, Processing  961
+ERROR:root:Worker Number 51, Error in 855, IncompleteRead(2430976 bytes read, 730716 more expected)
+INFO:root:Worker Number 51, Processing  962
+ERROR:root:Worker Number 45, Error in 884, IncompleteRead(8414781 bytes read, 1022403 more expected)
+INFO:root:Worker Number 45, Processing  963
+ERROR:root:Worker Number 66, Error in 872, IncompleteRead(7972838 bytes read, 1464346 more expected)
+INFO:root:Worker Number 66, Processing  964
+ERROR:root:Worker Number 59, Error in 899, <urlopen error [Errno -3] Temporary failure in name resolution>
+INFO:root:Worker Number 59, Processing  965
+INFO:root:Worker Number 95, Processing  966
+ERROR:root:Worker Number 34, Error in 952, <urlopen error [Errno -3] Temporary failure in name resolution>
+INFO:root:Worker Number 34, Processing  967
+ERROR:root:Worker Number 11, Error in 960, Remote end closed connection without response
+ERROR:root:Worker Number 25, Error in 961, Remote end closed connection without response
+ERROR:root:Worker Number 42, Error in 959, Remote end closed connection without response
+ERROR:root:Worker Number 48, Error in 955, <urlopen error [Errno -3] Temporary failure in name resolution>
+INFO:root:Worker Number 11, Processing  968
+INFO:root:Worker Number 25, Processing  969
+ERROR:root:Worker Number 70, Error in 891, <urlopen error [Errno -3] Temporary failure in name resolution>
+ERROR:root:Worker Number 51, Error in 962, <urlopen error [Errno -3] Temporary failure in name resolution>
+INFO:root:Worker Number 42, Processing  970
+INFO:root:Worker Number 48, Processing  971
+ERROR:root:Worker Number 73, Error in 897, <urlopen error [Errno -3] Temporary failure in name resolution>
+ERROR:root:Worker Number 89, Error in 870, IncompleteRead(8892553 bytes read, 544631 more expected)
+INFO:root:Worker Number 70, Processing  972
+ERROR:root:Worker Number 66, Error in 964, <urlopen error [Errno -3] Temporary failure in name resolution>
+INFO:root:Worker Number 51, Processing  973
+INFO:root:Worker Number 37, Processing  974
+INFO:root:Worker Number 73, Processing  975
+INFO:root:Worker Number 89, Processing  976
+INFO:root:Worker Number 66, Processing  977
+ERROR:root:Worker Number 68, Error in 885, IncompleteRead(8853680 bytes read, 583504 more expected)
+INFO:root:Worker Number 68, Processing  978
+ERROR:root:Worker Number 34, Error in 967, <urlopen error TLS/SSL connection has been closed (EOF) (_ssl.c:997)>
+INFO:root:Worker Number 34, Processing  979
+ERROR:root:Worker Number 18, Error in 881, IncompleteRead(8551214 bytes read, 885970 more expected)
+INFO:root:Worker Number 18, Processing  980
+INFO:root:Worker Number 36, Processing  981
+ERROR:root:Worker Number 86, Error in 886, IncompleteRead(9211320 bytes read, 225864 more expected)
+INFO:root:Worker Number 86, Processing  982
+ERROR:root:Worker Number 41, Error in 889, IncompleteRead(8349761 bytes read, 1087423 more expected)
+INFO:root:Worker Number 41, Processing  983
+ERROR:root:Worker Number 54, Error in 877, IncompleteRead(9154850 bytes read, 282334 more expected)
+INFO:root:Worker Number 54, Processing  984
+INFO:root:Worker Number 78, Processing  985
+INFO:root:Worker Number 74, Processing  986
+INFO:root:Worker Number 65, Processing  987
+INFO:root:Worker Number 83, Processing  988
+INFO:root:Worker Number 57, Processing  989
+ERROR:root:Worker Number 50, Error in 880, IncompleteRead(9032957 bytes read, 404227 more expected)
+INFO:root:Worker Number 50, Processing  990
+INFO:root:Worker Number 98, Processing  991
+INFO:root:Worker Number 33, Processing  992
+ERROR:root:Worker Number 29, Error in 879, IncompleteRead(9333604 bytes read, 103580 more expected)
+INFO:root:Worker Number 29, Processing  993
+INFO:root:Worker Number 43, Processing  994
+ERROR:root:Worker Number 1, Error in 893, IncompleteRead(9408430 bytes read, 28754 more expected)
+INFO:root:Worker Number 1, Processing  995
+INFO:root:Worker Number 92, Processing  996
+INFO:root:Worker Number 49, Processing  997
+ERROR:root:Worker Number 0, Error in 903, IncompleteRead(9105932 bytes read, 331252 more expected)
+INFO:root:Worker Number 0, Processing  998
+INFO:root:Worker Number 71, Processing  999
+ERROR:root:Worker Number 90, Error in 902, IncompleteRead(9191517 bytes read, 245667 more expected)
+INFO:root:Worker Number 90, Processing  1000
+INFO:root:Worker Number 9, Processing  1001
+INFO:root:Worker Number 87, Processing  1002
+INFO:root:Worker Number 55, Processing  1003
+ERROR:root:Worker Number 30, Error in 892, IncompleteRead(9041017 bytes read, 396167 more expected)
+INFO:root:Worker Number 30, Processing  1004
+INFO:root:Worker Number 91, Processing  1005
+INFO:root:Worker Number 58, Processing  1006
+INFO:root:Worker Number 40, Processing  1007
+INFO:root:Worker Number 47, Processing  1008
+ERROR:root:Worker Number 24, Error in 898, IncompleteRead(5254763 bytes read, 21210 more expected)
+INFO:root:Worker Number 24, Processing  1009
+INFO:root:Worker Number 22, Processing  1010
+INFO:root:Worker Number 94, Processing  1011
+INFO:root:Worker Number 96, Processing  1012
+INFO:root:Worker Number 32, Processing  1013
+INFO:root:Worker Number 76, Processing  1014
+INFO:root:Worker Number 10, Processing  1015
+INFO:root:Worker Number 19, Processing  1016
+INFO:root:Worker Number 85, Processing  1017
+INFO:root:Worker Number 23, Processing  1018
+INFO:root:Worker Number 82, Processing  1019
+INFO:root:Worker Number 15, Processing  1020
+INFO:root:Worker Number 35, Processing  1021
+INFO:root:Worker Number 53, Processing  1022
+INFO:root:Worker Number 16, Processing  1023
+INFO:root:Worker Number 8, Processing  1024
+INFO:root:Worker Number 72, Processing  1025
+INFO:root:Worker Number 60, Processing  1026
+INFO:root:Worker Number 44, Processing  1027
+INFO:root:Worker Number 61, Processing  1028
+INFO:root:Worker Number 77, Processing  1029
+INFO:root:Worker Number 80, Processing  1030
+INFO:root:Worker Number 97, Processing  1031
+ERROR:root:Worker Number 75, Error in 934, IncompleteRead(9206619 bytes read, 230565 more expected)
+INFO:root:Worker Number 75, Processing  1032
+INFO:root:Worker Number 13, Processing  1033
+ERROR:root:Worker Number 60, Error in 1026, 'streamingData'
+INFO:root:Worker Number 60, Processing  1034
+INFO:root:Worker Number 5, Processing  1035
+INFO:root:Worker Number 46, Processing  1036
+ERROR:root:Worker Number 38, Error in 920, IncompleteRead(9048490 bytes read, 388694 more expected)
+INFO:root:Worker Number 38, Processing  1037
+ERROR:root:Worker Number 79, Error in 942, IncompleteRead(9260550 bytes read, 176634 more expected)
+INFO:root:Worker Number 79, Processing  1038
+ERROR:root:Worker Number 28, Error in 926, IncompleteRead(9001821 bytes read, 435363 more expected)
+INFO:root:Worker Number 28, Processing  1039
+ERROR:root:Worker Number 12, Error in 933, IncompleteRead(9187473 bytes read, 249711 more expected)
+INFO:root:Worker Number 12, Processing  1040
+INFO:root:Worker Number 88, Processing  1041
+INFO:root:Worker Number 64, Processing  1042
+INFO:root:Worker Number 69, Processing  1043
+ERROR:root:Worker Number 84, Error in 924, IncompleteRead(6209993 bytes read, 58047 more expected)
+INFO:root:Worker Number 84, Processing  1044
+ERROR:root:Worker Number 93, Error in 935, IncompleteRead(8755406 bytes read, 681778 more expected)
+INFO:root:Worker Number 93, Processing  1045
+ERROR:root:Worker Number 81, Error in 945, IncompleteRead(8725596 bytes read, 711588 more expected)
+INFO:root:Worker Number 81, Processing  1046
+INFO:root:Worker Number 62, Processing  1047
+INFO:root:Worker Number 14, Processing  1048
+ERROR:root:Worker Number 17, Error in 918, IncompleteRead(1987903 bytes read, 325524 more expected)
+INFO:root:Worker Number 17, Processing  1049
+INFO:root:Worker Number 20, Processing  1050
+INFO:root:Worker Number 99, Processing  1051
+INFO:root:Worker Number 39, Processing  1052
+INFO:root:Worker Number 26, Processing  1053
+INFO:root:Worker Number 89, Processing  1054
+INFO:root:Worker Number 73, Processing  1055
+INFO:root:Worker Number 11, Processing  1056
+INFO:root:Worker Number 21, Processing  1057
+INFO:root:Worker Number 66, Processing  1058
+INFO:root:Worker Number 67, Processing  1059
+ERROR:root:Worker Number 6, Error in 944, IncompleteRead(8612754 bytes read, 824430 more expected)
+INFO:root:Worker Number 6, Processing  1060
+INFO:root:Worker Number 54, Processing  1061
+INFO:root:Worker Number 68, Processing  1062
+INFO:root:Worker Number 48, Processing  1063
+INFO:root:Worker Number 31, Processing  1064
+INFO:root:Worker Number 57, Processing  1065
+INFO:root:Worker Number 34, Processing  1066
+INFO:root:Worker Number 50, Processing  1067
+INFO:root:Worker Number 83, Processing  1068
+INFO:root:Worker Number 92, Processing  1069
+INFO:root:Worker Number 51, Processing  1070
+INFO:root:Worker Number 95, Processing  1071
+INFO:root:Worker Number 70, Processing  1072
+INFO:root:Worker Number 1, Processing  1073
+INFO:root:Worker Number 86, Processing  1074
+INFO:root:Worker Number 78, Processing  1075
+INFO:root:Worker Number 18, Processing  1076
+INFO:root:Worker Number 74, Processing  1077
+INFO:root:Worker Number 42, Processing  1078
+INFO:root:Worker Number 65, Processing  1079
+INFO:root:Worker Number 25, Processing  1080
+INFO:root:Worker Number 36, Processing  1081
+INFO:root:Worker Number 98, Processing  1082
+INFO:root:Worker Number 7, Processing  1083
+INFO:root:Worker Number 33, Processing  1084
+INFO:root:Worker Number 55, Processing  1085
+INFO:root:Worker Number 9, Processing  1086
+INFO:root:Worker Number 29, Processing  1087
+INFO:root:Worker Number 59, Processing  1088
+INFO:root:Worker Number 45, Processing  1089
+ERROR:root:Worker Number 30, Error in 1004, IncompleteRead(8923115 bytes read, 514069 more expected)
+INFO:root:Worker Number 30, Processing  1090
+INFO:root:Worker Number 96, Processing  1091
+ERROR:root:Worker Number 0, Error in 998, IncompleteRead(8632119 bytes read, 805065 more expected)
+INFO:root:Worker Number 0, Processing  1092
+ERROR:root:Worker Number 43, Error in 994, IncompleteRead(7844030 bytes read, 326944 more expected)
+INFO:root:Worker Number 43, Processing  1093
+INFO:root:Worker Number 87, Processing  1094
+INFO:root:Worker Number 22, Processing  1095
+INFO:root:Worker Number 49, Processing  1096
+INFO:root:Worker Number 94, Processing  1097
+INFO:root:Worker Number 90, Processing  1098
+INFO:root:Worker Number 76, Processing  1099
+INFO:root:Worker Number 19, Processing  1100
+INFO:root:Worker Number 44, Processing  1101
+INFO:root:Worker Number 32, Processing  1102
+INFO:root:Worker Number 82, Processing  1103
+INFO:root:Worker Number 24, Processing  1104
+INFO:root:Worker Number 58, Processing  1105
+INFO:root:Worker Number 71, Processing  1106
+INFO:root:Worker Number 91, Processing  1107
+ERROR:root:Worker Number 85, Error in 1017, IncompleteRead(9263822 bytes read, 173362 more expected)
+INFO:root:Worker Number 85, Processing  1108
+INFO:root:Worker Number 23, Processing  1109
+INFO:root:Worker Number 41, Processing  1110
+INFO:root:Worker Number 8, Processing  1111
+INFO:root:Worker Number 47, Processing  1112
+INFO:root:Worker Number 15, Processing  1113
+INFO:root:Worker Number 60, Processing  1114
+INFO:root:Worker Number 61, Processing  1115
+INFO:root:Worker Number 16, Processing  1116
+INFO:root:Worker Number 81, Processing  1117
+INFO:root:Worker Number 53, Processing  1118
+INFO:root:Worker Number 40, Processing  1119
+INFO:root:Worker Number 79, Processing  1120
+INFO:root:Worker Number 97, Processing  1121
+INFO:root:Worker Number 80, Processing  1122
+INFO:root:Worker Number 35, Processing  1123
+INFO:root:Worker Number 12, Processing  1124
+INFO:root:Worker Number 88, Processing  1125
+INFO:root:Worker Number 46, Processing  1126
+INFO:root:Worker Number 72, Processing  1127
+INFO:root:Worker Number 75, Processing  1128
+ERROR:root:Worker Number 64, Error in 1042, IncompleteRead(7571476 bytes read, 51435 more expected)
+INFO:root:Worker Number 64, Processing  1129
+INFO:root:Worker Number 13, Processing  1130
+INFO:root:Worker Number 5, Processing  1131
+INFO:root:Worker Number 14, Processing  1132
+INFO:root:Worker Number 39, Processing  1133
+INFO:root:Worker Number 10, Processing  1134
+INFO:root:Worker Number 28, Processing  1135
+ERROR:root:Worker Number 93, Error in 1045, IncompleteRead(9409395 bytes read, 27789 more expected)
+INFO:root:Worker Number 93, Processing  1136
+INFO:root:Worker Number 77, Processing  1137
+INFO:root:Worker Number 38, Processing  1138
+INFO:root:Worker Number 17, Processing  1139
+INFO:root:Worker Number 62, Processing  1140
+INFO:root:Worker Number 69, Processing  1141
+INFO:root:Worker Number 68, Processing  1142
+INFO:root:Worker Number 34, Processing  1143
+INFO:root:Worker Number 21, Processing  1144
+INFO:root:Worker Number 6, Processing  1145
+INFO:root:Worker Number 67, Processing  1146
+INFO:root:Worker Number 99, Processing  1147
+INFO:root:Worker Number 83, Processing  1148
+INFO:root:Worker Number 51, Processing  1149
+INFO:root:Worker Number 84, Processing  1150
+INFO:root:Worker Number 73, Processing  1151
+INFO:root:Worker Number 26, Processing  1152
+INFO:root:Worker Number 57, Processing  1153
+INFO:root:Worker Number 70, Processing  1154
+INFO:root:Worker Number 95, Processing  1155
+INFO:root:Worker Number 7, Processing  1156
+INFO:root:Worker Number 36, Processing  1157
+INFO:root:Worker Number 11, Processing  1158
+INFO:root:Worker Number 54, Processing  1159
+INFO:root:Worker Number 92, Processing  1160
+INFO:root:Worker Number 20, Processing  1161
+INFO:root:Worker Number 48, Processing  1162
+ERROR:root:Worker Number 18, Error in 1076, IncompleteRead(9390731 bytes read, 46453 more expected)
+INFO:root:Worker Number 18, Processing  1163
+INFO:root:Worker Number 66, Processing  1164
+INFO:root:Worker Number 89, Processing  1165
+INFO:root:Worker Number 78, Processing  1166
+INFO:root:Worker Number 50, Processing  1167
+INFO:root:Worker Number 43, Processing  1168
+INFO:root:Worker Number 74, Processing  1169
+INFO:root:Worker Number 98, Processing  1170
+INFO:root:Worker Number 86, Processing  1171
+INFO:root:Worker Number 9, Processing  1172
+INFO:root:Worker Number 31, Processing  1173
+INFO:root:Worker Number 22, Processing  1174
+INFO:root:Worker Number 65, Processing  1175
+INFO:root:Worker Number 1, Processing  1176
+INFO:root:Worker Number 96, Processing  1177
+INFO:root:Worker Number 29, Processing  1178
+INFO:root:Worker Number 42, Processing  1179
+INFO:root:Worker Number 30, Processing  1180
+INFO:root:Worker Number 76, Processing  1181
+ERROR:root:Worker Number 33, Error in 1084, IncompleteRead(9406661 bytes read, 30523 more expected)
+INFO:root:Worker Number 33, Processing  1182
+INFO:root:Worker Number 25, Processing  1183
+INFO:root:Worker Number 0, Processing  1184
+INFO:root:Worker Number 82, Processing  1185
+INFO:root:Worker Number 94, Processing  1186
+INFO:root:Worker Number 90, Processing  1187
+INFO:root:Worker Number 19, Processing  1188
+INFO:root:Worker Number 49, Processing  1189
+INFO:root:Worker Number 87, Processing  1190
+INFO:root:Worker Number 47, Processing  1191
+INFO:root:Worker Number 45, Processing  1192
+INFO:root:Worker Number 55, Processing  1193
+INFO:root:Worker Number 44, Processing  1194
+INFO:root:Worker Number 85, Processing  1195
+INFO:root:Worker Number 59, Processing  1196
+INFO:root:Worker Number 15, Processing  1197
+INFO:root:Worker Number 8, Processing  1198
+INFO:root:Worker Number 32, Processing  1199
+INFO:root:Worker Number 58, Processing  1200
+INFO:root:Worker Number 71, Processing  1201
+INFO:root:Worker Number 80, Processing  1202
+INFO:root:Worker Number 81, Processing  1203
+INFO:root:Worker Number 91, Processing  1204
+INFO:root:Worker Number 41, Processing  1205
+INFO:root:Worker Number 24, Processing  1206
+INFO:root:Worker Number 23, Processing  1207
+INFO:root:Worker Number 60, Processing  1208
+INFO:root:Worker Number 79, Processing  1209
+INFO:root:Worker Number 53, Processing  1210
+INFO:root:Worker Number 97, Processing  1211
+ERROR:root:Worker Number 64, Error in 1129, IncompleteRead(2148447 bytes read, 329050 more expected)
+INFO:root:Worker Number 64, Processing  1212
+INFO:root:Worker Number 14, Processing  1213
+INFO:root:Worker Number 12, Processing  1214
+INFO:root:Worker Number 13, Processing  1215
+INFO:root:Worker Number 5, Processing  1216
+INFO:root:Worker Number 61, Processing  1217
+INFO:root:Worker Number 68, Processing  1218
+INFO:root:Worker Number 72, Processing  1219
+INFO:root:Worker Number 77, Processing  1220
+INFO:root:Worker Number 39, Processing  1221
+INFO:root:Worker Number 34, Processing  1222
+INFO:root:Worker Number 28, Processing  1223
+INFO:root:Worker Number 75, Processing  1224
+ERROR:root:Worker Number 46, Error in 1126, IncompleteRead(8067812 bytes read, 341624 more expected)
+INFO:root:Worker Number 46, Processing  1225
+INFO:root:Worker Number 10, Processing  1226
+INFO:root:Worker Number 69, Processing  1227
+ERROR:root:Worker Number 16, Error in 1116, IncompleteRead(7927538 bytes read, 488768 more expected)
+INFO:root:Worker Number 16, Processing  1228
+INFO:root:Worker Number 40, Processing  1229
+INFO:root:Worker Number 38, Processing  1230
+INFO:root:Worker Number 6, Processing  1231
+INFO:root:Worker Number 35, Processing  1232
+INFO:root:Worker Number 26, Processing  1233
+INFO:root:Worker Number 36, Processing  1234
+INFO:root:Worker Number 67, Processing  1235
+INFO:root:Worker Number 70, Processing  1236
+INFO:root:Worker Number 88, Processing  1237
+INFO:root:Worker Number 17, Processing  1238
+INFO:root:Worker Number 57, Processing  1239
+INFO:root:Worker Number 54, Processing  1240
+ERROR:root:Worker Number 84, Error in 1150, IncompleteRead(9405682 bytes read, 31502 more expected)
+INFO:root:Worker Number 84, Processing  1241
+INFO:root:Worker Number 7, Processing  1242
+INFO:root:Worker Number 51, Processing  1243
+INFO:root:Worker Number 20, Processing  1244
+INFO:root:Worker Number 62, Processing  1245
+INFO:root:Worker Number 11, Processing  1246
+INFO:root:Worker Number 18, Processing  1247
+INFO:root:Worker Number 83, Processing  1248
+INFO:root:Worker Number 99, Processing  1249
+INFO:root:Worker Number 73, Processing  1250
+INFO:root:Worker Number 66, Processing  1251
+INFO:root:Worker Number 89, Processing  1252
+INFO:root:Worker Number 78, Processing  1253
+INFO:root:Worker Number 95, Processing  1254
+INFO:root:Worker Number 92, Processing  1255
+INFO:root:Worker Number 21, Processing  1256
+INFO:root:Worker Number 50, Processing  1257
+INFO:root:Worker Number 86, Processing  1258
+INFO:root:Worker Number 42, Processing  1259
+INFO:root:Worker Number 31, Processing  1260
+ERROR:root:Worker Number 48, Error in 1162, IncompleteRead(9353772 bytes read, 83412 more expected)
+INFO:root:Worker Number 48, Processing  1261
+INFO:root:Worker Number 96, Processing  1262
+INFO:root:Worker Number 22, Processing  1263
+INFO:root:Worker Number 1, Processing  1264
+INFO:root:Worker Number 29, Processing  1265
+ERROR:root:Worker Number 65, Error in 1175, IncompleteRead(8569064 bytes read, 868120 more expected)
+INFO:root:Worker Number 65, Processing  1266
+INFO:root:Worker Number 43, Processing  1267
+ERROR:root:Worker Number 0, Error in 1184, IncompleteRead(8877970 bytes read, 559214 more expected)
+INFO:root:Worker Number 0, Processing  1268
+ERROR:root:Worker Number 19, Error in 1188, IncompleteRead(9117723 bytes read, 319461 more expected)
+INFO:root:Worker Number 19, Processing  1269
+ERROR:root:Worker Number 98, Error in 1170, IncompleteRead(7936440 bytes read, 575459 more expected)
+INFO:root:Worker Number 98, Processing  1270
+ERROR:root:Worker Number 30, Error in 1180, IncompleteRead(9227329 bytes read, 209855 more expected)
+INFO:root:Worker Number 30, Processing  1271
+ERROR:root:Worker Number 76, Error in 1181, IncompleteRead(8963109 bytes read, 474075 more expected)
+INFO:root:Worker Number 76, Processing  1272
+INFO:root:Worker Number 85, Processing  1273
+ERROR:root:Worker Number 82, Error in 1185, IncompleteRead(8634841 bytes read, 802343 more expected)
+INFO:root:Worker Number 82, Processing  1274
+INFO:root:Worker Number 93, Processing  1275
+INFO:root:Worker Number 49, Processing  1276
+ERROR:root:Worker Number 74, Error in 1169, IncompleteRead(8612490 bytes read, 824694 more expected)
+INFO:root:Worker Number 74, Processing  1277
+INFO:root:Worker Number 33, Processing  1278
+INFO:root:Worker Number 25, Processing  1279
+INFO:root:Worker Number 87, Processing  1280
+INFO:root:Worker Number 94, Processing  1281
+INFO:root:Worker Number 90, Processing  1282
+INFO:root:Worker Number 80, Processing  1283
+INFO:root:Worker Number 79, Processing  1284
+INFO:root:Worker Number 55, Processing  1285
+INFO:root:Worker Number 9, Processing  1286
+ERROR:root:Worker Number 15, Error in 1197, IncompleteRead(1982491 bytes read, 63824 more expected)
+INFO:root:Worker Number 15, Processing  1287
+INFO:root:Worker Number 59, Processing  1288
+INFO:root:Worker Number 81, Processing  1289
+INFO:root:Worker Number 32, Processing  1290
+INFO:root:Worker Number 47, Processing  1291
+INFO:root:Worker Number 8, Processing  1292
+INFO:root:Worker Number 45, Processing  1293
+INFO:root:Worker Number 41, Processing  1294
+INFO:root:Worker Number 23, Processing  1295
+INFO:root:Worker Number 58, Processing  1296
+INFO:root:Worker Number 13, Processing  1297
+INFO:root:Worker Number 44, Processing  1298
+INFO:root:Worker Number 53, Processing  1299
+INFO:root:Worker Number 24, Processing  1300
+INFO:root:Worker Number 60, Processing  1301
+INFO:root:Worker Number 64, Processing  1302
+INFO:root:Worker Number 68, Processing  1303
+INFO:root:Worker Number 91, Processing  1304
+INFO:root:Worker Number 12, Processing  1305
+INFO:root:Worker Number 14, Processing  1306
+INFO:root:Worker Number 28, Processing  1307
+INFO:root:Worker Number 97, Processing  1308
+INFO:root:Worker Number 5, Processing  1309
+INFO:root:Worker Number 16, Processing  1310
+INFO:root:Worker Number 72, Processing  1311
+INFO:root:Worker Number 6, Processing  1312
+INFO:root:Worker Number 34, Processing  1313
+INFO:root:Worker Number 77, Processing  1314
+INFO:root:Worker Number 39, Processing  1315
+INFO:root:Worker Number 71, Processing  1316
+INFO:root:Worker Number 26, Processing  1317
+INFO:root:Worker Number 88, Processing  1318
+INFO:root:Worker Number 35, Processing  1319
+INFO:root:Worker Number 75, Processing  1320
+ERROR:root:Worker Number 69, Error in 1227, IncompleteRead(9347786 bytes read, 89398 more expected)
+INFO:root:Worker Number 69, Processing  1321
+INFO:root:Worker Number 67, Processing  1322
+INFO:root:Worker Number 46, Processing  1323
+INFO:root:Worker Number 7, Processing  1324
+INFO:root:Worker Number 70, Processing  1325
+INFO:root:Worker Number 18, Processing  1326
+ERROR:root:Worker Number 10, Error in 1226, IncompleteRead(8859502 bytes read, 577682 more expected)
+INFO:root:Worker Number 10, Processing  1327
+INFO:root:Worker Number 57, Processing  1328
+INFO:root:Worker Number 54, Processing  1329
+ERROR:root:Worker Number 20, Error in 1244, IncompleteRead(9177383 bytes read, 259801 more expected)
+INFO:root:Worker Number 20, Processing  1330
+INFO:root:Worker Number 84, Processing  1331
+INFO:root:Worker Number 17, Processing  1332
+INFO:root:Worker Number 89, Processing  1333
+INFO:root:Worker Number 92, Processing  1334
+INFO:root:Worker Number 38, Processing  1335
+INFO:root:Worker Number 73, Processing  1336
+INFO:root:Worker Number 95, Processing  1337
+INFO:root:Worker Number 61, Processing  1338
+INFO:root:Worker Number 83, Processing  1339
+INFO:root:Worker Number 66, Processing  1340
+INFO:root:Worker Number 36, Processing  1341
+INFO:root:Worker Number 51, Processing  1342
+ERROR:root:Worker Number 92, Error in 1334, 'streamingData'
+INFO:root:Worker Number 92, Processing  1343
+INFO:root:Worker Number 40, Processing  1344
+INFO:root:Worker Number 42, Processing  1345
+INFO:root:Worker Number 50, Processing  1346
+INFO:root:Worker Number 86, Processing  1347
+INFO:root:Worker Number 31, Processing  1348
+ERROR:root:Worker Number 92, Error in 1343, 'streamingData'
+INFO:root:Worker Number 92, Processing  1349
+INFO:root:Worker Number 21, Processing  1350
+INFO:root:Worker Number 1, Processing  1351
+INFO:root:Worker Number 96, Processing  1352
+INFO:root:Worker Number 99, Processing  1353
+INFO:root:Worker Number 62, Processing  1354
+INFO:root:Worker Number 82, Processing  1355
+INFO:root:Worker Number 22, Processing  1356
+INFO:root:Worker Number 11, Processing  1357
+INFO:root:Worker Number 19, Processing  1358
+INFO:root:Worker Number 48, Processing  1359
+INFO:root:Worker Number 93, Processing  1360
+INFO:root:Worker Number 78, Processing  1361
+INFO:root:Worker Number 43, Processing  1362
+INFO:root:Worker Number 98, Processing  1363
+INFO:root:Worker Number 65, Processing  1364
+INFO:root:Worker Number 94, Processing  1365
+INFO:root:Worker Number 0, Processing  1366
+INFO:root:Worker Number 74, Processing  1367
+INFO:root:Worker Number 85, Processing  1368
+INFO:root:Worker Number 90, Processing  1369
+INFO:root:Worker Number 80, Processing  1370
+INFO:root:Worker Number 81, Processing  1371
+INFO:root:Worker Number 87, Processing  1372
+INFO:root:Worker Number 47, Processing  1373
+INFO:root:Worker Number 15, Processing  1374
+INFO:root:Worker Number 49, Processing  1375
+INFO:root:Worker Number 25, Processing  1376
+ERROR:root:Worker Number 29, Error in 1265, IncompleteRead(5627523 bytes read, 407350 more expected)
+INFO:root:Worker Number 29, Processing  1377
+INFO:root:Worker Number 79, Processing  1378
+INFO:root:Worker Number 30, Processing  1379
+INFO:root:Worker Number 59, Processing  1380
+ERROR:root:Worker Number 33, Error in 1278, IncompleteRead(9327885 bytes read, 109299 more expected)
+INFO:root:Worker Number 33, Processing  1381
+INFO:root:Worker Number 13, Processing  1382
+INFO:root:Worker Number 9, Processing  1383
+INFO:root:Worker Number 8, Processing  1384
+INFO:root:Worker Number 55, Processing  1385
+INFO:root:Worker Number 45, Processing  1386
+INFO:root:Worker Number 12, Processing  1387
+INFO:root:Worker Number 53, Processing  1388
+INFO:root:Worker Number 23, Processing  1389
+INFO:root:Worker Number 41, Processing  1390
+INFO:root:Worker Number 58, Processing  1391
+INFO:root:Worker Number 24, Processing  1392
+INFO:root:Worker Number 5, Processing  1393
+INFO:root:Worker Number 64, Processing  1394
+INFO:root:Worker Number 44, Processing  1395
+INFO:root:Worker Number 39, Processing  1396
+INFO:root:Worker Number 77, Processing  1397
+INFO:root:Worker Number 60, Processing  1398
+INFO:root:Worker Number 97, Processing  1399
+INFO:root:Worker Number 34, Processing  1400
+INFO:root:Worker Number 32, Processing  1401
+ERROR:root:Worker Number 72, Error in 1311, IncompleteRead(4692236 bytes read, 304662 more expected)
+INFO:root:Worker Number 72, Processing  1402
+INFO:root:Worker Number 88, Processing  1403
+INFO:root:Worker Number 69, Processing  1404
+ERROR:root:Worker Number 68, Error in 1303, IncompleteRead(4700780 bytes read, 307930 more expected)
+INFO:root:Worker Number 68, Processing  1405
+INFO:root:Worker Number 71, Processing  1406
+INFO:root:Worker Number 6, Processing  1407
+INFO:root:Worker Number 46, Processing  1408
+INFO:root:Worker Number 91, Processing  1409
+INFO:root:Worker Number 76, Processing  1410
+INFO:root:Worker Number 10, Processing  1411
+INFO:root:Worker Number 14, Processing  1412
+INFO:root:Worker Number 26, Processing  1413
+INFO:root:Worker Number 67, Processing  1414
+INFO:root:Worker Number 57, Processing  1415
+INFO:root:Worker Number 28, Processing  1416
+INFO:root:Worker Number 89, Processing  1417
+INFO:root:Worker Number 16, Processing  1418
+INFO:root:Worker Number 20, Processing  1419
+INFO:root:Worker Number 38, Processing  1420
+INFO:root:Worker Number 17, Processing  1421
+INFO:root:Worker Number 54, Processing  1422
+INFO:root:Worker Number 75, Processing  1423
+INFO:root:Worker Number 18, Processing  1424
+INFO:root:Worker Number 61, Processing  1425
+ERROR:root:Worker Number 70, Error in 1325, IncompleteRead(9211439 bytes read, 225745 more expected)
+INFO:root:Worker Number 70, Processing  1426
+INFO:root:Worker Number 35, Processing  1427
+INFO:root:Worker Number 86, Processing  1428
+INFO:root:Worker Number 83, Processing  1429
+ERROR:root:Worker Number 66, Error in 1340, IncompleteRead(9307311 bytes read, 129873 more expected)
+INFO:root:Worker Number 66, Processing  1430
+INFO:root:Worker Number 51, Processing  1431
+INFO:root:Worker Number 84, Processing  1432
+INFO:root:Worker Number 92, Processing  1433
+INFO:root:Worker Number 95, Processing  1434
+INFO:root:Worker Number 62, Processing  1435
+INFO:root:Worker Number 7, Processing  1436
+INFO:root:Worker Number 40, Processing  1437
+INFO:root:Worker Number 36, Processing  1438
+INFO:root:Worker Number 1, Processing  1439
+INFO:root:Worker Number 42, Processing  1440
+INFO:root:Worker Number 43, Processing  1441
+ERROR:root:Worker Number 31, Error in 1348, IncompleteRead(5668799 bytes read, 604056 more expected)
+INFO:root:Worker Number 31, Processing  1442
+INFO:root:Worker Number 22, Processing  1443
+INFO:root:Worker Number 50, Processing  1444
+INFO:root:Worker Number 98, Processing  1445
+INFO:root:Worker Number 21, Processing  1446
+INFO:root:Worker Number 11, Processing  1447
+INFO:root:Worker Number 96, Processing  1448
+INFO:root:Worker Number 99, Processing  1449
+INFO:root:Worker Number 73, Processing  1450
+INFO:root:Worker Number 81, Processing  1451
+INFO:root:Worker Number 65, Processing  1452
+ERROR:root:Worker Number 78, Error in 1361, IncompleteRead(3489696 bytes read, 191123 more expected)
+INFO:root:Worker Number 78, Processing  1453
+INFO:root:Worker Number 94, Processing  1454
+INFO:root:Worker Number 19, Processing  1455
+INFO:root:Worker Number 15, Processing  1456
+INFO:root:Worker Number 79, Processing  1457
+INFO:root:Worker Number 74, Processing  1458
+INFO:root:Worker Number 87, Processing  1459
+INFO:root:Worker Number 29, Processing  1460
+INFO:root:Worker Number 82, Processing  1461
+INFO:root:Worker Number 90, Processing  1462
+INFO:root:Worker Number 85, Processing  1463
+INFO:root:Worker Number 48, Processing  1464
+INFO:root:Worker Number 0, Processing  1465
+INFO:root:Worker Number 80, Processing  1466
+INFO:root:Worker Number 59, Processing  1467
+INFO:root:Worker Number 25, Processing  1468
+INFO:root:Worker Number 33, Processing  1469
+INFO:root:Worker Number 93, Processing  1470
+INFO:root:Worker Number 13, Processing  1471
+INFO:root:Worker Number 49, Processing  1472
+INFO:root:Worker Number 30, Processing  1473
+INFO:root:Worker Number 53, Processing  1474
+INFO:root:Worker Number 47, Processing  1475
+INFO:root:Worker Number 9, Processing  1476
+INFO:root:Worker Number 64, Processing  1477
+INFO:root:Worker Number 23, Processing  1478
+INFO:root:Worker Number 24, Processing  1479
+INFO:root:Worker Number 12, Processing  1480
+INFO:root:Worker Number 55, Processing  1481
+INFO:root:Worker Number 60, Processing  1482
+INFO:root:Worker Number 45, Processing  1483
+INFO:root:Worker Number 44, Processing  1484
+ERROR:root:Worker Number 88, Error in 1403, IncompleteRead(6012896 bytes read, 157235 more expected)
+INFO:root:Worker Number 88, Processing  1485
+INFO:root:Worker Number 39, Processing  1486
+INFO:root:Worker Number 34, Processing  1487
+INFO:root:Worker Number 58, Processing  1488
+INFO:root:Worker Number 32, Processing  1489
+INFO:root:Worker Number 69, Processing  1490
+INFO:root:Worker Number 41, Processing  1491
+INFO:root:Worker Number 97, Processing  1492
+INFO:root:Worker Number 8, Processing  1493
+INFO:root:Worker Number 91, Processing  1494
+INFO:root:Worker Number 20, Processing  1495
+INFO:root:Worker Number 68, Processing  1496
+INFO:root:Worker Number 10, Processing  1497
+INFO:root:Worker Number 76, Processing  1498
+INFO:root:Worker Number 16, Processing  1499
+ERROR:root:Worker Number 46, Error in 1408, IncompleteRead(9288134 bytes read, 149050 more expected)
+INFO:root:Worker Number 46, Processing  1500
+INFO:root:Worker Number 72, Processing  1501
+INFO:root:Worker Number 71, Processing  1502
+ERROR:root:Worker Number 26, Error in 1413, IncompleteRead(8224299 bytes read, 301138 more expected)
+INFO:root:Worker Number 26, Processing  1503
+INFO:root:Worker Number 61, Processing  1504
+INFO:root:Worker Number 54, Processing  1505
+INFO:root:Worker Number 66, Processing  1506
+ERROR:root:Worker Number 38, Error in 1420, IncompleteRead(2522237 bytes read, 902183 more expected)
+INFO:root:Worker Number 38, Processing  1507
+INFO:root:Worker Number 77, Processing  1508
+ERROR:root:Worker Number 18, Error in 1424, IncompleteRead(3568382 bytes read, 237730 more expected)
+INFO:root:Worker Number 18, Processing  1509
+INFO:root:Worker Number 70, Processing  1510
+INFO:root:Worker Number 86, Processing  1511
+ERROR:root:Worker Number 6, Error in 1407, IncompleteRead(8978271 bytes read, 458913 more expected)
+INFO:root:Worker Number 6, Processing  1512
+ERROR:root:Worker Number 57, Error in 1415, IncompleteRead(9403593 bytes read, 33591 more expected)
+INFO:root:Worker Number 57, Processing  1513
+INFO:root:Worker Number 28, Processing  1514
+INFO:root:Worker Number 95, Processing  1515
+INFO:root:Worker Number 17, Processing  1516
+INFO:root:Worker Number 14, Processing  1517
+INFO:root:Worker Number 35, Processing  1518
+INFO:root:Worker Number 92, Processing  1519
+INFO:root:Worker Number 67, Processing  1520
+INFO:root:Worker Number 83, Processing  1521
+INFO:root:Worker Number 84, Processing  1522
+INFO:root:Worker Number 75, Processing  1523
+INFO:root:Worker Number 5, Processing  1524
+INFO:root:Worker Number 22, Processing  1525
+INFO:root:Worker Number 36, Processing  1526
+INFO:root:Worker Number 40, Processing  1527
+INFO:root:Worker Number 43, Processing  1528
+INFO:root:Worker Number 98, Processing  1529
+INFO:root:Worker Number 51, Processing  1530
+INFO:root:Worker Number 7, Processing  1531
+INFO:root:Worker Number 50, Processing  1532
+INFO:root:Worker Number 42, Processing  1533
+INFO:root:Worker Number 62, Processing  1534
+INFO:root:Worker Number 81, Processing  1535
+INFO:root:Worker Number 21, Processing  1536
+INFO:root:Worker Number 94, Processing  1537
+ERROR:root:Worker Number 1, Error in 1439, IncompleteRead(9303732 bytes read, 133452 more expected)
+INFO:root:Worker Number 1, Processing  1538
+INFO:root:Worker Number 11, Processing  1539
+INFO:root:Worker Number 48, Processing  1540
+INFO:root:Worker Number 96, Processing  1541
+INFO:root:Worker Number 15, Processing  1542
+INFO:root:Worker Number 74, Processing  1543
+INFO:root:Worker Number 99, Processing  1544
+INFO:root:Worker Number 31, Processing  1545
+INFO:root:Worker Number 89, Processing  1546
+INFO:root:Worker Number 29, Processing  1547
+ERROR:root:Worker Number 65, Error in 1452, IncompleteRead(5847237 bytes read, 198485 more expected)
+INFO:root:Worker Number 65, Processing  1548
+ERROR:root:Worker Number 80, Error in 1466, IncompleteRead(9120330 bytes read, 316854 more expected)
+ERROR:root:Worker Number 90, Error in 1462, IncompleteRead(7559321 bytes read, 226061 more expected)

@@ -27,6 +27,7 @@ class ResultsProcessor():
     def equals(self, movie1, movie2):
         keys = list(movie1.keys())
         keys.remove("uniqueID")
+        keys.remove("success")
 
         for key in keys:
             if movie1[key] != movie2[key]:
